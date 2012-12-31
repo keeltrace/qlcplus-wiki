@@ -8,7 +8,7 @@ You need a bunch packages installed before you can compile QLC from sources. Eve
 Issue these commands to install the required packages for an Ubuntu system:
 
 `sudo apt-get update`
-`sudo apt-get install g++ make libqt4-dev qt4-dev-tools libasound2-dev libusb-dev subversion debhelper devscripts fakeroot libftdi-dev pkg-config libudev-dev libmad-dev libsndfile-dev`
+`sudo apt-get install g++ make libqt4-dev qt4-dev-tools libasound2-dev libusb-dev subversion debhelper devscripts fakeroot libftdi-dev pkg-config libudev-dev libmad-dev libsndfile-dev liblo-dev`
 
 ## Optional helpers
 
@@ -20,9 +20,13 @@ If you intend on doing a lot of development, cleaning often and recompiling ever
 `sudo ln -s /usr/bin/ccache /usr/local/bin/c++`
 
 Also, colordiff is a nice tool for seeing your changes (svn diff) in color:
-  sudo apt-get install colordiff less
-Edit ~/.subversion/config and change the line with "# diff-cmd = <something" to "diff-cmd = colordiff". Also, to get it working with less (as in "svn diff | less"), put this into your ~/.profile:
-  export LESS="-erX"
+`sudo apt-get install colordiff less`
+
+Edit `~/.subversion/config` and change the line with 
+`# diff-cmd = <something" to "diff-cmd = colordiff`
+Also, to get it working with less (as in "svn diff | less"), put this into your ~/.profile:
+`export LESS="-erX"`
+
 To clean up the output of "svn status", you might want to put this into your ~/.subversion/config file (very Qt/QLC specific, note that it affects all of your svn projects):
   global-ignores = *.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo *.rej *~ #*# .#* .*.swp .DS_Store moc_* ui_* qrc_* *.qm *_test Makefile
   or a little more relaxed:
