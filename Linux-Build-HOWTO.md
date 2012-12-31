@@ -34,7 +34,7 @@ Notice that there's a space between su and - and that you need to give the root 
 
 ## OLA (Open Lighting Architecture)
 
-Acquire the latest tarball from the OLA webiste:
+Acquire the latest tarball from the OLA webiste:<br>
 [http://code.google.com/p/open-lighting/downloads/list](http://code.google.com/p/open-lighting/downloads/list)
 
 If you're still logged in as root, it's time to stop living dangerously and become a regular user and issue one of the following commands:
