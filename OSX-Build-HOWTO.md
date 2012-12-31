@@ -4,8 +4,8 @@
 
 You need to download and install two components before you can compile QLC+ from sources on a Mac OSX:
 
-Apple XCode development tools (just the Mac version will do, no need for iPhone stuff)
-Nokia Qt Framework
+**Apple XCode** development tools (just the Mac version will do, no need for iPhone stuff)<br>
+**Nokia Qt Framework**<br>
 NOTE: Qt 4.6.3 has some issues with its QFontDialog in OS X so you shouldn't use it any longer. Qt 4.8.x is nowadays the preferred Qt version.
 
 Note that Nokia Qt no longer supports Leopard (10.5.x) and older Mac OS X versions.
