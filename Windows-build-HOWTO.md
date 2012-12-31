@@ -10,21 +10,21 @@ and install both MinGW and MSYS in the default path proposed by the installer.
 
 ## Prerequisites
 
-Download pkg-config prebuilt binaries and install them in the MinGW tree<br>
+Download **pkg-config** prebuilt binaries and install them in the MinGW tree<br>
 [http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/](http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/)<br>
 
 I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/pkg-config_0.26-1_win32.zip
 
-Download glib devel libraries needed by pkg-config: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/<br>
+Download **glib devel** libraries needed by pkg-config: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/<br>
 I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.24/glib_2.24.0-2_win32.zip
 
 Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/<br>
 the -ming32-dev version of the following packages and extract them in the MinGW tree:<br>
-libmad<br>
-libsndfile<br>
-flac<br>
-libogg<br>
-libvorbis<br>
+* libmad<br>
+* libsndfile<br>
+* flac<br>
+* libogg<br>
+* libvorbis<br>
 
 ## OSC support library (liblo)
 
