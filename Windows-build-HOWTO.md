@@ -7,7 +7,7 @@ Download MinGW installer here:<br>
 and install both MinGW and MSYS.
 
 Download pkg-config prebuilt binaries and install them in the MinGW tree<br>
-http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/<br>
+[http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/](http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/)<br>
 
 I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/pkg-config_0.26-1_win32.zip
 
