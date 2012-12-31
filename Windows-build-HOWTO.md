@@ -26,6 +26,7 @@ flac<br>
 libogg<br>
 libvorbis<br>
 
+## OSC support library (liblo)
 
 Download the latest SVN snapshot of liblo from here: http://sourceforge.net/projects/liblo/
 
