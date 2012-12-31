@@ -6,7 +6,7 @@ and install them in C:\Qt
 
 Download MinGW installer here:<br>
 [http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/](http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/)<br>
-and install both MinGW and MSYS.
+and install both MinGW and MSYS in the default path proposed by the installer.
 
 ## Prerequisites
 
