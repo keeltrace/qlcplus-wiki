@@ -66,7 +66,7 @@ Finally, make says someting like "Nothing to be done for 'first'. That's it, you
 When QLC+ has been successfully compiled, you can install it into your home directory as QLC.app by issuing the following command to the terminal:<br>
 `make install`<br>
 
-Don't worry; everything is installed inside this one application bundle in your home directory. Go to Finder and navigate to your home directory. You should see the QLC logo there and if you dare click it, QLC+ launcher should open. You can move the application bundle manually under Applications if you wish. Have fun! :)
+Don't worry; everything is installed inside this one application bundle in your home directory. Go to Finder and navigate to your home directory. You should see the QLC+ logo there and if you dare click it, QLC+ launcher should open. You can move the application bundle manually under Applications if you wish. Have fun! :)
 
 ## Package creation
 
