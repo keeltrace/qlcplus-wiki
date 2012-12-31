@@ -11,7 +11,7 @@ Download pkg-config prebuilt binaries and install them in the MinGW tree<br>
 
 I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/pkg-config_0.26-1_win32.zip
 
-Download glib devel libraries needed by pkg-config: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/
+Download glib devel libraries needed by pkg-config: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/<br>
 I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.24/glib_2.24.0-2_win32.zip
 
 Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/
