@@ -1,4 +1,4 @@
-### QLC Installation from sources on Linux (Debian, Ubuntu, Fedora, RedHat)
+# QLC Installation from sources on Linux (Debian, Ubuntu, Fedora, RedHat)
 ## Pre-requisities
 
 You need a bunch packages installed before you can compile QLC from sources. Everything here happens in the terminal window, so launch one now. Usually it's an entry under Accessories in your desktop main menu.
@@ -7,16 +7,18 @@ You need a bunch packages installed before you can compile QLC from sources. Eve
 
 Issue these commands to install the required packages for an Ubuntu system:
 
-  sudo apt-get update
-  sudo apt-get install g++ make libqt4-dev qt4-dev-tools libasound2-dev libusb-dev subversion debhelper devscripts fakeroot libftdi-dev pkg-config libudev-dev libmad-dev libsndfile-dev
-Optional helpers
+`sudo apt-get update
+  sudo apt-get install g++ make libqt4-dev qt4-dev-tools libasound2-dev libusb-dev subversion debhelper devscripts fakeroot libftdi-dev pkg-config libudev-dev libmad-dev libsndfile-dev`
+
+## Optional helpers
 
 If you intend on doing a lot of development, cleaning often and recompiling everything, you might want to install ccache, which speeds up consequent compilations (after the first caching run) IMMENSELY.
-  sudo apt-get install ccache
+`sudo apt-get install ccache
   sudo ln -s /usr/bin/ccache /usr/local/bin/gcc
   sudo ln -s /usr/bin/ccache /usr/local/bin/g++
   sudo ln -s /usr/bin/ccache /usr/local/bin/cc
-  sudo ln -s /usr/bin/ccache /usr/local/bin/c++
+  sudo ln -s /usr/bin/ccache /usr/local/bin/c++`
+
 Also, colordiff is a nice tool for seeing your changes (svn diff) in color:
   sudo apt-get install colordiff less
 Edit ~/.subversion/config and change the line with "# diff-cmd = <something" to "diff-cmd = colordiff". Also, to get it working with less (as in "svn diff | less"), put this into your ~/.profile:
