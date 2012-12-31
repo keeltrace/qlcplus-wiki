@@ -20,11 +20,11 @@ I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.24/glib_2.24.0
 
 Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/<br>
 the -ming32-dev version of the following packages and extract them in the MinGW tree:<br>
-* libmad<br>
-* libsndfile<br>
-* flac<br>
-* libogg<br>
-* libvorbis<br>
+* libmad
+* libsndfile
+* flac
+* libogg
+* libvorbis
 
 ## OSC support library (liblo)
 
