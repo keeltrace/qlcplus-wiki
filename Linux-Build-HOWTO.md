@@ -7,10 +7,8 @@ You need a bunch packages installed before you can compile QLC from sources. Eve
 
 Issue these commands to install the required packages for an Ubuntu system:
 
-`sudo apt-get update
-
+> `sudo apt-get update
 sudo apt-get install g++ make git libqt4-dev qt4-dev-tools libasound2-dev libusb-dev debhelper
-
 sudo apt-get install devscripts fakeroot libftdi-dev pkg-config libudev-dev libmad-dev libsndfile-dev liblo-dev`
 
 ## Optional helpers
