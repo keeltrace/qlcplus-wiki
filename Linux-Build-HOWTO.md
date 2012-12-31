@@ -39,8 +39,11 @@ Acquire the latest tarball from the OLA webiste:<br>
 
 If you're still logged in as root, it's time to stop living dangerously and become a regular user and issue one of the following commands:
 
-If you wish to get the latest released QLC+ version:
+## QLC+ sources
+
+If you wish to get the latest released QLC+ version:<br>
 [http://sourceforge.net/projects/qlcplus/files/Sources/](http://sourceforge.net/projects/qlcplus/files/Sources/)
+
 If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious):
 `git clone git://github.com/mcallegari/qlcplus.git`
 
