@@ -8,7 +8,9 @@ You need a bunch packages installed before you can compile QLC from sources. Eve
 Issue these commands to install the required packages for an Ubuntu system:
 
 `sudo apt-get update`
+
 `sudo apt-get install g++ make git libqt4-dev qt4-dev-tools libasound2-dev libusb-dev debhelper`
+
 `sudo apt-get install devscripts fakeroot libftdi-dev pkg-config libudev-dev libmad-dev libsndfile-dev liblo-dev`
 
 ## Optional helpers
@@ -16,8 +18,11 @@ Issue these commands to install the required packages for an Ubuntu system:
 If you intend on doing a lot of development, cleaning often and recompiling everything, you might want to install ccache, which speeds up consequent compilations (after the first caching run) IMMENSELY.
 `sudo apt-get install ccache`
 `sudo ln -s /usr/bin/ccache /usr/local/bin/gcc`
+
 `sudo ln -s /usr/bin/ccache /usr/local/bin/g++`
+
 `sudo ln -s /usr/bin/ccache /usr/local/bin/cc`
+
 `sudo ln -s /usr/bin/ccache /usr/local/bin/c++`
 
 ## Fedora/RedHat
@@ -25,7 +30,9 @@ If you intend on doing a lot of development, cleaning often and recompiling ever
 Issue these commands to install the required packages for a Fedora/RedHat system:
 
 `su -`
+
 `yum update`
+
 `yum install gcc-c++ qt4-devel libftdi-devel libusb-devel alsa-lib-devel rpm-build subversion libudev-devel`
 
 Notice that there's a space between su and - and that you need to give the root user password for su. When you're done with these commands, become a normal user again with:
