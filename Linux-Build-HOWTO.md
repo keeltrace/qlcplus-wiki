@@ -8,20 +8,17 @@ You need a bunch packages installed before you can compile QLC from sources. Eve
 Issue these commands to install the required packages for an Ubuntu system:
 
 `sudo apt-get update`<br>
-`sudo apt-get install g++ make git libqt4-dev qt4-dev-tools fakeroot debhelper devscripts pkg-config`
-`sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad-dev libsndfile-dev liblo-dev`
+`sudo apt-get install g++ make git libqt4-dev qt4-dev-tools fakeroot debhelper devscripts pkg-config`<br>
+`sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad-dev libsndfile-dev liblo-dev`<br>
 
 ## Optional helpers
 
 If you intend on doing a lot of development, cleaning often and recompiling everything, you might want to install ccache, which speeds up consequent compilations (after the first caching run) IMMENSELY.
 `sudo apt-get install ccache`
-`sudo ln -s /usr/bin/ccache /usr/local/bin/gcc`
-
-`sudo ln -s /usr/bin/ccache /usr/local/bin/g++`
-
-`sudo ln -s /usr/bin/ccache /usr/local/bin/cc`
-
-`sudo ln -s /usr/bin/ccache /usr/local/bin/c++`
+`sudo ln -s /usr/bin/ccache /usr/local/bin/gcc`<br>
+`sudo ln -s /usr/bin/ccache /usr/local/bin/g++`<br>
+`sudo ln -s /usr/bin/ccache /usr/local/bin/cc`<br>
+`sudo ln -s /usr/bin/ccache /usr/local/bin/c++`<br>
 
 ## Fedora/RedHat
 
