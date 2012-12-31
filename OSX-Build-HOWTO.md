@@ -12,12 +12,12 @@ Note that Nokia Qt no longer supports Leopard (10.5.x) and older Mac OS X versio
 
 ## Dependencies/Ports
 
-QLC+ and some plugins require additional external packages including: libusb, libftdi, protobuf, cppunit, libcrypt?, libmicrohttpd, uuid?, and OLA
+QLC+ and some plugins require additional external packages including: libusb, libftdi, protobuf, cppunit, libcrypt, libmicrohttpd, uuid, OLA, libmad, libsndfile and liblo
 
 These dependencies are easily available thru macports.
 
-Download macports dmg package from macports.org and install it.
-Then, launch the terminal and type:
+Download macports dmg package from macports.org and install it.<br>
+Then, launch the terminal and type:<br>
 `sudo port selfupdate`<br>
 `sudo port install libftdi pkgconfig ola mad libdnfile liblo`<br>
 
