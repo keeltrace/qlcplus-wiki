@@ -37,6 +37,12 @@ Compile libLO by doing:
 `make`<br>
 `make install`<br>
 
+Now you need to manually patch libLO pkg-config file to avoid build issues. Edit the file liblo.pc that you can find in your MinGW installation path /lib/pkgconfig folder. (usually C:\MinGW\lib\pkgconfig)<br>
+Change the line starting with "Libs:" into:<br>
+`Libs: -L${libdir} -llo -lpthread -lws2_32 -liphlpapi`
+
+## Build QLC+
+
 Now compile QLC+:
 `qmake`<br>
 `make`<br>
