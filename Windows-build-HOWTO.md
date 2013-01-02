@@ -43,7 +43,7 @@ Change the line starting with "Libs:" into:<br>
 
 ## Build QLC+
 
-Now compile QLC+:
+Now compile QLC+ (I use Windows PowerShell to do so):<br>
 `qmake`<br>
 `make`<br>
 `make install`<br>
