@@ -32,13 +32,13 @@ To compile the Enttec DMXUSB Output plugin on Windows, you need to:
 
 Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/D2XX.htm).<br>
 Install the package contents for example to C:\CDM20802<br>
-Edit <QLC>/plugins/enttecdmxusbout/win32/win32.pro to point to that directory:
+Edit <QLC>/plugins/enttecdmxusb/src/src.pro to point to that directory:
 
 `FTD2XXDIR = C:\CDM20802`<br>
 
-If you don't need the Enttec DMXUSB plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += enttecdmxusbout:
+If you don't need the Enttec DMXUSB plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += enttecdmxusb:
 
-`#SUBDIRS += enttecdmxusbout`<br>
+`#SUBDIRS += enttecdmxusb`<br>
 
 ## Velleman SDK
 
@@ -46,9 +46,9 @@ To compile the Velleman Output plugin on Windows, you need to:
 
 Download the [modified Velleman SDK](https://sourceforge.net/apps/trac/qlc/wiki/VellemanK8062D)<br>
 Unpack the zip to C:\K8062D<br>
-Not applicable yet: If you don't need the Velleman Output plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += vellemanout:
+Not applicable yet: If you don't need the Velleman Output plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += velleman:
 
-`#SUBDIRS += vellemanout`<br>
+`#SUBDIRS += velleman`<br>
 
 ## OSC support library (liblo)
 
