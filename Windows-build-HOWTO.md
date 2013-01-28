@@ -71,3 +71,16 @@ Now compile QLC+ (I use Windows PowerShell to do so):<br>
 `qmake`<br>
 `make`<br>
 `make install`<br>
+
+## Post installation
+Now to launch QLC+ the dependency libraries are needed as DLLs files. So copy in the main QLC+ folder the following:
+* libFLAC-8.dll
+* libmad-0.dll
+* libogg-0.dll
+* libsndfile-1.dll
+* libstdc++-6.dll
+* libvorbis-0.dll
+* libvorbisenc-2.dll
+* pthreadGC2.dll
+
+Most likely the plugins folder will contain ".a" binaries. Rename them to ".dll" to let QLC+ load them.
