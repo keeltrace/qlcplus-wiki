@@ -73,7 +73,9 @@ Now compile QLC+ (I use Windows PowerShell to do so):<br>
 `make install`<br>
 
 ## Post installation
-Now to launch QLC+ the dependency libraries are needed as DLLs files. So copy in the main QLC+ folder the following:
+Now to launch QLC+ the dependency libraries are needed as DLLs files. 
+Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/<br>
+the -mingw32-dll version of the following packages and copy them in the main QLC+ folder:
 * libFLAC-8.dll
 * libmad-0.dll
 * libogg-0.dll
