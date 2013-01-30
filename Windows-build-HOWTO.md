@@ -18,6 +18,8 @@ I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/pkg-conf
 Download **glib devel** libraries needed by pkg-config: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/<br>
 I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.24/glib_2.24.0-2_win32.zip
 
+## Audio support (optional)
+
 Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/<br>
 the **-ming32-dev** version of the following packages and extract them in the MinGW tree:<br>
 * libmad
@@ -52,6 +54,7 @@ Not applicable yet: If you don't need the Velleman Output plugin and would like 
 
 ## OSC support library (liblo)
 
+Note: if you don't need the OSC support just comment "SUBDIRS += osc" in plugins/plugins.pro and skip this section.
 Download the latest SVN snapshot of liblo from here: http://sourceforge.net/projects/liblo/
 
 Compile libLO by doing:
@@ -76,13 +79,13 @@ Now compile QLC+ (I use Windows PowerShell to do so):<br>
 Now to launch QLC+ the dependency libraries are needed as DLLs files. 
 Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/<br>
 the -mingw32-dll version of the following packages and copy them in the main QLC+ folder:
-* libFLAC-8.dll
-* libmad-0.dll
-* libogg-0.dll
-* libsndfile-1.dll
-* libstdc++-6.dll
-* libvorbis-0.dll
-* libvorbisenc-2.dll
-* pthreadGC2.dll
+* libFLAC-8.dll (optional - see Audio support)
+* libmad-0.dll (optional - see Audio support)
+* libogg-0.dll (optional - see Audio support)
+* libsndfile-1.dll (optional - see Audio support)
+* libstdc++-6.dll (optional for OSC support)
+* libvorbis-0.dll (optional - see Audio support)
+* libvorbisenc-2.dll (optional - see Audio support)
+* pthreadGC2.dll (optional for OSC support)
 
 Most likely the plugins folder will contain ".a" binaries. Rename them to ".dll" to let QLC+ load them.
