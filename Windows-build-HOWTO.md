@@ -56,7 +56,7 @@ Not applicable yet: If you don't need the Velleman Output plugin and would like 
 
 **Note**: if you don't need the OSC support just comment `SUBDIRS += osc` in plugins/plugins.pro and skip this section.<br>
 
-Download the latest SVN snapshot of liblo from here: http://sourceforge.net/projects/liblo/
+Download the latest SVN snapshot of liblo from here: http://sourceforge.net/projects/liblo/<br>
 Compile libLO by doing:
 
 `./autogen.sh`<br>
