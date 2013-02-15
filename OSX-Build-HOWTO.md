@@ -19,7 +19,7 @@ These dependencies are easily available thru macports.
 Download macports dmg package from macports.org and install it.<br>
 Then, launch the terminal and type:<br>
 `sudo port selfupdate`<br>
-`sudo port install libftdi pkgconfig git ola mad libdnfile liblo`<br>
+`sudo port install libftdi pkgconfig libmad libsndfile liblo ola`<br>
 
 ## Optional Ports & Helpers
 
