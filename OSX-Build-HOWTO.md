@@ -8,7 +8,7 @@ You need to download and install two components before you can compile QLC+ from
 **Digia Qt Framework**<br>
 NOTE: Qt 4.6.3 has some issues with its QFontDialog in OS X so you shouldn't use it any longer. Qt 4.8.x is nowadays the preferred Qt version.
 
-Note that Nokia Qt no longer supports Leopard (10.5.x) and older Mac OS X versions.
+Note that Qt no longer supports Leopard (10.5.x) and older Mac OS X versions.
 
 ## Dependencies/Ports
 
