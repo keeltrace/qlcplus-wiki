@@ -7,19 +7,22 @@ You need to download and install two components before you can compile QLC+ from
 **Apple XCode** development tools (just the Mac version will do, no need for iPhone stuff). Some recent versions might need to install Command Line Tools after base packet is installed (XCode->Preferences->Downloads)<br>
 **Digia Qt Framework**<br>
 NOTE: Qt 4.6.3 has some issues with its QFontDialog in OS X so you shouldn't use it any longer. Qt 4.8.x is nowadays the preferred Qt version.
+Note also that Qt no longer supports Leopard (10.5.x) and older Mac OS X versions.
 
-Note that Qt no longer supports Leopard (10.5.x) and older Mac OS X versions.
+**Mountain Lion** warning: if QLC+ doesn't compile OLA on your ML system, then you probably need to change `-mmacosx-version-min=10.5` in `$QTDIR/mkspecs/common/g++-macx.conf` to `-mmacosx-version-min=10.7`.
+Most likely $QTDIR will be /usr/local/Qt4.8.
+
 
 ## Dependencies/Ports
 
-QLC+ and some plugins require additional external packages including: libusb, libftdi, protobuf, cppunit, libcrypt, libmicrohttpd, uuid, OLA, libmad, libsndfile and liblo
+QLC+ and some plugins require additional external packages including: libusb, libftdi, protobuf, cppunit, libcrypt, libmicrohttpd, uuid, OLA, libmad, libsndfile, portaudio and liblo
 
 These dependencies are easily available thru macports.
 
 Download macports dmg package from macports.org and install it.<br>
 Then, launch the terminal and type:<br>
 `sudo port selfupdate`<br>
-`sudo port install libftdi pkgconfig libmad libsndfile liblo ola`<br>
+`sudo port install libftdi pkgconfig libmad libsndfile portaudio liblo ola`<br>
 
 ## Optional Ports & Helpers
 
