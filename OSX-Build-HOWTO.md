@@ -9,7 +9,7 @@ You need to download and install two components before you can compile QLC+ from
 NOTE: Qt 4.6.3 has some issues with its QFontDialog in OS X so you shouldn't use it any longer. Qt 4.8.x is nowadays the preferred Qt version.
 Note also that Qt no longer supports Leopard (10.5.x) and older Mac OS X versions.
 
-**Mountain Lion** warning: if QLC+ doesn't compile OLA on your ML system, then you probably need to change `-mmacosx-version-min=10.5` in `$QTDIR/mkspecs/common/g++-macx.conf` to `-mmacosx-version-min=10.7`.
+**Mountain Lion warning**: if QLC+ fails to compile the OLA plugin on your ML system, then you probably need to change `-mmacosx-version-min=10.5` in `$QTDIR/mkspecs/common/g++-macx.conf` to `-mmacosx-version-min=10.7`.
 Most likely $QTDIR will be /usr/local/Qt4.8.
 
 
