@@ -1,4 +1,4 @@
-Welcome to the QLC+ wiki and thank you for your interest in this growing project.<br>
+Welcome to the QLC+ Wiki and thank you for your interest in this growing project.<br>
 Here you can find information about translating and compiling QLC+ on several platforms.
 
 ## How to translate QLC+
