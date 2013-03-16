@@ -8,6 +8,11 @@ Download MinGW installer here:<br>
 [http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/](http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/)<br>
 and install both MinGW and MSYS in the default path proposed by the installer.
 
+Make sure your environment variables are set as follows:<br>
+QMAKESPEC = win32-g++
+QTDIR = C:\Qt\4.8.4
+PATH = ....;C:\Qt\4.8.4\bin;C:\Qt\4.8.4;C:\MinGW\bin
+
 ## Prerequisites
 
 Download **pkg-config** prebuilt binaries and install them in the MinGW tree<br>
