@@ -33,17 +33,17 @@ the **-ming32-dev** version of the following packages and extract them in the Mi
 * libogg
 * libvorbis
 
-## Enttec/FTDI SDK
+## FTDI DMX USB Support
 
-To compile the Enttec DMXUSB Output plugin on Windows, you need to:
+To compile the DMX USB plugin on Windows, you need to:
 
 Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/D2XX.htm).<br>
-Install the package contents for example to C:\CDM20802<br>
-Edit <QLC>/plugins/enttecdmxusb/src/src.pro to point to that directory:
+Install the package contents for example to C:\Qt\CDM20828<br>
+Edit <QLC>/plugins/dmxusb/src/src.pro to point to that directory:
 
-`FTD2XXDIR = C:\CDM20802`<br>
+`FTD2XXDIR = C:\Qt\CDM20828`<br>
 
-If you don't need the Enttec DMXUSB plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += enttecdmxusb:
+If you don't need the DMX USB plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += dmxusb:
 
 `#SUBDIRS += enttecdmxusb`<br>
 
