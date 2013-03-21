@@ -45,7 +45,7 @@ Edit <QLC>/plugins/dmxusb/src/src.pro to point to that directory:
 
 If you don't need the DMX USB plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += dmxusb:
 
-`#SUBDIRS += enttecdmxusb`<br>
+`#SUBDIRS += dmxusb`<br>
 
 ## Velleman SDK
 
