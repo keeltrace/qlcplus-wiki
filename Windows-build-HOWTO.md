@@ -1,12 +1,13 @@
 ## Prepare QT and MinGW32 build system
 
+Download MinGW installer here:<br>
+[http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/](http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/)<br>
+and install both MinGW and MSYS in the default path proposed by the installer.<br>
+When asked, remember to install the c++ compiler.
+
 Get latest Qt prebuilt for MinGW32 here:<br>
 [http://releases.qt-project.org/qt4/source/](http://releases.qt-project.org/qt4/source/)<br>
 and install them in C:\Qt
-
-Download MinGW installer here:<br>
-[http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/](http://sourceforge.net/projects/mingw/files/Installer/mingw-get-inst/)<br>
-and install both MinGW and MSYS in the default path proposed by the installer.
 
 Make sure your environment variables are set as follows:<br>
 QMAKESPEC = win32-g++<br>
