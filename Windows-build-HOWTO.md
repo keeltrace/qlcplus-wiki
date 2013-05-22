@@ -53,7 +53,7 @@ If you don't need the DMX USB plugin and would like to disable building it compl
 To compile the Velleman Output plugin on Windows, you need to:
 
 Download the [modified Velleman SDK](https://sourceforge.net/apps/trac/qlc/wiki/VellemanK8062D)<br>
-Unpack the zip to C:\K8062D<br>
+Unpack the zip to C:\Qt\K8062D<br>
 Not applicable yet: If you don't need the Velleman Output plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += velleman:
 
 `#SUBDIRS += velleman`<br>
