@@ -22,7 +22,7 @@ These dependencies are easily available thru macports.
 Download macports dmg package from macports.org and install it.<br>
 Then, launch the terminal and type:<br>
 `sudo port selfupdate`<br>
-`sudo port install libftdi0 pkgconfig libmad libsndfile portaudio liblo fftw3 ola`<br>
+`sudo port install libftdi0 pkgconfig libmad libsndfile portaudio liblo fftw-3 ola`<br>
 
 ## Optional Ports & Helpers
 
