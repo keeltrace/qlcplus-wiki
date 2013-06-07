@@ -89,11 +89,11 @@ or, for non-sudo systems like Debian, Fedora etc:
 
 Now you're done. Type
 
-`qlc`
+`qlcplus`
 
 to start using QLC+. If you wish to edit/create fixture definitions, type:
 
-`qlc-fixtureeditor`
+`qlcplus-fixtureeditor`
 
 (At least) on Debian-based systems, the installation script creates desktop menu entries that are usually available in your desktop main menu, under the Other category.
 
