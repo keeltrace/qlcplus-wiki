@@ -13,7 +13,7 @@ Otherwise here's a quick guide to contribute on an existing translation:<br>
 * when you're done send a pull request with your changes
 
 ## How to compile QLC+
-**Note:**QLC+ hasn't been ported to QT 5.x yet. So let's stick with Qt 4.8.4 for now !
+**Note:** QLC+ hasn't been ported to QT 5.x yet. So let's stick with Qt 4.8.4 for now !
 
 [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-Build-HOWTO)<br>
 [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-build-HOWTO)<br>
