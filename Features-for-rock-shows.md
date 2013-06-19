@@ -10,6 +10,7 @@ This is place to collect ideas about features for rock shows, before we can move
   - EFX
   - simple fanning
   - movement control with Virtual Console XY Pad
+  - quick access to gobos in a completely visual way thanks to the Click & Go technology
 
 - Pixel mapping
   - for LED bars, for arbitrary fixtures
