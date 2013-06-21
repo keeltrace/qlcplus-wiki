@@ -11,8 +11,6 @@ Issue these commands to install the required packages for an Ubuntu system:
 `sudo apt-get install g++ make git libqt4-dev qt4-dev-tools fakeroot debhelper devscripts pkg-config`<br>
 `sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad-dev libsndfile-dev liblo-dev libfftw3-dev`<br>
 
-and rebuild (make dist-clean; qmake)
-
 ## Optional helpers
 
 If you intend on doing a lot of development, cleaning often and recompiling everything, you might want to install ccache, which speeds up consequent compilations (after the first caching run) IMMENSELY.
