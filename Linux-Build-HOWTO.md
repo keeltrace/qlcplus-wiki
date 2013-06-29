@@ -1,4 +1,4 @@
-# QLC Installation from sources on Linux (Debian, Ubuntu, Fedora, RedHat)
+## QLC Installation from sources on Linux (Debian, Ubuntu, Fedora, RedHat)
 ## Pre-requisities
 
 You need a bunch packages installed before you can compile QLC from sources. Everything here happens in the terminal window, so launch one now. Usually it's an entry under Accessories in your desktop main menu.
