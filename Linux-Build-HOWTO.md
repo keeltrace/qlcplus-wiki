@@ -32,6 +32,14 @@ Notice that there's a space between su and - and that you need to give the root 
 
 `exit`
 
+### Plugins build note
+
+QLC+ needs several external dependencies to be compiled with all the plugins support.<br>
+If you want to exclude some of them from the build process then just comment them out by placing the character `#` at the beginning of the plugin line in the file `plugins/plugins.pro`
+For example:
+
+`#unix:SUBDIRS += ola`
+
 ### OLA (Open Lighting Architecture)
 
 Acquire the latest tarball from the OLA webiste:<br>
