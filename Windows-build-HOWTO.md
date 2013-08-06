@@ -27,8 +27,7 @@ I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.24/glib_2.24.0
 ## Audio input support
 
 Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/<br>
-the **-ming32-dev** version of the following packages and extract them in the MinGW tree:<br>
-* fftw3
+the **-ming32-dev** version of the **fftw3** package and extract it in the MinGW tree.
 
 ## Audio output support (optional)
 
