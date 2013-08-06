@@ -11,8 +11,8 @@ and install them in C:\Qt
 
 Make sure your environment variables are set as follows:<br>
 QMAKESPEC = win32-g++<br>
-QTDIR = C:\Qt\4.8.4<br>
-PATH = ....;C:\Qt\4.8.4\bin;C:\Qt\4.8.4;C:\MinGW\bin<br>
+QTDIR = C:\Qt\4.8.5<br>
+PATH = ....;C:\Qt\4.8.5\bin;C:\Qt\4.8.5;C:\MinGW\bin<br>
 
 ## Prerequisites
 
@@ -24,7 +24,13 @@ I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/pkg-conf
 Download **glib devel** libraries needed by pkg-config: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/<br>
 I used this: http://ftp.gnome.org/pub/gnome/binaries/win32/glib/2.24/glib_2.24.0-2_win32.zip
 
-## Audio support (optional)
+## Audio input support
+
+Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/<br>
+the **-ming32-dev** version of the following packages and extract them in the MinGW tree:<br>
+* fftw3
+
+## Audio output support (optional)
 
 Download from this URL: http://lrn.no-ip.info/other/mingw/mingw32/<br>
 the **-ming32-dev** version of the following packages and extract them in the MinGW tree:<br>
