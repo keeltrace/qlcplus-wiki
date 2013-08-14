@@ -25,8 +25,8 @@ Then, launch the terminal and type:<br>
 `sudo port install libftdi0 pkgconfig libmad libsndfile portaudio liblo fftw-3 ola`<br>
 
 **OLA build**: in case OLA fails to install via macports, you might want to compile it from sources. To do so, just download the latest version, extract it and type:<br>
-`./configure --prefix=/opt/local`
-`make`
+`./configure --prefix=/opt/local`<br>
+`make`<br>
 `sudo make install`
 
 ## Optional Ports & Helpers
