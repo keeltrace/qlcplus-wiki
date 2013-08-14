@@ -15,14 +15,19 @@ Most likely $QTDIR will be /usr/local/Qt4.8.
 
 ## Dependencies/Ports
 
-QLC+ and some plugins require additional external packages including: libusb, libftdi, protobuf, cppunit, libcrypt, libmicrohttpd, uuid, OLA, libmad, libsndfile, portaudio and liblo
+QLC+ and some plugins require additional external packages including: libusb, libftdi, protobuf, cppunit, libcrypt, libmicrohttpd, uuid, OLA, libmad, libsndfile, portaudio, fftw3 and liblo
 
-These dependencies are easily available thru macports.
+These dependencies are easily available through macports.
 
 Download macports dmg package from macports.org and install it.<br>
 Then, launch the terminal and type:<br>
 `sudo port selfupdate`<br>
 `sudo port install libftdi0 pkgconfig libmad libsndfile portaudio liblo fftw-3 ola`<br>
+
+**OLA build**: in case OLA fails to install via macports, you might want to compile it from sources. To do so, just download the latest version, extract it and type:<br>
+`./configure --prefix=/opt/local`
+`make`
+`sudo make install`
 
 ## Optional Ports & Helpers
 
