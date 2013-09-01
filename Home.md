@@ -12,9 +12,9 @@ Otherwise here's a quick guide to contribute on an existing translation:<br>
 * translate, translate, translate, save
 * when you're done send a pull request with your changes
 
-The following videos might help:
-https://www.youtube.com/watch?v=1S_526C8Gkw
-https://www.youtube.com/watch?v=NnBb9NTk-To
+The following videos might help:<br>
+https://www.youtube.com/watch?v=1S_526C8Gkw<br>
+https://www.youtube.com/watch?v=NnBb9NTk-To<br>
 
 ## How to compile QLC+
 **Note:** QLC+ hasn't been ported to Qt 5.x yet. So let's stick with Qt 4.8.5 for now !
