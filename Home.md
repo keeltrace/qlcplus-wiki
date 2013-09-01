@@ -8,7 +8,7 @@ Otherwise here's a quick guide to contribute on an existing translation:<br>
 * create an account on GitHub
 * fork qlcplus (guide: https://help.github.com/articles/fork-a-repo)
 * download and install Qt Linguist. It comes with Qt (or Google it)
-* open the _xx.ts file for your language
+* open all the xx_XX.ts file for your language (14 of them in total)
 * translate, translate, translate, save
 * when you're done send a pull request with your changes
 
