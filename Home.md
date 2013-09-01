@@ -2,7 +2,7 @@ Welcome to the QLC+ Wiki and thank you for your interest in this growing project
 Here you can find information about translating and compiling QLC+ on several platforms.
 
 ## How to translate QLC+
-At the moment, QLC+ is translated in german, spanish, italian, finnish and french.<br>
+At the moment, QLC+ is translated in german, spanish, italian, finnish, french, dutch and czech.<br>
 If your language is not supported, please contact the developers and request the addition of it.<br>
 Otherwise here's a quick guide to contribute on an existing translation:<br>
 * create an account on GitHub
