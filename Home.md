@@ -1,7 +1,7 @@
 Welcome to the QLC+ Wiki and thank you for your interest in this growing project.<br>
 Here you can find information about translating and compiling QLC+ on several platforms.
 
-## Topics
+## Translations
 [QLC+ translations](https://github.com/mcallegari/qlcplus/wiki/How-to-translate-QLC-plus-in-your-language)
 
 ## How to compile QLC+
