@@ -1,9 +1,9 @@
 At the moment, QLC+ is translated in german, spanish, italian, finnish, french, dutch and czech.<br>
 If your language is not supported, please contact the developers and request the addition of it.<br>
 Otherwise here's a quick guide to contribute on an existing translation:<br>
+* download and install Qt Linguist. It comes with Qt (or Google it)
 * create an account on GitHub
 * **fork** qlcplus (guide: https://help.github.com/articles/fork-a-repo) or **sync** your existing tree
-* download and install Qt Linguist. It comes with Qt (or Google it)
 * open all the xx_XX.ts file for your language (14 of them in total)
 * translate, translate, translate, save
 * synchronize your changes with GitHub (in GIT words "commit" and "push")
