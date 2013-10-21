@@ -6,7 +6,7 @@ and install both MinGW and MSYS in the default path proposed by the installer.<b
 When asked, remember to install the c++ compiler.
 
 Get latest Qt prebuilt for MinGW32 here:<br>
-[http://releases.qt-project.org/qt4/source/](http://releases.qt-project.org/qt4/source/)<br>
+[http://download.qt-project.org/official_releases/qt/](http://download.qt-project.org/official_releases/qt/)<br>
 and install them in C:\Qt
 
 Make sure your environment variables are set as follows:<br>
@@ -98,5 +98,6 @@ the -mingw32-dll version of the following packages and copy them in the main QLC
 * libvorbis-0.dll (optional - see Audio support)
 * libvorbisenc-2.dll (optional - see Audio support)
 * pthreadGC2.dll (optional for OSC support)
+For FFTW3 the correct DLL must be downloaded from here: http://download.qt-project.org/official_releases/qt/
 
-Most likely the plugins folder will contain ".a" binaries. Rename them to ".dll" to let QLC+ load them.
+If the plugins folder will contain ".a" binaries, rename them to ".dll" to let QLC+ load them.
