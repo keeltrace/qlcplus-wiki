@@ -98,6 +98,7 @@ the -mingw32-dll version of the following packages and copy them in the main QLC
 * libvorbis-0.dll (optional - see Audio support)
 * libvorbisenc-2.dll (optional - see Audio support)
 * pthreadGC2.dll (optional for OSC support)
-For FFTW3 the correct DLL must be downloaded from here: http://download.qt-project.org/official_releases/qt/
+
+For FFTW the correct DLL (32 bit version) must be downloaded from here: http://www.fftw.org/install/windows.html
 
 If the plugins folder will contain ".a" binaries, rename them to ".dll" to let QLC+ load them.
