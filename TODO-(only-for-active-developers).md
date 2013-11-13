@@ -6,10 +6,10 @@
 
 * Refine pull request #185 https://github.com/mcallegari/qlcplus/pull/185, considering the 4th cases identified by Jano:
 
-1. one dimmer channel per head, no rgb: PAR can
-2. one dimmer channel per head, rgb: LED PAR/LED moving head
-3. one dimmer per more heads, each head has own RGB: LED BAR
-4. no dimmer, only rgb: simple LED PAR
+  1. one dimmer channel per head, no rgb: PAR can
+  2. one dimmer channel per head, rgb: LED PAR/LED moving head
+  3. one dimmer per more heads, each head has own RGB: LED BAR
+  4. no dimmer, only rgb: simple LED PAR
 
 * Improve Function Wizard. There's a lot of space for more automatic creation of functions/widgets.
   To name a few:
