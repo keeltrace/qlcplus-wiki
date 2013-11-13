@@ -5,6 +5,7 @@
   Check "average user" accessibility to this functionality. The easier, the better
 
 * Refine pull request #185 https://github.com/mcallegari/qlcplus/pull/185, considering the 4th cases identified by Jano:
+
 1. one dimmer channel per head, no rgb: PAR can
 2. one dimmer channel per head, rgb: LED PAR/LED moving head (my case)
 3. one dimmer per more heads, each head has own RGB: LED BAR
