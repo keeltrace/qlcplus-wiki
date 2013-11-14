@@ -1,4 +1,4 @@
-* MIDI SysEx: pull request #189 merged on November 14th. Now we should add some new valuable presets. For example a "BCF2000 Standard MIDI", so if you set it to "Logic" it will automatically switch to a mode usable with QLC+
+* MIDI SysEx: pull request #189 merged on November 14th. Now we should add some new valuable presets. For example a "BCF2000 Standard MIDI", so if you manually set it to "Logic" it will automatically switch to a mode usable with QLC+
 
 * merge pull request #191 https://github.com/mcallegari/qlcplus/pull/191 <br>
   Check "average user" accessibility to this functionality. The easier, the better
