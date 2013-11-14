@@ -18,7 +18,7 @@
   * improve widgets positioning. Right now it always assume the virtual console is empty
   * add click & go sliders for macros like gobos, color wheels, shutters, etc
 
-*  Continue the idea of Stefan of adding submaster to VC frames https://github.com/stefanriemens/qlcplus/commit/8ad9c07a4cb6604668477bbdcf798a41d92b05ac
+*  Continue the idea of Stefan of adding a submaster to VC frames https://github.com/stefanriemens/qlcplus/commit/8ad9c07a4cb6604668477bbdcf798a41d92b05ac
 
 * Control RGB matrices attributes through VC sliders. The first idea is to have 2 attributes available:
   * intensity
