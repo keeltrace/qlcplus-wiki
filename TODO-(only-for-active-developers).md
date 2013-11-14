@@ -1,5 +1,4 @@
-* merge pull request #189 https://github.com/mcallegari/qlcplus/pull/189 <br>
-  Check the UI usability, code stability and cross-platform consistency
+* MIDI SysEx: pull request #189 merged on November 14th. Now we should add some new valuable presets. For example a "BCF2000 Standard MIDI", so if you set it to "Logic" it will automatically switch to a mode usable with QLC+
 
 * merge pull request #191 https://github.com/mcallegari/qlcplus/pull/191 <br>
   Check "average user" accessibility to this functionality. The easier, the better
@@ -18,3 +17,9 @@
   * when users select more than one functionality for the same group of fixtures, it would be cool to compact them into multipage VC frames, instead of separate VC frames like it is right now
   * improve widgets positioning. Right now it always assume the virtual console is empty
   * add click & go sliders for macros like gobos, color wheels, shutters, etc
+
+*  Continue the idea of Stefan of adding submaster to VC frames https://github.com/stefanriemens/qlcplus/commit/8ad9c07a4cb6604668477bbdcf798a41d92b05ac
+
+* Control RGB matrices attributes through VC sliders. The first idea is to have 2 attributes available:
+  * intensity
+  * step position. In this way it would be possibile to connect a VC audio trigger, or to manually control the position of a matrix
