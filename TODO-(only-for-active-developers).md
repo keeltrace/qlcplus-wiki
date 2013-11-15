@@ -3,7 +3,7 @@
 * merge pull request #191 https://github.com/mcallegari/qlcplus/pull/191 <br>
   Check "average user" accessibility to this functionality. The easier, the better
 
-* Refine pull request #185 https://github.com/mcallegari/qlcplus/pull/185, considering the 4th cases identified by Jano:
+* Refine pull request #185 https://github.com/mcallegari/qlcplus/pull/185, considering the 4 cases identified by Jano:
 
   1. one dimmer channel per head, no rgb: PAR can
   2. one dimmer channel per head, rgb: LED PAR/LED moving head
