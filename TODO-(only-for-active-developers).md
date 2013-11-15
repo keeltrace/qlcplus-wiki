@@ -23,3 +23,5 @@
 * Control RGB matrices attributes through VC sliders. The first idea is to have 2 attributes available:
   * intensity
   * step position. In this way it would be possibile to connect a VC audio trigger, or to manually control the position of a matrix
+
+* Import RGB matrices into shows. This makes life easier when doing complex animations. Basically a RGB matrix can be converted into a Scene+Sequence.
