@@ -1,7 +1,6 @@
 * MIDI SysEx: pull request #189 merged on November 14th. Now we should add some new valuable presets. For example a "BCF2000 Standard MIDI", so if you manually set it to "Logic" it will automatically switch to a mode usable with QLC+
 
-* Pull request #191 merged (https://github.com/mcallegari/qlcplus/pull/191) <br>
-  Check "average user" accessibility to this functionality. The easier, the better
+* RGB Matrix image: add a simple internal editor to easily create images "on the fly" and export them (to BMP? PNG?)
 
 * Refine pull request #185 https://github.com/mcallegari/qlcplus/pull/185, considering the 4 cases identified by Jano:
 
@@ -23,5 +22,3 @@
 * Control RGB matrices attributes through VC sliders. The first idea is to have 2 attributes available:
   * intensity
   * step position. In this way it would be possibile to connect a VC audio trigger, or to manually control the position of a matrix
-
-* Import RGB matrices into shows. This makes life easier when doing complex animations. Basically a RGB matrix can be converted into a Scene+Sequence.
