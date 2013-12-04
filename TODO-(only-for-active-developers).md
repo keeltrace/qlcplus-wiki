@@ -26,6 +26,7 @@
 * Proper functions stack - see [this post](https://sourceforge.net/p/qlcplus/discussion/general/thread/106cdbce/#9f32). Basically - LTP functions do not have default, they stay at last value (as their name says :) ). Sometimes it's not convenient.
 
 * Folders:
+   * Folders are not saved properly!!!
    * Add "Add new folder" to context menu
    * Add "Move to new folder" to context menu
 
