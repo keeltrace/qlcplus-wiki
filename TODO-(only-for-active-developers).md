@@ -24,3 +24,11 @@
   * step position. In this way it would be possibile to connect a VC audio trigger, or to manually control the position of a matrix
 
 * Proper functions stack - see [this post](https://sourceforge.net/p/qlcplus/discussion/general/thread/106cdbce/#9f32). Basically - LTP functions do not have default, they stay at last value (as their name says :) ). Sometimes it's not convenient.
+
+* Folders:
+   * Add "Add new folder" to context menu
+   * Add "Move to new folder" to context menu
+
+* Multipage:
+   * Fix pasting widgets
+   * Add "Move to page X" to context menu
