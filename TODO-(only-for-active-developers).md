@@ -19,8 +19,7 @@
 
 *  Continue the idea of Stefan of adding a submaster to VC frames https://github.com/stefanriemens/qlcplus/commit/8ad9c07a4cb6604668477bbdcf798a41d92b05ac
 
-* Control RGB matrices attributes through VC sliders. The first idea is to have 2 attributes available:
-  * intensity
+* Add RGB matrices attributes:
   * step position. In this way it would be possibile to connect a VC audio trigger, or to manually control the position of a matrix
 
 * Proper functions stack - see [this post](https://sourceforge.net/p/qlcplus/discussion/general/thread/106cdbce/#9f32). Basically - LTP functions do not have default, they stay at last value (as their name says :) ). Sometimes it's not convenient.
@@ -31,5 +30,4 @@
    * Add "Move to new folder" to context menu
 
 * Multipage:
-   * Fix pasting widgets
    * Add "Move to page X" to context menu
