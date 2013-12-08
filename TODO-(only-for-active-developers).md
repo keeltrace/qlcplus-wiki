@@ -10,7 +10,6 @@
   * RGB/CMY-capable fixtures can ge grouped and some preset RGB matrices can be added
   * when users select more than one functionality for the same group of fixtures, it would be cool to compact them into multipage VC frames, instead of separate VC frames like it is right now
   * improve widgets positioning. Right now it always assume the virtual console is empty
-  * add click & go sliders for macros like gobos, color wheels, shutters, etc
 
 *  VC Slider submaster. Implemented on 08/12/2013. Think of which options are worth to be added to the configuration page (custom list of widgets?)
 
