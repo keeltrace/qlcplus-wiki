@@ -1,13 +1,8 @@
 * MIDI SysEx: pull request #189 merged on November 14th. Now we should add some new valuable presets. For example a "BCF2000 Standard MIDI", so if you manually set it to "Logic" it will automatically switch to a mode usable with QLC+
 
-* RGB Matrix image: add a simple internal editor to easily create images "on the fly" and export them (to BMP? PNG?)
-
-* Refine pull request #185 https://github.com/mcallegari/qlcplus/pull/185, considering the 4 cases identified by Jano:
-
-  1. one dimmer channel per head, no rgb: PAR can
-  2. one dimmer channel per head, rgb: LED PAR/LED moving head
-  3. one dimmer per more heads, each head has own RGB: LED BAR
-  4. no dimmer, only rgb: simple LED PAR
+* RGB Matrix:
+  * add a simple internal editor to easily create images "on the fly" and export them (to BMP? PNG?)
+  * check if master dimmer control works in every case
 
 * Improve Function Wizard. There's a lot of space for more automatic creation of functions/widgets.
   To name a few:
@@ -28,5 +23,9 @@
    * Folders are not saved properly!!!
    * Add "Move to new folder" to context menu
 
-* Multipage:
+* VC frame multipage:
    * Add "Move to page X" to context menu
+
+* Add support for ENTTEC Mk2 MIDI input/output
+
+* Add support for ArtNet and E1.31 unicast transmission. This might be tricky as plugins know nothing about fixtures !
