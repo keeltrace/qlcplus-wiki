@@ -1,4 +1,4 @@
-* MIDI SysEx: pull request #189 merged on November 14th. Now we should add some new valuable presets. For example a "BCF2000 Standard MIDI", so if you manually set it to "Logic" it will automatically switch to a mode usable with QLC+
+* MIDI SysEx: pull request #189 merged on November 14th. Now we should add some new valuable presets. For example a "BCF2000 Standard MIDI", so the device can be perfectly usable with QLC+
 
 * RGB Matrix:
   * add a simple internal editor to easily create images "on the fly" and export them (to BMP? PNG?)
