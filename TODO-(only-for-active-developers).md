@@ -17,7 +17,7 @@
   * improve widgets positioning. Right now it always assume the virtual console is empty
   * add click & go sliders for macros like gobos, color wheels, shutters, etc
 
-*  Continue the idea of Stefan of adding a submaster to VC frames https://github.com/stefanriemens/qlcplus/commit/8ad9c07a4cb6604668477bbdcf798a41d92b05ac
+*  VC Slider submaster. Implemented on 08/12/2013. Think of which options are worth to be added to the configuration page (custom list of widgets?)
 
 * Add RGB matrices attributes:
   * step position. In this way it would be possibile to connect a VC audio trigger, or to manually control the position of a matrix
@@ -26,7 +26,6 @@
 
 * Folders:
    * Folders are not saved properly!!!
-   * Add "Add new folder" to context menu
    * Add "Move to new folder" to context menu
 
 * Multipage:
