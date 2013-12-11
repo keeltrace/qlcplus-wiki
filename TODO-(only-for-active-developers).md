@@ -22,11 +22,12 @@
    * Folders are not saved properly!!!
    * Add "Move to new folder" to context menu
 
-* VC frame multipage:
-   * Add "Move to page X" to context menu
-
 * Add support for ENTTEC Mk2 MIDI input/output
 
 * Add support for FX5 USB adapter. Creator not responding to emails. Might abandon this.
 
 * Add support for ArtNet and E1.31 unicast transmission. This might be tricky as plugins know nothing about fixtures !
+
+* add button to show speed dials for EFX; store the setting
+
+* store current tab in EFX editor
