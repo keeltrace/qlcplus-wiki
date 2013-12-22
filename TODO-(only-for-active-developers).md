@@ -19,8 +19,8 @@
 * Proper functions stack - see [this post](https://sourceforge.net/p/qlcplus/discussion/general/thread/106cdbce/#9f32). Basically - LTP functions do not have default, they stay at last value (as their name says :) ). Sometimes it's not convenient.
 
 * Folders:
-   * Folders are not saved properly!!!
    * Add "Move to new folder" to context menu
+   * add rename to context menu
 
 * Add support for ENTTEC Mk2 MIDI input/output
 
@@ -31,3 +31,9 @@
 * add button to show speed dials for EFX; store the setting
 
 * store current tab in EFX editor
+* store order in Function Selection
+* add cue list to audio triggers widgets ([discussion](https://sourceforge.net/p/qlcplus/discussion/general/thread/b46ac525))
+
+* store expanded channels in channel groups editor
+* apply to all fixtures - only to fixtures with the same mode
+* EFX: Line 2 that goes in one direction only
