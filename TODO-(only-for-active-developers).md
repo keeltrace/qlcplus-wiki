@@ -32,11 +32,8 @@
 
 * store current tab in EFX editor
 * store order in Function Selection
-* add cue list to audio triggers widgets ([discussion](https://sourceforge.net/p/qlcplus/discussion/general/thread/b46ac525))
 
 * store expanded channels in channel groups editor
-* apply to all fixtures - only to fixtures with the same mode
-* EFX: Line 2 that goes in one direction only
 
 * fixture/project saving: check saving ints/doubles for locale safety (for e.g. Slovak locale
   the numbers are not loaded/saved properly). Fix: replace QString::toDouble() with QLocale::c().toDouble(QString)
