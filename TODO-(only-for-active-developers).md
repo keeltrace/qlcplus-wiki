@@ -28,9 +28,10 @@
 
 * Add support for ArtNet and E1.31 unicast transmission. This might be tricky as plugins know nothing about fixtures !
 
-* add button to show speed dials for EFX; store the setting
+* store speed dials state in function editors
 
 * store current tab in EFX editor
+
 * store order in Function Selection
 
 * store expanded channels in channel groups editor
