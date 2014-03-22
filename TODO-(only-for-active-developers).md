@@ -30,8 +30,6 @@
 
 * store speed dials state in function editors
 
-* store current tab in EFX editor
-
 * store order in Function Selection
 
 * store expanded channels in channel groups editor
