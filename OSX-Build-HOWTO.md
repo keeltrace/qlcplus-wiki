@@ -9,9 +9,6 @@ You need to download and install two components before you can compile QLC+ from
 NOTE: Qt 4.6.3 has some issues with its QFontDialog in OS X so you shouldn't use it any longer. Qt 4.8.x is nowadays the preferred Qt version.
 Note also that Qt no longer supports Leopard (10.5.x) and older Mac OS X versions.
 
-**Mountain Lion warning**: if QLC+ fails to compile the OLA plugin on your ML system, then you probably need to change `-mmacosx-version-min=10.5` in `$QTDIR/mkspecs/common/g++-macx.conf` to `-mmacosx-version-min=10.7`.
-Most likely $QTDIR will be /usr/local/Qt4.8.
-
 
 ## Dependencies/Ports
 
@@ -29,7 +26,7 @@ Then, launch the terminal and type:<br>
 `make`<br>
 `sudo make install`
 
-## Optional Ports & Helpers
+## Ports & Helpers (Optional)
 
 If you intend on doing a lot of development, cleaning often and recompiling everything, you might want to install ccache, which speeds up consequent compilations (after the first caching run) IMMENSELY.<br>
 `sudo port install ccache`<br>
