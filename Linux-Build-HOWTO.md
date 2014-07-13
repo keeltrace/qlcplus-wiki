@@ -120,7 +120,7 @@ to start using QLC+. If you wish to edit/create fixture definitions, type:
 
 ### Debian/Ubuntu Package Creation
 
-Go to the newly-created qlc sub-directory and issue the following command:
+Go to the main QLC+ directory and issue the following command:
 
 `./create-deb.sh`
 
