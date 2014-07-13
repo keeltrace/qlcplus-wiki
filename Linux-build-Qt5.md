@@ -84,6 +84,7 @@ If you want to use a specific version of Qt5, override your system PATH variable
 `export PATH=/path/to/Qt5/binaries:$PATH`
 
 For example in Ubuntu 14.04 you should do:
+
 `export PATH=/usr/lib/x86_64-linux-gnu/qt5/bin:$PATH`
 
 Issue the following commands to start building QLC:
