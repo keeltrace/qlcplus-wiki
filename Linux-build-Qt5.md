@@ -8,7 +8,7 @@ You need a number of packages installed before you can compile QLC+ from sources
 Issue these commands to install the required packages for an Ubuntu system:
 
 `sudo apt-get update`<br>
-`sudo apt-get install g++ make git libqt4-dev qt4-dev-tools fakeroot debhelper devscripts pkg-config`<br>
+`sudo apt-get install g++ make git qtbase5-dev qtmultimedia5-dev fakeroot debhelper devscripts pkg-config`<br>
 `sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad0-dev libsndfile1-dev liblo-dev libfftw3-dev`<br>
 
 ### Optional helpers
@@ -26,7 +26,7 @@ Issue these commands to install the required packages for a Fedora/RedHat system
 
 `su -`<br>
 `yum update`<br>
-`yum install gcc-c++ qt4-devel libftdi-devel libusb-devel alsa-lib-devel rpm-build subversion libudev-devel`<br>
+`yum install gcc-c++ libftdi-devel libusb-devel alsa-lib-devel rpm-build subversion libudev-devel`<br>
 
 Notice that there's a space between su and - and that you need to give the root user password for su. When you're done with these commands, become a normal user again with:
 
