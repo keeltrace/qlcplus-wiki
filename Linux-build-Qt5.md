@@ -47,7 +47,7 @@ Acquire the latest tarball from the OLA website:<br>
 
 Extract the package and enter into the OLA folder.<br>
 Follow the Linux build instructions here: http://www.opendmx.net/index.php/OLA_on_Linux<br>
-Then, as usual, type:
+Then, when build time comes, type:
 
 `./configure --prefix=/usr`<br>
 `make`<br>
