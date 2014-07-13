@@ -78,6 +78,14 @@ This will create a directory called qlcplus which will contain the latest source
 
 Now you have two choices: either go ahead with the compilation and manual installation or, spend a little more time with packages in order to create separate QLC+ packages that you can easily upgrade (and uninstall) later. If you wish to do everything manually, continue reading. If you wish to create packages for Ubuntu/Debian, skip to the Package Creation section on this page.
 
+On some distributions, Qt5 is not the default Qt package.
+If you want to use a specific version of Qt5, override your system PATH variable in this way:
+
+`export PATH=/path/to/Qt5/binaries:$PATH`
+
+For example in Ubuntu 14.04 you should do:
+`export PATH=/usr/lib/x86_64-linux-gnu/qt5/bin:$PATH`
+
 Issue the following commands to start building QLC:
 
 `cd qlcplus`<br>
@@ -120,12 +128,7 @@ to start using QLC+. If you wish to edit/create fixture definitions, type:
 
 ### Debian/Ubuntu Package Creation
 
-Go to the main QLC+ directory. On some distributions, Qt5 is not the default Qt package.
-If you want to use a specific version of Qt5, override your system PATH variable in this way:
-
-`export PATH=/path/to/Qt5/binaries:$PATH`
-
-Once done, issue the following command:
+Go to the main QLC+ directory and issue the following command:
 
 `./create-deb.sh`
 
