@@ -46,6 +46,7 @@ Acquire the latest tarball from the OLA webiste:<br>
 [http://code.google.com/p/open-lighting/downloads/list](http://code.google.com/p/open-lighting/downloads/list)
 
 Extract the package and enter into the OLA folder.
+Follow the Linux build instructions here: http://www.opendmx.net/index.php/OLA_on_Linux
 Then, as usual, type:
 
 `./configure --prefix=/usr`<br>
