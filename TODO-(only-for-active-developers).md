@@ -24,8 +24,6 @@
 
 * Add support for ENTTEC Mk2 MIDI input/output
 
-* Add support for FX5 USB adapter. Creator not responding to emails. Might abandon this.
-
 * Add support for ArtNet and E1.31 unicast transmission. This might be tricky as plugins know nothing about fixtures !
 
 * store speed dials state in function editors
