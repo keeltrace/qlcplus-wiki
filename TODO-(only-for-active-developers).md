@@ -1,5 +1,3 @@
-* MIDI SysEx: pull request #189 merged on November 14th. Now we should add some new valuable presets. For example a "BCF2000 Standard MIDI", so the device can be perfectly usable with QLC+
-
 * RGB Matrix:
   * add a simple internal editor to easily create images "on the fly" and export them (to BMP? PNG?)
   * check if master dimmer control works in every case
@@ -21,8 +19,6 @@
 * Folders:
    * Add "Move to new folder" to context menu
    * add rename to context menu
-
-* Add support for ENTTEC Mk2 MIDI input/output
 
 * Add support for ArtNet and E1.31 unicast transmission. This might be tricky as plugins know nothing about fixtures !
 
