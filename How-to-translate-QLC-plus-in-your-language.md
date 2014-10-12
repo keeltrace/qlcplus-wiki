@@ -1,4 +1,4 @@
-At the moment, QLC+ is translated in German, Spanish, Italian, Finnish, French, Dutch and Czech.<br>
+At the moment, QLC+ is translated in German, Spanish, Italian, Portuguese, Japanese, French, Dutch and Czech.<br>
 If your language is not supported, please contact the developers and request the addition of it.<br>
 Otherwise here's a quick guide to contribute on an existing translation:<br>
 
