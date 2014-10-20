@@ -62,9 +62,9 @@ After the sources have been cloned from the GIT repository, issue these commands
 `qmake -spec macx-g++`<br>
 `make`<br>
 
-You should see the terminal window fill up with compiler calls. Go grab a cup of your preferred beverage, as this can take anything from about a minute to several minutes, depending on your system performance. If you see any errors, please Mail me since it's probably just a small thing I forgot to write in this document.
+You should see the terminal window fill up with compiler calls. Go grab a cup of your preferred beverage, as this can take anything from about a minute to several minutes, depending on your system performance. If you see any errors, please report it in the QLC+ forum (development forum).
 
-Finally, make says someting like "Nothing to be done for 'first'. That's it, you're done!
+Finally, make says something like "Nothing to be done for 'first'. That's it, you're done!
 
 ## Installation
 
