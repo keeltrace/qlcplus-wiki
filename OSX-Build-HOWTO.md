@@ -1,4 +1,4 @@
-# QLC+ Installation from sources on Mac OSX
+# QLC+ Installation from sources on Mac OSX using Qt4
 
 ## Development environment
 
