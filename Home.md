@@ -10,6 +10,7 @@ Here you can find information about translating and compiling QLC+ on several pl
 [Linux Qt5](https://github.com/mcallegari/qlcplus/wiki/Linux-build-Qt5)<br>
 [Windows Qt4](https://github.com/mcallegari/qlcplus/wiki/Windows-build-HOWTO)<br>
 [Mac OSX Qt4](https://github.com/mcallegari/qlcplus/wiki/OSX-Build-HOWTO)<br>
+[Mac OSX Qt5](https://github.com/mcallegari/qlcplus/wiki/OSX-build-Qt5)<br>
 
 ## Remote control
 [BCF2000 + LC2412](https://github.com/mcallegari/qlcplus/wiki/QLC-PLUS,-BCF2000-and-LC2412) Setup Behringer BCF2000 and Behringer LC2412 connected through BCF2000 for even more faders<br>
