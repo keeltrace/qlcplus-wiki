@@ -46,17 +46,17 @@ Edit ~/.profile and put this somewhere:<br>
 
 Open the terminal window (under Applications/Utilities in Finder) and write one of the following commands:
 
-If you wish to get the latest released QLC version:<br>
+If you wish to get the latest released QLC+ version:<br>
 http://sourceforge.net/projects/qlcplus/files/Sources/<br>
 
 If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious):<br>
 `git clone git://github.com/mcallegari/qlcplus.git`<br>
 
-You might be asked to accept an SSL site certificate. After you have accepted it, the sources will be downloaded to a directory called qlc under your home directory (where the terminal usually starts at). It can take a while, depending on your internet connection speed.
+You might be asked to accept an SSL site certificate. After you have accepted it, the sources will be downloaded to a directory called qlcplus under your home directory (where the terminal usually starts at). It can take a while, depending on your internet connection speed.
 
 ## Compiling
 
-After the sources have been checked out from the subversion repository, issue these commands to start building QLC:
+After the sources have been cloned from the GIT repository, issue these commands to start building QLC+:
 
 `cd qlcplus`<br>
 `qmake -spec macx-g++`<br>
@@ -68,7 +68,7 @@ Finally, make says someting like "Nothing to be done for 'first'. That's it, you
 
 ## Installation
 
-When QLC+ has been successfully compiled, you can install it into your home directory as QLC.app by issuing the following command to the terminal:<br>
+When QLC+ has been successfully compiled, you can install it into your home directory as QLC+.app by issuing the following command to the terminal:<br>
 `make install`<br>
 
 Don't worry; everything is installed inside this one application bundle in your home directory. Go to Finder and navigate to your home directory. You should see the QLC+ logo there and if you dare click it, QLC+ launcher should open. You can move the application bundle manually under Applications if you wish. Have fun! :)
