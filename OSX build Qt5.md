@@ -38,6 +38,14 @@ If you wish to get the very latest bleeding edge (but only if your intention is 
 
 You might be asked to accept an SSL site certificate. After you have accepted it, the sources will be downloaded to a directory called qlc under your home directory (where the terminal usually starts at). It can take a while, depending on your internet connection speed.
 
+### Plugins build note
+
+QLC+ needs several external dependencies to be compiled with all the plugins support.<br>
+If you want to exclude some of them from the build process then just comment them out by placing the character `#` at the beginning of the plugin line in the file `plugins/plugins.pro`
+For example:
+
+`#unix:SUBDIRS += ola`
+
 ## Compiling
 
 After the sources have been cloned out from the GIT repository, issue these commands to start building QLC+:
