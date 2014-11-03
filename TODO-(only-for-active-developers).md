@@ -31,3 +31,12 @@
 * fixture/project saving: check saving ints/doubles for locale safety (for e.g. Slovak locale
   the numbers are not loaded/saved properly). Fix: replace QString::toDouble() with QLocale::c().toDouble(QString)
   and QLocale::c().toString(double)
+
+
+DOCS for 4.8.2:
+
+- Show Manager allows all types of functions now
+- VCSlider properties: monitor channel
+- Virtual Console - live edit
+- MIDI profiles editor
+- Speed dial properties (elements visibility)
