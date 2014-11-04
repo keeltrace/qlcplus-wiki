@@ -38,5 +38,4 @@ DOCS for 4.8.2:
 - Show Manager allows all types of functions now
 - VCSlider properties: monitor channel
 - Virtual Console - live edit
-- MIDI profiles editor
 - Speed dial properties (elements visibility)
