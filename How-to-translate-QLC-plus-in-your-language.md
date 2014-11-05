@@ -14,9 +14,9 @@ Mac OSX: https://mac.github.com/
 * **fork** qlcplus (guide: https://help.github.com/articles/fork-a-repo) or **sync** your existing tree
 * open all the xx_XX.ts file for your language (see list below)
 * translate, translate, translate, save
-* synchronize your changes with GitHub (in GIT words "commit" and "push"). If you're using the GitHub client, press the buttons "Commit" and then the "Sync" button (upper right corner of the window)
+* synchronize your changes with GitHub (in GIT words "commit" and "push"). If you're using the GitHub client, press the "Commit" button (left side of the screen) and then the "Sync" button (upper right corner of the window)
 * when you're done, go to your GitHub page and send a pull request with your changes to the main QLC+ tree
-https://help.github.com/articles/using-pull-requests/
+(guide: https://help.github.com/articles/using-pull-requests/)
 
 The following videos might help:<br>
 https://www.youtube.com/watch?v=1S_526C8Gkw<br>
