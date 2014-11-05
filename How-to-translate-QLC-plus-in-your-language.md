@@ -24,6 +24,8 @@ https://www.youtube.com/watch?v=NnBb9NTk-To<br>
 
 ### Translation files
 
+This is the list of files that needs to be translated for a full QLC+ translation:
+
 * fixtureeditor/fixtureeditor_xx_XX.ts
 * launcher/launcher_xx_XX.ts
 * plugins/artnet/ArtNet_xx_XX.ts
