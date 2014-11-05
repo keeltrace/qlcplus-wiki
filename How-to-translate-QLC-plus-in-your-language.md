@@ -15,7 +15,7 @@ Mac OSX: https://mac.github.com/
 * open all the xx_XX.ts file for your language (see list below)
 * translate, translate, translate, save
 * synchronize your changes with GitHub (in GIT words "commit" and "push"). If you're using the GitHub client, press the "Commit" button (left side of the screen) and then the "Sync" button (upper right corner of the window)
-* when you're done, go to your GitHub page and send a pull request with your changes to the main QLC+ tree
+* when you're done, go to your GitHub page and send a **pull request** with your changes to the main QLC+ tree
 (guide: https://help.github.com/articles/using-pull-requests/)
 
 The following videos might help:<br>
