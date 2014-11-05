@@ -2,13 +2,21 @@ At the moment, QLC+ is translated in German, Spanish, Catalan, Italian, Portugue
 If your language is not supported, please contact the developers and request the addition of it.<br>
 Otherwise here's a quick guide to contribute on an existing translation:<br>
 
-* download and install Qt Linguist. It comes with Qt (or Google it)
+* download and install Qt Linguist. It comes with any prebuilt Qt release:
+http://www.qt.io/download-open-source/
+or download it from here: http://qt-apps.org/content/show.php/Qt+Linguist+Download?content=89360
+
 * create an account on GitHub
+* if you're not familiar with GIT, you can download the GitHub official client from here:
+Windows: https://windows.github.com/
+Mac OSX: https://mac.github.com/
+ 
 * **fork** qlcplus (guide: https://help.github.com/articles/fork-a-repo) or **sync** your existing tree
 * open all the xx_XX.ts file for your language (see list below)
 * translate, translate, translate, save
-* synchronize your changes with GitHub (in GIT words "commit" and "push")
-* when you're done send a pull request with your changes to the main QLC+ tree
+* synchronize your changes with GitHub (in GIT words "commit" and "push"). If you're using the GitHub client, press the buttons "Commit" and then the "Sync" button (upper right corner of the window)
+* when you're done, go to your GitHub page and send a pull request with your changes to the main QLC+ tree
+https://help.github.com/articles/using-pull-requests/
 
 The following videos might help:<br>
 https://www.youtube.com/watch?v=1S_526C8Gkw<br>
