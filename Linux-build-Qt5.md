@@ -50,11 +50,10 @@ For example:
 
 ### OLA (Open Lighting Architecture)
 
-Acquire the latest tarball from the OLA website:<br>
-[http://code.google.com/p/open-lighting/downloads/list](http://code.google.com/p/open-lighting/downloads/list)
+Acquire the latest tarball from [github](https://github.com/OpenLightingProject/ola/releases/latest)
 
 Extract the package and enter into the OLA folder.<br>
-Follow the Linux build instructions here: http://www.opendmx.net/index.php/OLA_on_Linux<br>
+Follow the [Linux build instructions](http://www.openlighting.org/ola/linuxinstall). <br>
 Then, when build time comes, type:
 
 `./configure --prefix=/usr`<br>
