@@ -53,7 +53,7 @@ For example:
 Acquire the latest tarball from [github](https://github.com/OpenLightingProject/ola/releases/latest)
 
 Extract the package and enter into the OLA folder.<br>
-Follow the [Linux build instructions](http://www.openlighting.org/ola/linuxinstall) <br>
+Follow the [Linux build instructions](http://www.openlighting.org/ola/linuxinstall). <br>
 Then, when build time comes, type:
 
 `./configure --prefix=/usr`<br>
