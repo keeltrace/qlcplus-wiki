@@ -1,6 +1,6 @@
 ### Interfacing to Mixxx via MIDI (Linux)
 
-This tutorial explains how to drive QLC+ via MIDI from Mixxx. Mixxx is an open source DJ application, running on Windows, Mac OSX and Linux. The light effects are geared to a disco setup and we will use the beat detection of Mixxx to drive light effects synchronized with music.
+This tutorial explains how to drive QLC+ via MIDI from Mixxx. [Mixxx](http://www.mixxx.org/) is an open source DJ application, running on Windows, Mac OSX and Linux. The light effects are geared to a disco setup and we will use the beat detection of Mixxx to drive light effects synchronized with music.
 
 The instructions were tested on Linux, but Windows or MacOS should be similar.
 
