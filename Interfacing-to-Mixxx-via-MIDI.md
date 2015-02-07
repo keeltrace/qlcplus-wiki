@@ -8,31 +8,31 @@ The instructions were tested on Linux, but Windows or MacOS should be similar.
 
 We need Mixxx to send information about the music via MIDI to QLC+. For this capability we need a plugin script in Mixxx which sends the information as MIDI events.
 
-<UL>
-<LI>Install Mixx, I used V1.11</LI>
-<LI>Install the 'MIDI_for_light' script from this (<A HREF="http://mixxx.org/forums/viewtopic.php?f=7&t=4732">Mixxx forum thread</A>)
-<P>The script files (xms + js) must be installed in /usr/share/mixxx/controllers.
-<LI>Run Mixxx in developer mode with the command 'mixxx --developer'.
-<P>This is necessary because Mixxx hides the 'Midi Through' interface but we need it.
-<LI>Start Mixxx, go to 'Options - Preferences - Controllers', select 'Midi Through', enable it and load the Preset 'MIDI for light' from the list.
+    * Install Mixx, I used V1.11
+    * Install the 'MIDI_for_light' script from this (<A HREF="http://mixxx.org/forums/viewtopic.php?f=7&t=4732">Mixxx forum thread</A>)
+The script files (xms + js) must be installed in /usr/share/mixxx/controllers.
+    * Run Mixxx in developer mode with the command 'mixxx --developer'.
+This is necessary because Mixxx hides the 'Midi Through' interface but we need it.
+    * Start Mixxx, go to 'Options - Preferences - Controllers', select 'Midi Through', enable it and load the Preset 'MIDI for light' from the list.
 <P>This will enable the sending of Midi events. You can now run a midi monitor, like 'kmidimon', connect it to the 'Midi Through' device and look at the all the events. Be careful, Mixxx sends 40 events 25 times per second. It to my kmdimon only a minute or two to hang because of overload.
-</UL>
 
-<h2>Configure QLCplus</h2>
-<p>Now we have Mixxx sending us lots of interesting data and want QLC to do something with it.
 
-<UL>
-<LI>Install QLCplus, I used V4.8.2</LI>
-<LI>Define your fixtures, and functions as usual
-<LI>In the 'Inputs/Outputs' screen, select the 'MIDI Through' device as input
-<LI>Highlight the MIDI Through device and click on plugin configuration <IMG SRC="qrc:/configure.png"> and configure the 'Midi Through' device
+## Configure QLC+
+
+Now we have Mixxx sending us lots of interesting data and want QLC+ to do something with it.
+
+
+    * Install QLC+ (we used version 4.8.2)
+    * Define your fixtures, and functions as usual
+    * In the 'Inputs/Outputs' screen, select the 'MIDI Through' device as input
+    * Highlight the MIDI Through device and click on plugin configuration <IMG SRC="qrc:/configure.png"> and configure the 'Midi Through' device
     <UL>
     <LI>Set the 'Midi' Channel to 1
     <LI>Set the 'Mode' to 'Note Velocity'
     <LI>Leave the 'Init Message' on 'None'
     <LI>Push EXIT button.</LI>
     </UL>
-<LI>In the Profile tab of the 'Inputs/Outputs' screen, add a new Input Profile. I called it 'Mixxx' and model 'MIDI'.
+    * In the Profile tab of the 'Inputs/Outputs' screen, add a new Input Profile. I called it 'Mixxx' and model 'MIDI'.
 <P>Here we need to add a Channel for each MIDI message we expect from Mixxx. The list of Midi messages is documented in the file 'VU-Meter_Info.txt' you got with the Mixxx plugin script.
     <UL>
     <LI>First we add a channel for the BPM info (not documented in the file).
