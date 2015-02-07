@@ -1,10 +1,10 @@
-### Interfacing to Mixxx via MIDI (Linux)
+## Interfacing to Mixxx via MIDI (Linux)
 
 This tutorial explains how to drive QLC+ via MIDI from Mixxx. [Mixxx](http://www.mixxx.org/) is an open source DJ application, running on Windows, Mac OSX and Linux. The light effects are geared to a disco setup and we will use the beat detection of Mixxx to drive light effects synchronized with music.
 
 The instructions were tested on Linux, but Windows or Mac OSX should be similar.
 
-## Prepare and configure Mixxx
+### Prepare and configure Mixxx
 
 We need Mixxx to send information about the music via MIDI to QLC+. For this capability we need a plugin script in Mixxx which sends the information as MIDI events.
 
@@ -17,7 +17,7 @@ This is necessary because Mixxx hides the 'Midi Through' interface but we need i
 <P>This will enable the sending of Midi events. You can now run a midi monitor, like 'kmidimon', connect it to the 'Midi Through' device and look at the all the events. Be careful, Mixxx sends 40 events 25 times per second. It to my kmdimon only a minute or two to hang because of overload.
 
 
-## Configure QLC+
+### Configure QLC+
 
 Now we have Mixxx sending us lots of interesting data and want QLC+ to do something with it.
 
