@@ -37,7 +37,8 @@ Add a channel, name it 'BPM', Type is 'Button', Midi channel is '1', Message is 
 Add a channel, name it 'Volume - absolute', Type is 'Slider', Midi channel is '1', Message is 'Note On/Off', Parameter is 101.
     * Repeat this for all channels you find interesting<BR>
 The relative volume channels can give interesting light effects, the absolute volume is less interesting
-* Now go to your Virtual Console and start using the stuff. Here two examples:
+
+* Now go to your Virtual Console and start using the MIDI signals. Here two examples:
     * Configure the BPM to advance a cue list on each beat<BR>
 In your Cue list, in the 'Next Cue' tab, click on 'Choose', expand the 'Mixxx MIDI' line and pick BPM from the list. Your cue list will now advance with the beat of the music, as determined by the Mixxx beat detection.
     * Make a lamp light up with the Volume of the music (VU meter)<BR>
