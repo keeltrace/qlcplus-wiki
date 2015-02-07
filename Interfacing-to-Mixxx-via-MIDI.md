@@ -23,26 +23,24 @@ Now we have Mixxx sending us lots of interesting data and want QLC+ to do someth
 
 
 * Install QLC+ (we used version 4.8.2)
-* Define your fixtures, and functions as usual
-* In the 'Inputs/Outputs' screen, select the 'MIDI Through' device as input
-* Highlight the MIDI Through device and click on plugin configuration <IMG SRC="qrc:/configure.png"> and configure the 'Midi Through' device
+* Define your fixtures and functions as usual
+* In the 'Inputs/Outputs' panel, select the 'MIDI Through' device as input
+* Highlight the MIDI Through device and click on plugin configuration <IMG SRC="http://qlcplus.sourceforge.net/docs/gfx/configure.png"> and configure the 'Midi Through' device
     * Set the 'Midi' Channel to 1
     * Set the 'Mode' to 'Note Velocity'
     * Leave the 'Init Message' on 'None'
     * Push EXIT button.</LI>
 * In the Profile tab of the 'Inputs/Outputs' screen, add a new Input Profile. I called it 'Mixxx' and model 'MIDI'.
-<P>Here we need to add a Channel for each MIDI message we expect from Mixxx. The list of Midi messages is documented in the file 'VU-Meter_Info.txt' you got with the Mixxx plugin script.
+Here we need to add a Channel for each MIDI message we expect from Mixxx. The list of Midi messages is documented in the file 'VU-Meter_Info.txt' you got with the Mixxx plugin script.
     * First we add a channel for the BPM info (not documented in the file).<BR>
     Add a channel, name it 'BPM', Type is 'Button', Midi channel is '1', Message is 'Note On/Off', Parameter is 101.
-    * Then we add all channels with the volume information
-    <BR>Add a channel, name it 'Volume - absolute', Type is 'Slider', Midi channel is '1', Message is 'Note On/Off', Parameter is 101.
+    * Then we add all channels with the volume information<BR>
+Add a channel, name it 'Volume - absolute', Type is 'Slider', Midi channel is '1', Message is 'Note On/Off', Parameter is 101.
     * Repeat this for all channels you find interesting
     <BR>The relative volume channels can give interesting light effects, the absolute volume is less interesting
 * Now go to your Virtual Console and start using the stuff. Here two examples:
-    <UL>
-    <LI>Configure the BPM to advance a cue list on each beat
-    <BR>In your Cue list, in the 'Next Cue' tab, click on 'Choose', expand the 'Mixxx MIDI' line and pick BPM from the list. Your cue list will now advance with the beat of the music, as determined by the Mixxx beat detection.
-    <LI>Make a lamp light up with the Volume of the music (VU meter)
+    * Configure the BPM to advance a cue list on each beat<BR>
+    In your Cue list, in the 'Next Cue' tab, click on 'Choose', expand the 'Mixxx MIDI' line and pick BPM from the list. Your cue list will now advance with the beat of the music, as determined by the Mixxx beat detection.
+    * Make a lamp light up with the Volume of the music (VU meter)
     <BR>Configure a Slider, on the 'General' tab, under 'External input' click on 'Choose' and select a channel of your choosing, for example 'Volume absolute'. The selected Fixture will now light up with the volume of the music, like a giant VU meter.
-    </UL>
-</UL>
+
