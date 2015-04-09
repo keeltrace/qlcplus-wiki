@@ -28,7 +28,7 @@ Issue these commands to install the required packages for a Fedora/RedHat system
 `yum update`<br>
 `yum install gcc-c++ qtbase5-common-devel qtmultimedia5-devel libftdi-devel libusb-devel alsa-lib-devel rpm-build subversion libudev-devel`<br>
 
-(Fedora 21: replace libudev-devel with systemd-devel)
+(Fedora 21: `yum install systemd-devel fftw-devel`)
 
 Notice that there's a space between su and - and that you need to give the root user password for su. When you're done with these commands, become a normal user again with:
 
