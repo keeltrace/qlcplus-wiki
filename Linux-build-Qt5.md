@@ -13,8 +13,8 @@ Issue these commands to install the required packages for an Ubuntu system:
 
 ### Optional helpers
 
-If you intend on doing a lot of development, cleaning often and recompiling everything, you might want to install ccache, which speeds up consequent compilations (after the first caching run) IMMENSELY.
-`sudo apt-get install ccache`
+If you intend on doing a lot of development, cleaning often and recompiling everything, you might want to install ccache, which speeds up consequent compilations (after the first caching run) IMMENSELY.<br>
+`sudo apt-get install ccache`<br>
 `sudo ln -s /usr/bin/ccache /usr/local/bin/gcc`<br>
 `sudo ln -s /usr/bin/ccache /usr/local/bin/g++`<br>
 `sudo ln -s /usr/bin/ccache /usr/local/bin/cc`<br>
