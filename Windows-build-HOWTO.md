@@ -14,6 +14,19 @@ QMAKESPEC = win32-g++<br>
 QTDIR = C:\Qt\4.8.5<br>
 PATH = ....;C:\Qt\4.8.5\bin;C:\Qt\4.8.5;C:\MinGW\bin<br>
 
+## QLC+ sources
+
+If you wish to get the latest released QLC+ version:<br>
+[http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
+
+If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious):
+`git clone git://github.com/mcallegari/qlcplus.git`
+
+This will create a directory called qlcplus which will contain the latest sources from GIT repository. After you have made the initial clone and later wish to keep living on the bleeding egde, you can just update the sources (instead of making a new checkout each time):
+
+`cd qlcplus`<br>
+`git pull`<br>
+
 ## Prerequisites
 
 Download **pkg-config** prebuilt binaries and install them in the MinGW tree<br>
