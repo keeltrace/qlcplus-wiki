@@ -63,7 +63,7 @@ Then, when build time comes, type:
 ### QLC+ sources
 
 If you wish to get the latest released QLC+ version:<br>
-[http://sourceforge.net/projects/qlcplus/files/](http://sourceforge.net/projects/qlcplus/files/)
+[http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
 
 If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious):
 `git clone git://github.com/mcallegari/qlcplus.git`
