@@ -47,7 +47,7 @@ Edit ~/.profile and put this somewhere:<br>
 Open the terminal window (under Applications/Utilities in Finder) and write one of the following commands:
 
 If you wish to get the latest released QLC+ version:<br>
-http://sourceforge.net/projects/qlcplus/files/Sources/<br>
+[http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)/<br>
 
 If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious):<br>
 `git clone git://github.com/mcallegari/qlcplus.git`<br>
