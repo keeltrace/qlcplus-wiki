@@ -94,8 +94,6 @@ Issue the following commands to start building QLC:
 `qmake`<br>
 `make`<br>
 
-Note: for Ubuntu 13.04 and later versions, use qmake-qt4 instead of qmake (since qt5 is default).
-
 To speed up the build process, if your computer has a multicore CPU you can use the -j option followed by the number of cores of your CPU, like this:
 
 `make -j4`<br>
@@ -104,9 +102,8 @@ You should see your terminal filling with compiler messages for quite a while.
 Everything should go smoothly until the end. If it doesn't happen and you see misterious building errors try either to clone the repository again or completely clean your source tree and start over again:
 
 `make distclean`<br>
-`qmake-qt4`<br>
+`qmake`<br>
 `make`<br>
-`sudo make install`<br>
 
 ### Install
 
