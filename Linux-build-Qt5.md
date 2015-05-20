@@ -88,13 +88,13 @@ You can quickly check if the version is correct by typing:
 In general, you can invoke qmake with its absolute path. For example:
 `/home/user/Qt5.4.1/5.4/gcc_64/bin/qmake`<br>
 
-In this way you can build QLC+ with any Qt version located where you prefer in your hard disk.
+In this way you can build QLC+ with any Qt version, located where you prefer in your hard disk.
 If you wish to build QLC+ with the latest Qt version, you can get it here: https://www.qt.io/download-open-source/
 
 Issue the following commands to start building QLC:
 
 `cd qlcplus`<br>
-`qmake`<br> (see note above)
+`qmake` (see note above)<br>
 `make`<br>
 
 To speed up the build process, if your computer has a multicore CPU you can use the -j option followed by the number of cores of your CPU, like this:
