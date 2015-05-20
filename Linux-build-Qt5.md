@@ -81,7 +81,7 @@ Then, when build time comes, type:
 Now you have two choices: either go ahead with the compilation and manual installation or, spend a little more time with packages in order to create separate QLC+ packages that you can easily upgrade (and uninstall) later. If you wish to do everything manually, continue reading. If you wish to create packages for Ubuntu/Debian, skip to the Package Creation section on this page.
 
 On some distributions, Qt5 is not the default Qt package, so you need to locate the 'qmake' executable in your computer.
-For example in Ubuntu 14.04 you can find it in `/usr/lib/x86_64-linux-gnu/qt5/bin`
+For example in Ubuntu 14.04 you can find it in `/usr/lib/x86_64-linux-gnu/qt5/bin`<br>
 You can quickly check if the version is correct by typing:
 `qmake -v`<br>
 
@@ -89,6 +89,7 @@ In general, you can invoke qmake with its absolute path. For example:
 `/home/user/Qt5.4.1/5.4/gcc_64/bin/qmake`<br>
 
 In this way you can build QLC+ with any Qt version located where you prefer in your hard disk.
+If you wish to build QLC+ with the latest Qt version, you can get it here: https://www.qt.io/download-open-source/
 
 Issue the following commands to start building QLC:
 
