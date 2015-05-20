@@ -62,9 +62,11 @@ For example:
 
 `#unix:SUBDIRS += ola`
 
-### OLA (Open Lighting Architecture)
+### Build OLA (Open Lighting Architecture)
 
-Acquire the latest tarball from [github](https://github.com/OpenLightingProject/ola/releases/latest)
+This step is optional depending if you need OLA or not. See previous paragraph in case you want to disable the OLA plugin.
+
+To build the sources, acquire the latest tarball from [github](https://github.com/OpenLightingProject/ola/releases/latest)
 
 Extract the package and enter into the OLA folder.<br>
 Follow the [Linux build instructions](http://www.openlighting.org/ola/linuxinstall). <br>
@@ -78,14 +80,15 @@ Then, when build time comes, type:
 
 Now you have two choices: either go ahead with the compilation and manual installation or, spend a little more time with packages in order to create separate QLC+ packages that you can easily upgrade (and uninstall) later. If you wish to do everything manually, continue reading. If you wish to create packages for Ubuntu/Debian, skip to the Package Creation section on this page.
 
-On some distributions, Qt5 is not the default Qt package.
-If you want to use a specific version of Qt5, override your system PATH variable in this way:
+On some distributions, Qt5 is not the default Qt package, so you need to locate the 'qmake' executable in your computer.
+For example in Ubuntu 14.04 you can find it in `/usr/lib/x86_64-linux-gnu/qt5/bin`
+You can quickly check if the version is correct by typing:
+`qmake -v`<br>
 
-`export PATH=/path/to/Qt5/binaries:$PATH`
+In general, you can invoke qmake with its absolute path. For example:
+`/home/user/Qt5.4.1/5.4/gcc_64/bin/qmake`<br>
 
-For example in Ubuntu 14.04 you should do:
-
-`export PATH=/usr/lib/x86_64-linux-gnu/qt5/bin:$PATH`
+In this way you can build QLC+ with any Qt version located where you prefer in your hard disk.
 
 Issue the following commands to start building QLC:
 
