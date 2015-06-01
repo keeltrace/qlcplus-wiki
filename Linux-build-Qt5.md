@@ -3,7 +3,7 @@
 
 You need a number of packages installed before you can compile QLC+ from sources. Everything here happens in the terminal window, so launch one now. Usually it's an entry under Accessories in your desktop main menu.
 
-### Ubuntu/Debian
+### Ubuntu/Debian/Mint
 
 Issue these commands to install the required packages for an Ubuntu system:
 
