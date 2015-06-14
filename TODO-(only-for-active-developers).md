@@ -20,8 +20,6 @@
    * Add "Move to new folder" to context menu
    * add rename to context menu
 
-* Add support for ArtNet and E1.31 unicast transmission. This might be tricky as plugins know nothing about fixtures !
-
 * store speed dials state in function editors
 
 * store order in Function Selection
