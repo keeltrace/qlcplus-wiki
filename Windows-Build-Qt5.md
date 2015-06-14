@@ -13,6 +13,19 @@ Now install the packages required to build QLC+, by typing:<br>
 
 **Now close the MSYS2 Shell. From now on we'll use the MinGW-w64 Win32 Shell. So open it.**
 
+## Acquire the QLC+ sources
+
+If you wish to get the latest released QLC+ version download the source tarball from here:<br>
+[http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
+
+If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious), download the [GitHub client][https://windows.github.com/] otherwise use the command line:
+`git clone git://github.com/mcallegari/qlcplus.git`
+
+This will create a directory called qlcplus which will contain the latest sources from GIT repository. After you have made the initial clone and later wish to keep living on the bleeding egde, you can just update the sources (instead of making a new checkout each time):
+
+`cd qlcplus`<br>
+`git pull`<br>
+
 ## FTDI DMX USB Support
 
 To compile the DMX USB plugin on Windows, you need to:
