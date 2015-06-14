@@ -26,9 +26,9 @@ This will create a directory called qlcplus which will contain the latest source
 `cd qlcplus`<br>
 `git pull`<br>
 
-## FTDI DMX USB Support
+## DMX USB Support
 
-To compile the DMX USB plugin on Windows, you need to:
+To compile the DMX USB plugin, you need to:
 
 Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/D2XX.htm).<br>
 Install the package contents for example to C:\Qt\CDM21200<br>
@@ -47,7 +47,7 @@ If you don't need the DMX USB plugin and would like to disable building it compl
 
 ## Velleman SDK
 
-To compile the Velleman Output plugin on Windows, you need to:
+To compile the Velleman Output plugin, you need to:
 
 Download the [modified Velleman SDK](https://sourceforge.net/apps/trac/qlc/wiki/VellemanK8062D)<br>
 Unpack the zip to C:\Qt\K8062D<br>
