@@ -21,7 +21,7 @@ If you wish to get the latest released QLC+ version download the source tarball 
 If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious), download the [GitHub client](https://windows.github.com/) otherwise use the command line:
 `git clone git://github.com/mcallegari/qlcplus.git`
 
-This will create a directory called qlcplus which will contain the latest sources from GIT repository. After you have made the initial clone and later wish to keep living on the bleeding egde, you can just update the sources (instead of making a new checkout each time):
+This will create a directory called qlcplus which will contain the latest sources from GIT repository. After you have made the initial clone and later wish to keep living on the bleeding egde, you can just update the sources (instead of making a new clone every time):
 
 `cd qlcplus`<br>
 `git pull`<br>
@@ -32,9 +32,12 @@ To compile the DMX USB plugin on Windows, you need to:
 
 Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/D2XX.htm).<br>
 Install the package contents for example to C:\Qt\CDM21200<br>
-Edit <QLC>/plugins/dmxusb/src/src.pro to point to that directory:
+Edit <QLC>/plugins/dmxusb/src/src.pro to point to the directory you picked:
 
 `FTD2XXDIR = C:\Qt\CDM21200`<br>
+
+Since the SDK provided by FTDIChip.com is not compatible with the MSYS2 system, it is necessary to manually create a .a file that will be used at build time:
+
 
 If you don't need the DMX USB plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += dmxusb:
 
@@ -46,6 +49,7 @@ To compile the Velleman Output plugin on Windows, you need to:
 
 Download the [modified Velleman SDK](https://sourceforge.net/apps/trac/qlc/wiki/VellemanK8062D)<br>
 Unpack the zip to C:\Qt\K8062D<br>
-Not applicable yet: If you don't need the Velleman Output plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += velleman:
+If you don't need the Velleman Output plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += velleman:
 
 `#SUBDIRS += velleman`<br>
+
