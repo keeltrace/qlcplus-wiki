@@ -11,7 +11,7 @@ Now install the packages required to build QLC+, by typing:<br>
 `pacman -S make automake autoconf libtool mingw32/mingw-w64-i686-gcc mingw32/mingw-w64-i686-pkg-config mingw-w64-i686-tools`<br>
 `pacman -S mingw32/mingw-w64-i686-qt5 mingw32/mingw-w64-i686-libmad mingw32/mingw-w64-i686-libsndfile mingw32/mingw-w64-i686-flac mingw32/mingw-w64-i686-fftw`<br>
 
-**Now close the MSYS2 Shell. From now on we'll use the MinGW-w64 Win32 Shell. So open it.**
+**Now close the MSYS2 Shell. From now on we'll use the MinGW-w64 Win32 Shell. So open it.**<br>
 
 ## Acquire the QLC+ sources
 
@@ -34,9 +34,9 @@ Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/
 Install the package contents for example to C:\Qt\CDM21200<br>
 Edit <QLC>/plugins/dmxusb/src/src.pro to point to the directory you picked:
 
-`FTD2XXDIR = C:\Qt\CDM21200`<br>
+`FTD2XXDIR = C:/Qt/CDM21200`<br>
 
-Since the SDK provided by ftdichip.com is not compatible with the MSYS2 system, it is necessary to manually create a .a file that will be used at build time:<br>
+Since the SDK provided by ftdichip.com is not compatible with the MSYS2 system, it is necessary to manually create a compatible libftd2xx.a file that will be used at build time:<br>
 `cd /c/Qt/CDM21100/i386`<br>
 `gendef.exe - ftd2xx.dll > ftd2xx.def`<br>
 `dlltool -k --input-def FTD2XX.def --dllname ftd2xx.dll --output-lib libftd2xx.a`<br>
@@ -55,3 +55,11 @@ If you don't need the Velleman Output plugin and would like to disable building 
 
 `#SUBDIRS += velleman`<br>
 
+## Build QLC+
+
+Now compile QLC+ by typing:<br>
+`qmake`<br>
+`make`<br>
+`make install`<br>
+
+It will install QLC+ in C:\qlcplus.
