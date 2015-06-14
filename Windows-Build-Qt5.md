@@ -62,4 +62,4 @@ Now compile QLC+ by typing:<br>
 `make`<br>
 `make install`<br>
 
-It will install QLC+ in C:\qlcplus.
+It will install QLC+ and all the required DLLs in C:\qlcplus.
