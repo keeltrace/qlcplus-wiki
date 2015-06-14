@@ -36,8 +36,10 @@ Edit <QLC>/plugins/dmxusb/src/src.pro to point to the directory you picked:
 
 `FTD2XXDIR = C:\Qt\CDM21200`<br>
 
-Since the SDK provided by FTDIChip.com is not compatible with the MSYS2 system, it is necessary to manually create a .a file that will be used at build time:
-
+Since the SDK provided by ftdichip.com is not compatible with the MSYS2 system, it is necessary to manually create a .a file that will be used at build time:<br>
+`cd /c/Qt/CDM21100/i386`<br>
+`gendef.exe - ftd2xx.dll > ftd2xx.def`<br>
+`dlltool -k --input-def FTD2XX.def --dllname ftd2xx.dll --output-lib libftd2xx.a`<br>
 
 If you don't need the DMX USB plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += dmxusb:
 
