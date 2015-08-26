@@ -26,6 +26,14 @@ This will create a directory called qlcplus which will contain the latest source
 `cd qlcplus`<br>
 `git pull`<br>
 
+### Debug or release mode
+
+If you are a developer and want to contribute to QLC+, the default settings will build a debug version of the program. Please note that a debug version is bigger than a release one and might have worse performances.
+If what you need is a production build, then you need to edit the `variables.pri` file and change the following lines, adding a `+=` of the build you need and `-=` of the one you don't need:
+
+`CONFIG         += release # Enable this when making a release`<br>
+`CONFIG         -= debug   # Disable this when making a release`
+
 ## DMX USB Support
 
 To compile the DMX USB plugin, you need to:
