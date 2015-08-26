@@ -58,6 +58,7 @@ If you don't need the Velleman Output plugin and would like to disable building 
 ## Build QLC+
 
 Now compile QLC+ by typing:<br>
+`cd /c/Qt/qlcplus`<br>
 `qmake`<br>
 `make`<br>
 `make install`<br>
