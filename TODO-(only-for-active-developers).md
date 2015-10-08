@@ -25,7 +25,3 @@
 * store order in Function Selection
 
 * store expanded channels in channel groups editor
-
-* fixture/project saving: check saving ints/doubles for locale safety (for e.g. Slovak locale
-  the numbers are not loaded/saved properly). Fix: replace QString::toDouble() with QLocale::c().toDouble(QString)
-  and QLocale::c().toString(double)
