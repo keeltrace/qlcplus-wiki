@@ -71,4 +71,5 @@ Don't worry; everything is installed inside this one application bundle in your 
 If you wish to create a distributable .dmg package, that doesn't require the presence of Qt SDK, XCode or macports, type the following commands after installation to your terminal window:<br>
 `./create-dmg.sh`<br>
 
-This creates an Apple .dmg package to the same directory you're currently in. If you haven't compiled and installed QLC+ prior to this step, the created package will not work, as it assumes that QLC+ has been installed to ~/QLC+.app/.
+This creates an Apple .dmg package in the dmg folder of the QLC+ sources tree.
+This script works also on non-built sources, so you just need to follow the steps above up to "export QTDIR..."
