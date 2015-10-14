@@ -72,4 +72,4 @@ If you wish to create a distributable .dmg package, that doesn't require the pre
 `./create-dmg.sh`<br>
 
 This creates an Apple .dmg package in the dmg folder of the QLC+ sources tree.
-This script works also on non-built sources, so you just need to follow the steps above up to "export QTDIR..."
+This script works also on non-built sources, so you just need to follow the steps above up to "cd qlcplus", right after "export QTDIR..."
