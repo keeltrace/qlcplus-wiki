@@ -1,4 +1,4 @@
-To easy testing, here are some fixtures with special properties:
+To ease testing, here are some fixtures with special properties:
 
 PAN/TILT:
 * 8 bit Pan & 8 bit Tilt: Futurelight/DJScan250
