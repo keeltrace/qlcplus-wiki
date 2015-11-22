@@ -12,14 +12,14 @@ Install the framework where you want. In this guide we'll be using this path: /U
 
 ## Dependencies/Ports
 
-QLC+ and some plugins require additional external packages including: libusb, libftdi, protobuf, cppunit, libcrypt, libmicrohttpd, uuid, OLA, libmad, libsndfile, fftw3 and liblo
+QLC+ and some plugins require additional external packages including: libusb, libftdi, protobuf, cppunit, libcrypt, libmicrohttpd, uuid, OLA, libmad, libsndfile and fftw3
 
 These dependencies are easily available through macports.
 
 Download macports package from [macports.org](https://www.macports.org/install.php) and install it.<br>
 Then, launch the terminal and type:<br>
 `sudo port selfupdate`<br>
-`sudo port install libftdi0 pkgconfig libmad libsndfile liblo fftw-3 ola`<br>
+`sudo port install libftdi0 pkgconfig libmad libsndfile fftw-3 ola`<br>
 
 **OLA build**: in case OLA fails to install via macports, you might want to compile it from sources. To do so, follow the [instructions here](http://opendmx.net/index.php/OLA_Mac_Install_From_Tarball) and at the end type:<br>
 `./configure --prefix=/opt/local`<br>
