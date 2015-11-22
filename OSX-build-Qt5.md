@@ -17,7 +17,7 @@ QLC+ and some plugins require additional external packages including: libusb, li
 These dependencies are easily available through macports.
 
 Download macports package from [macports.org](https://www.macports.org/install.php) and install it.<br>
-Then, launch the terminal and type:<br>
+Then, open the OSX Terminal application and type:<br>
 `sudo port selfupdate`<br>
 `sudo port install libftdi0 pkgconfig libmad libsndfile fftw-3 ola`<br>
 
