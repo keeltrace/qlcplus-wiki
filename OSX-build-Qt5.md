@@ -6,9 +6,9 @@ You need to download and install two components before you can compile QLC+ from
 
 **Apple XCode** development tools (just the Mac version will do, no need for iPhone stuff). Some recent versions might need to install Command Line Tools after base packet is installed (XCode->Preferences->Downloads)<br>
 **Digia Qt5 Framework**<br>
-Download the latest Qt5 version from here: http://qt-project.org/downloads
+Download the latest Qt5 version from here: http://download.qt.io/official_releases/qt/<br>
 It is suggested to use an offline installer instead of the online one.
-Install the framework where you want. In this guide we'll be using this path: /Users/myuser/Qt5.3.2<br>
+Install the framework where you want. In this guide we'll be using this path: /Users/myuser/Qt5.5.1<br>
 
 ## Dependencies/Ports
 
@@ -50,9 +50,9 @@ For example:
 
 After the sources have been cloned out from the GIT repository, issue these commands to start building QLC+:
 
-`export QTDIR=/Users/myuser/Qt5.3.2/5.3/clang_64`<br>
+`export QTDIR=/Users/myuser/Qt5.5.1/5.5/clang_64`<br>
 `cd qlcplus`<br>
-`/Users/myuser/Qt5.3.2/5.3/clang_64/bin/qmake`<br>
+`/Users/myuser/Qt5.5.1/5.5/clang_64/bin/qmake`<br>
 `make`<br>
 
 You should see the terminal window fill up with compiler calls. Go grab a cup of your preferred beverage, as this can take anything from about a minute to several minutes, depending on your system performance. If you see any errors, please report it in the QLC+ forum (development forum).
