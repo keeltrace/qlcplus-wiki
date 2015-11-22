@@ -9,7 +9,7 @@ Issue these commands to install the required packages for an Ubuntu system:
 
 `sudo apt-get update`<br>
 `sudo apt-get install g++ make git build-essential libqt4-dev qt4-dev-tools fakeroot debhelper devscripts pkg-config`<br>
-`sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad0-dev libsndfile1-dev liblo-dev libfftw3-dev`<br>
+`sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad0-dev libsndfile1-dev libfftw3-dev`<br>
 
 ### Optional helpers
 
