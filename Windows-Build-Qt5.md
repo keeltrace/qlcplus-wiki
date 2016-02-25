@@ -47,7 +47,7 @@ Edit <QLC>/plugins/dmxusb/src/src.pro to point to the directory you picked:
 Since the SDK provided by ftdichip.com is not compatible with the MSYS2 system, it is necessary to manually create a compatible libftd2xx.a file that will be used at build time:<br>
 `cd /c/Qt/CDM21100/i386`<br>
 `gendef.exe - ftd2xx.dll > ftd2xx.def`<br>
-`dlltool -k --input-def FTD2XX.def --dllname ftd2xx.dll --output-lib libftd2xx.a`<br>
+`dlltool -k --input-def ftd2xx.def --dllname ftd2xx.dll --output-lib libftd2xx.a`<br>
 
 If you don't need the DMX USB plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += dmxusb:
 
@@ -57,8 +57,17 @@ If you don't need the DMX USB plugin and would like to disable building it compl
 
 To compile the Velleman Output plugin, you need to:
 
-Download the [modified Velleman SDK](https://sourceforge.net/apps/trac/qlc/wiki/VellemanK8062D)<br>
-Unpack the zip to C:\Qt\K8062D<br>
+Download the [modified Velleman DLL](http://www.qlcplus.org/misc/K8062DLL_mod1.zip)<br>
+Extract the package contents for example to C:\Qt\K8062D<br>
+Edit <QLC>/plugins/velleman/src/src.pro to point to the directory you picked:
+
+`K8062DDIR = C:/Qt/K8062D`<br>
+
+To use the DLL during build time, it is necessary to manually create a compatible K8062D.a:<br>
+`cd /c/Qt/K8062D`<br>
+`gendef.exe - K8062D.dll > K8062D.def`<br>
+`dlltool -k --input-def K8062D.def --dllname K8062D.dll --output-lib K8062D.a`<br>
+
 If you don't need the Velleman Output plugin and would like to disable building it completely, edit <QLC>/plugins/plugins.pro and put a hash (#) on the line that says SUBDIRS += velleman:
 
 `#SUBDIRS += velleman`<br>
