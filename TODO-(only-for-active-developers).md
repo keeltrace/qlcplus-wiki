@@ -25,3 +25,8 @@
 * store order in Function Selection
 
 * store expanded channels in channel groups editor
+
+
+* QXF format:
+   * sort <Channels> in <Head>
+   * drop <Head> if only one head is present
