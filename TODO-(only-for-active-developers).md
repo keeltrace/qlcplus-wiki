@@ -28,5 +28,5 @@
 
 
 * QXF format:
-   * sort <Channels> in <Head>
-   * drop <Head> if only one head is present
+   * sort Channels in Head
+   * drop Head if only one head is present
