@@ -8,7 +8,7 @@ You need a number of packages installed before you can compile QLC+ from sources
 Issue these commands to install the required packages for an Ubuntu system:
 
 `sudo apt-get update`<br>
-`sudo apt-get install g++ make git build-essential qtbase5-dev qtscript5-dev qtmultimedia5-dev fakeroot debhelper devscripts pkg-config`<br>
+`sudo apt-get install g++ make git build-essential qt5-default qtbase5-dev qtscript5-dev qtmultimedia5-dev libqt5multimedia5-plugins qttools5-dev-tools fakeroot debhelper devscripts pkg-config`<br>
 `sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad0-dev libsndfile1-dev libfftw3-dev`<br>
 
 ### Optional helpers
