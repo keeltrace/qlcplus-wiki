@@ -3,8 +3,7 @@
 Download the MSYS2 64bit installer from here: https://msys2.github.io/
 
 Follow the instructions of that page otherwise install it using all the defaults (c:\msys64), then open the MSYS2 shell and type:<br>
-`pacman --needed -Sy bash pacman pacman-mirrors msys2-runtime`<br>
-
+`update-core`<br>
 Close the MSYS2 shell and open it again.<br>
 Now install the packages required to build QLC+, by typing:<br>
 `pacman -Su`<br>
