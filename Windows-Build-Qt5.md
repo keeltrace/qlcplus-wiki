@@ -1,13 +1,13 @@
 ## Prepare the build system (MSYS2)
 
-Download the MSYS2 64bit installer from here: https://msys2.github.io/
+Download the MSYS2 64bit installer from here: https://msys2.github.io/ (for 32bit systems like XP, use i686 installer).
 
-Follow the instructions of that page otherwise install it using all the defaults (c:\msys64), then open the MSYS2 shell and type:<br>
+Follow the instructions of that page otherwise install it using all the defaults (c:\msys64 or c:\msys32 for 32bit system), then open the MSYS2 shell and type:<br>
 `update-core`<br>
 Close the MSYS2 shell and open it again.<br>
 Now install the packages required to build QLC+, by typing:<br>
 `pacman -Su`<br>
-`pacman -S make automake autoconf libtool mingw32/mingw-w64-i686-gcc mingw32/mingw-w64-i686-pkg-config mingw32/mingw-w64-i686-tools`<br>
+`pacman -S make automake autoconf libtool mingw32/mingw-w64-i686-gcc mingw32/mingw-w64-i686-pkg-config mingw32/mingw-w64-i686-tools git`<br>
 `pacman -S mingw32/mingw-w64-i686-qt5 mingw32/mingw-w64-i686-libmad mingw32/mingw-w64-i686-libsndfile mingw32/mingw-w64-i686-flac mingw32/mingw-w64-i686-fftw`<br>
 
 **Now close the MSYS2 Shell. From now on we'll use the 'MinGW-w64 Win32 Shell'. So open it.**<br>
@@ -17,8 +17,8 @@ Now install the packages required to build QLC+, by typing:<br>
 If you wish to get the latest released QLC+ version download the source tarball from here:<br>
 [http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
 
-If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious), download the [GitHub client](https://windows.github.com/) otherwise use the command line:
-`git clone git://github.com/mcallegari/qlcplus.git`
+If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious), download the [GitHub client](https://windows.github.com/) or use the command line:
+`git clone https://github.com/mcallegari/qlcplus.git`
 
 This will create a directory called qlcplus which will contain the latest sources from GIT repository. After you have made the initial clone and later wish to keep living on the bleeding egde, you can just update the sources (instead of making a new clone every time):
 
