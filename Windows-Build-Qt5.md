@@ -7,6 +7,18 @@ Follow the instructions of that page otherwise install it using all the defaults
 Close the MSYS2 shell and open it again.<br>
 Now install the packages required to build QLC+, by typing:<br>
 `pacman -Su`<br>
+
+After update, the following message appears in the shell window (until new installer is released):
+
+    WARNING: the shell starting scripts have been unified. Please update your
+    shortcuts to the following targets, otherwise they will STOP WORKING:
+    
+    * MSYS2_ROOT\msys2_shell.cmd -mingw32
+    * MSYS2_ROOT\msys2_shell.cmd -mingw64
+    * MSYS2_ROOT\msys2_shell.cmd -msys
+
+This means: go to %APPDATA%\Microsoft\Windows\Start Menu and in shortcut properties edit target field according to the above message. **Now close the shell and open it again, and run `pacman -Su` once more**
+
 `pacman -S make automake autoconf libtool mingw32/mingw-w64-i686-gcc mingw32/mingw-w64-i686-pkg-config mingw32/mingw-w64-i686-tools git`<br>
 `pacman -S mingw32/mingw-w64-i686-qt5 mingw32/mingw-w64-i686-libmad mingw32/mingw-w64-i686-libsndfile mingw32/mingw-w64-i686-flac mingw32/mingw-w64-i686-fftw`<br>
 
