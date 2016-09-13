@@ -14,7 +14,7 @@ RGB/Dimmer:
 * 64 heads { RGB } no master dimmer: American DJ/Revo 4 - 256-CH
 * 64 heads { RGBW } no master dimmer: American DJ/Hyper Gem LED
 * 4 heads { Dimmer + RGB } no master dimmer: American DJ/Quad Scan LED
-* Master dimmer + 4 heads { RGB (no per-head dimmer) }: American DJ/Dotz Bar 1.4
+* Master dimmer + 4 heads { RGBW (no per-head dimmer) }: American DJ/Event Bar Q4 (37 channel mode)
 * RGB single head + Dimmer: American DJ/64B LED PRO
 * RGBA single head + Dimmer: American DJ/COB Cannon Wash Pearl
 * RGBW single head + Dimmer: American DJ/Dekker LED
