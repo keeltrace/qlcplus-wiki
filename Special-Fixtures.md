@@ -21,3 +21,6 @@ RGB/Dimmer:
 * RGBW single head + Dimmer: American DJ/Dekker LED
 * RGBAW single head + Dimmer: Blizzard Lighting/Puck RGBAW
 * RGBAW-UV single head + Dimmer: American DJ/12P Hex Pearl
+
+Shutter for multiple heads:
+* Chauvet 6 Spot (6 heads with single color wheel + master shutter/strobe)
