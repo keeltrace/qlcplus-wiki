@@ -50,13 +50,13 @@ If what you need is a production build, then you need to edit the `variables.pri
 To compile the DMX USB plugin, you need to:
 
 Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/D2XX.htm).<br>
-Install the package contents for example to C:\Qt\CDM21200<br>
+Install the package contents for example to C:\Qt\D2XXSDK<br>
 Edit <QLC>/plugins/dmxusb/src/src.pro to point to the directory you picked:
 
-`FTD2XXDIR = C:/Qt/CDM21200`<br>
+`FTD2XXDIR = C:/Qt/D2XXSDK`<br>
 
 Since the SDK provided by ftdichip.com is not compatible with the MSYS2 system, it is necessary to manually create a compatible libftd2xx.a file that will be used at build time:<br>
-`cd /c/Qt/CDM21100/i386`<br>
+`cd /c/Qt/D2XXSDK/i386`<br>
 `gendef.exe - ftd2xx.dll > ftd2xx.def`<br>
 `dlltool -k --input-def ftd2xx.def --dllname ftd2xx.dll --output-lib libftd2xx.a`<br>
 
