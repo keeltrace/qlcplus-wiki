@@ -14,6 +14,8 @@ Now install the packages required to build QLC+, by typing:<br>
 
 ## Acquire the QLC+ sources
 
+These instructions suppose you have a folder called "Qt" in C:. If it doesn't exist, create it and 'cd' into it.<br>
+
 If you wish to get the latest released QLC+ version download the source tarball from here:<br>
 [http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
 
@@ -24,6 +26,8 @@ This will create a directory called qlcplus which will contain the latest source
 
 `cd qlcplus`<br>
 `git pull`<br>
+
+Once done you should have a folder called 'qlcplus' in C:\Qt.
 
 ### Debug or release mode
 
