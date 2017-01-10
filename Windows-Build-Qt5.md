@@ -24,10 +24,8 @@ If you wish to get the very latest bleeding edge (but only if your intention is 
 
 This will create a directory called qlcplus which will contain the latest sources from GIT repository. After you have made the initial clone and later wish to keep living on the bleeding egde, you can just update the sources (instead of making a new clone every time):
 
-`cd qlcplus`<br>
+`cd /c/Qt/qlcplus`<br>
 `git pull`<br>
-
-Once done you should have a folder called 'qlcplus' in C:\Qt.
 
 ### Debug or release mode
 
