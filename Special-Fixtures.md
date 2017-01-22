@@ -24,3 +24,8 @@ RGB/Dimmer:
 
 Shutter for multiple heads:
 * Chauvet 6 Spot (6 heads with single color wheel + master shutter/strobe)
+
+16-bit:
+* 4 heads with 16-bit Pan & Tilt: American DJ Event Bar LED
+* lots of 16-bit channels: SGM G-Profile
+* 3x 16-bit gobo channels: Vari-Lite VL3000 Spot
