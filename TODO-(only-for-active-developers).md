@@ -1,6 +1,5 @@
 * RGB Matrix:
   * add a simple internal editor to easily create images "on the fly" and export them (to BMP? PNG?)
-  * check if master dimmer control works in every case
 
 * Improve Function Wizard. There's a lot of space for more automatic creation of functions/widgets.
   To name a few:
