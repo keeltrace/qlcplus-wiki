@@ -10,10 +10,10 @@ Here you can find information about translating and compiling QLC+ on several pl
 [Mac OSX Qt4 (outdated)](https://github.com/mcallegari/qlcplus/wiki/OSX-Build-HOWTO)<br>
 [Mac OSX Qt5](https://github.com/mcallegari/qlcplus/wiki/OSX-build-Qt5)<br>
 
-## Contributing to QLC+
+## How to contribute to QLC+
 
 [Coding guidelines](https://github.com/mcallegari/qlcplus/wiki/Coding-guidelines)<br>
-[QLC+ translations](https://github.com/mcallegari/qlcplus/wiki/How-to-translate-QLC-plus-in-your-language)
+[Translations](https://github.com/mcallegari/qlcplus/wiki/How-to-translate-QLC-plus-in-your-language)
 
 
 ## Community tutorials
