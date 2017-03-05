@@ -1,9 +1,15 @@
-This page is for developers and it is meant to provide some brief guidelines to whom is willing to contribute to the QLC+ project.
 If you are a developer and you want to help to improve QLC+, then thanks for that !
 
-The first two things you need to keep in mind are: 
-- QLC+ is a complex C++/Qt software !
-- QLC+ is cross platform !
+This page is meant to provide some brief guidelines about how to approach the QLC+ project, and to provide what is required to contribute to the code without messing things up or wasting the maintainers limited time.
 
-Those are the keystones of the project to indicate that:
-- if you are an amateur developer or even if you are an expert developer, but in languages other than C++, then 
+The first things you need to keep in mind are: 
+- QLC+ is a complex C++/Qt software
+- QLC+ is cross platform
+- QLC+ has a quite large user base, with a wide variety of usage cases
+
+Those are the keystones to indicate that:
+- the fact QLC+ is open source, doesn't necessarily mean anyone can change the code
+- if you are an amateur developer or even if you are an expert developer, but on languages other than C++, then before proposing a change you should spend some time studying the existing code, especially the part you intend to change. There are hundreds of thousands of lines of code where you can learn from
+- if you found something that you don't like, it doesn't necessarily means it has to be changed, cause other users might not be happy about changing it
+- if you changed something and it works for you, it doesn't mean it will work on every platform supported by QLC+. This is especially true for platform-related topics, like audio/video code, timers, plugins, UI customizations. Therefore you are invited to test your changes on more than one platform, where Windows is the most used
+- changes to the engine classes or the VCWidget class must be carefully discussed first !
