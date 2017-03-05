@@ -12,7 +12,7 @@ Here you can find information about translating and compiling QLC+ on several pl
 
 ## Contributing to QLC+
 
-[Coding guidelines](https://github.com/mcallegari/qlcplus/wiki/How-to-contribute)<br>
+[Coding guidelines](https://github.com/mcallegari/qlcplus/wiki/Coding-guidelines)<br>
 [QLC+ translations](https://github.com/mcallegari/qlcplus/wiki/How-to-translate-QLC-plus-in-your-language)
 
 
