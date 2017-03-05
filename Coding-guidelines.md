@@ -1,6 +1,6 @@
 If you are a developer and you want to help to improve QLC+, then thanks for that !
 
-This page is meant to provide some brief guidelines about how to approach the QLC+ project, and to provide what is required to contribute to the code without messing things up or wasting the maintainers limited time.
+This page is meant to provide some guidelines about how to approach the QLC+ project, and to provide what is required to contribute to the code without messing things up or wasting the maintainers limited time.
 
 The fundamental things you need to keep in mind are: 
 - QLC+ is a complex C++/Qt software
