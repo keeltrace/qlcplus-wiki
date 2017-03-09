@@ -108,6 +108,8 @@ Everything should go smoothly until the end. If it doesn't happen and you see mi
 `qmake`<br>
 `make`<br>
 
+> **Note:** Out-of-tree builds are not tested and most probably do not work.
+
 ### Install
 
 OK. When the compiler is done, issue this command to install QLC+ to your system:
