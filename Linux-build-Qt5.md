@@ -91,6 +91,8 @@ In general, you can invoke qmake with its absolute path. For example:
 In this way you can build QLC+ with any Qt version, located where you prefer in your hard disk.
 If you wish to build QLC+ with the latest Qt version, you can get it here: https://www.qt.io/download-open-source/
 
+**Note:** Out-of-tree builds are not tested and most probably do not work.
+
 Issue the following commands to start building QLC+:
 
 `cd qlcplus`<br>
@@ -107,8 +109,6 @@ Everything should go smoothly until the end. If it doesn't happen and you see mi
 `make distclean`<br>
 `qmake`<br>
 `make`<br>
-
-> **Note:** Out-of-tree builds are not tested and most probably do not work.
 
 ### Install
 
