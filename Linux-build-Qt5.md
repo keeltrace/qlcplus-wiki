@@ -11,6 +11,9 @@ Issue these commands to install the required packages for an Ubuntu system:
 `sudo apt-get install g++ make git build-essential qt5-default qtbase5-dev qtscript5-dev qtmultimedia5-dev libqt5multimedia5-plugins qttools5-dev-tools fakeroot debhelper devscripts pkg-config`<br>
 `sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad0-dev libsndfile1-dev libfftw3-dev`<br>
 
+With recent Ubuntu/Qt versions you might also need to install:
+`sudo apt-get install libglib2.0-dev libpulse-dev`
+
 ### Optional helpers
 
 If you intend on doing a lot of development, cleaning often and recompiling everything, you might want to install ccache, which speeds up consequent compilations (after the first caching run) IMMENSELY.<br>
@@ -27,7 +30,7 @@ Issue these commands to install the required packages for a Fedora/RedHat system
 `su -`<br>
 `yum update`<br>
 `yum install gcc-c++ qtbase5-common-devel qtmultimedia5-devel libftdi-devel libusb-devel alsa-lib-devel rpm-build subversion libudev-devel`<br>
-`yum install systemd-devel fftw-devel liblo-devel qt5-qtscript-devel qt5-qtmultimedia-devel qt5-qtbase-devel # Fedora 21`
+`yum install systemd-devel fftw-devel qt5-qtscript-devel qt5-qtmultimedia-devel qt5-qtbase-devel # Fedora 21`
 
 Notice that there's a space between su and - and that you need to give the root user password for su. When you're done with these commands, become a normal user again with:
 
