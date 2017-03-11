@@ -12,6 +12,7 @@ Issue these commands to install the required packages for an Ubuntu system:
 `sudo apt-get install libasound2-dev libusb-dev libftdi-dev libudev-dev libmad0-dev libsndfile1-dev libfftw3-dev`<br>
 
 With recent Ubuntu/Qt versions you might also need to install:
+
 `sudo apt-get install libglib2.0-dev libpulse-dev`
 
 ### Optional helpers
