@@ -9,7 +9,7 @@ The instructions were tested on Linux, but Windows or Mac OSX should be similar.
 We need Mixxx to send information about the music via MIDI to QLC+. For this capability we need a plugin script in Mixxx which sends the information as MIDI events.
 
 * Install Mixx, I used version 1.11
-* Install the 'MIDI_for_light' script from this (<A HREF="http://mixxx.org/forums/viewtopic.php?f=7&t=4732">Mixxx forum thread</A>)
+* Install the 'MIDI_for_light' script from this ([Mixxx forum thread](http://mixxx.org/forums/viewtopic.php?f=7&t=4732))
 The script files (xms + js) must be installed in /usr/share/mixxx/controllers.
 * Run Mixxx in developer mode with the command 'mixxx --developer'.
 This is necessary because Mixxx hides the 'Midi Through' interface but we need it.
@@ -24,7 +24,7 @@ Now we have Mixxx sending us lots of interesting data and want QLC+ to do someth
 * Install QLC+, I used version 4.8.2
 * Define your fixtures and functions as usual
 * In the 'Inputs/Outputs' panel, select the 'MIDI Through' device as input
-* Select the MIDI Through device and click on plugin configuration ![settings icon](http://qlcplus.sourceforge.net/docs/gfx/configure.png) and configure the 'Midi Through' device. Then:
+* Select the MIDI Through device and click on plugin configuration ![settings icon](http://qlcplus.org/docs/gfx/configure.png) and configure the 'Midi Through' device. Then:
     * Set the 'Midi' Channel to 1
     * Set the 'Mode' to 'Note Velocity'
     * Leave the 'Init Message' on 'None'
@@ -43,4 +43,3 @@ The relative volume channels can give interesting light effects, the absolute vo
 In your Cue list, in the 'Next Cue' tab, click on 'Choose', expand the 'Mixxx MIDI' line and pick BPM from the list. Your cue list will now advance with the beat of the music, as determined by the Mixxx beat detection.
     * Make a lamp light up with the Volume of the music (VU meter)<BR>
 Configure a Slider, on the 'General' tab, under 'External input' click on 'Choose' and select a channel of your choosing, for example 'Volume absolute'. The selected Fixture will now light up with the volume of the music, like a giant VU meter.
-
