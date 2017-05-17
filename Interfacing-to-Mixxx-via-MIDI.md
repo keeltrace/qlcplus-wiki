@@ -24,7 +24,7 @@ Now we have Mixxx sending us lots of interesting data and want QLC+ to do someth
 * Install QLC+, I used version 4.8.2
 * Define your fixtures and functions as usual
 * In the 'Inputs/Outputs' panel, select the 'MIDI Through' device as input
-* Select the MIDI Through device and click on plugin configuration <IMG SRC="http://qlcplus.sourceforge.net/docs/gfx/configure.png"> and configure the 'Midi Through' device. Then:
+* Select the MIDI Through device and click on plugin configuration ![settings icon](http://qlcplus.sourceforge.net/docs/gfx/configure.png) and configure the 'Midi Through' device. Then:
     * Set the 'Midi' Channel to 1
     * Set the 'Mode' to 'Note Velocity'
     * Leave the 'Init Message' on 'None'
