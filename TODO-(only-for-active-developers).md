@@ -29,3 +29,9 @@
 * QXF format:
    * sort Channels in Head
    * drop Head if only one head is present
+
+# Small improvements
+
+* allow multiple startup functions
+* allow feedback for artnet/e1.31 (useful for remote control over artnet)
+* allow patching multiple outputs (implemented in QLC+5)
