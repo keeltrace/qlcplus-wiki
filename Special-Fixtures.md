@@ -1,6 +1,6 @@
 To ease testing, here are some fixtures with special properties:
 
-PAN/TILT:
+## PAN/TILT
 * 8 bit Pan & 8 bit Tilt: Futurelight/DJScan250
 * 16 bit & 16 bit Tilt: Futurelight/MH-440
 * Pan and no Tilt: Blizzard Lighting/Snowball; Futurelight/CY-200
@@ -8,7 +8,7 @@ PAN/TILT:
 * Multiple heads with common Tilt: American DJ/Sweeper Beam Quad LED
 * 6 heads with common Pan: Equinox/Photon
 
-RGB/Dimmer:
+## RGB/Dimmer
 * master dimmer + 4 heads { dimmer + RGB }: ADB/ALC4
 * no master dimmer + 10 heads { dimmer }: Showtec/Sunstrip Active
 * master dimmer + 4 heads { dimmer }: American DJ/Event Bar LED
@@ -23,10 +23,14 @@ RGB/Dimmer:
 * RGBAW single head + Dimmer: Blizzard Lighting/Puck RGBAW
 * RGBAW-UV single head + Dimmer: American DJ/12P Hex Pearl
 
-Shutter for multiple heads:
+## Shutter for multiple heads
 * Chauvet 6 Spot (6 heads with single color wheel + master shutter/strobe)
 
-16-bit:
+## 16-bit
 * 4 heads with 16-bit Pan & Tilt: American DJ Event Bar LED
 * lots of 16-bit channels: SGM G-Profile
 * 3x 16-bit gobo channels: Vari-Lite VL3000 Spot
+
+## Dependent channels
+
+* American DJ Revo 4 (in 4ch mode): http://adjmedia.s3-website-eu-west-1.amazonaws.com/manuals/revo_4_ir.pdf
