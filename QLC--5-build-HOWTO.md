@@ -13,14 +13,14 @@ Examples:
 
 `qmake CONFIG+=qmlui`<br>
 `make`<br>
-`make install` (binaries will go to C:\qlcplus)
+`make install` (binaries will go to `C:\qlcplus`)
 
 ## macOS:
 
 `export QTDIR=/Users/myuser/Qt5.9.4/5.9.4/clang_64`<br>
 `/Users/myuser/projects/Qt5.9.4/5.9.4/clang_64/bin/qmake CONFIG+=qmlui`<br>
 `make`<br>
-`make install` (binaries will be bundled into /Users/myuser/QLC+.app)
+`make install` (binaries will be bundled into `/Users/myuser/QLC+.app`)
 
 **or**
 
