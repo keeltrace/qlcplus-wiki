@@ -1,8 +1,8 @@
 # QLC+ 5 build instructions
 
-Building QLC+ 5 is very similar to building QLC+ 4.
-However, the minimum Qt version required is 5.9.4. 
-It is recommended to use the official version available here: https://www.qt.io/download-open-source/
+Building QLC+ 5 is very similar to building QLC+ 4.<br>
+However, the minimum Qt version required is 5.9.4. <br>
+It is recommended to use the official version available here: https://www.qt.io/download-open-source/<br>
 
 The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-Qt5), [macOS](https://github.com/mcallegari/qlcplus/wiki/OSX-build-Qt5) and [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-Qt5).
 
