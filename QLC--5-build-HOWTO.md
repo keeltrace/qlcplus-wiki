@@ -9,27 +9,31 @@ The environment preparation is the same explained for [Linux](https://github.com
 When it comes the time to invoke `qmake`, add the `CONFIG+=qmlui` option.
 Examples:
 
-Windows: 
+**Windows**: 
 
 `qmake CONFIG+=qmlui`<br>
 `make`<br>
 `make install` (binaries will go to C:\qlcplus)
 
-macOS:
+**macOS**:
 
 `export QTDIR=/Users/myuser/Qt5.9.4/5.9.4/clang_64`<br>
 `/Users/myuser/projects/Qt5.9.4/5.9.4/clang_64/bin/qmake CONFIG+=qmlui`<br>
 `make`<br>
-`make install` (binaries will be bundled into /Users/myuser/QLC+.app)<br>
-or
+`make install` (binaries will be bundled into /Users/myuser/QLC+.app)
+
+**or**
+
 `export QTDIR=/Users/myuser/Qt5.9.4/5.9.4/clang_64`<br>
 `./create-dmg.sh CONFIG+=qmlui`<br>
 
-Linux:
+**Linux**:
 
 `/home/myuser/projects/Qt5.9.4/5.9.4/gcc_64/bin/qmake CONFIG+=qmlui`<br>
 `make`<br>
-`make install` (binaries will be installed in your system. **Warning**: this will overwrite QLC+ 4)<br>
-or
+`make install` (binaries will be installed in your system. **Warning**: this will overwrite QLC+ 4)
+
+**or**
+
 `export QTDIR=/home/myuser/projects/Qt5.9.4/5.9.4/gcc_64`<br>
 `./create-appimage.sh` (a file called `Q_Light_Controller_Plus-x86_64.AppImage` will be created in /home/myuser)
