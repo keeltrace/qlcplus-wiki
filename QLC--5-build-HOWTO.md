@@ -36,4 +36,4 @@ Examples:
 **or**
 
 `export QTDIR=/home/myuser/projects/Qt5.9.4/5.9.4/gcc_64`<br>
-`./create-appimage.sh` (a file called `Q_Light_Controller_Plus-x86_64.AppImage` will be created in /home/myuser)
+`./create-appimage.sh` (a file called `Q_Light_Controller_Plus-x86_64.AppImage` will be created in `/home/myuser`)
