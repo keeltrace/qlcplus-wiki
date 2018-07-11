@@ -6,9 +6,8 @@ Otherwise here's a quick guide to contribute on an existing translation:<br>
 https://download.qt.io/official_releases/qt/
 
 * create an account on GitHub
-* if you're not familiar with GIT, you can download the GitHub official client from here:
-Windows: https://windows.github.com/
-macOS: https://mac.github.com/
+* if you're not familiar with GIT, you can download the GitHub official desktop client here:
+https://desktop.github.com/
  
 * **fork** qlcplus (guide: https://help.github.com/articles/fork-a-repo) or **sync** your existing tree
 * open all the xx_XX.ts file for your language (see list below) with Qt Linguist
