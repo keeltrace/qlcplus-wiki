@@ -3,13 +3,12 @@ If your language is not supported, please contact the developers and request the
 Otherwise here's a quick guide to contribute on an existing translation:<br>
 
 * download and install Qt Linguist. It comes with any prebuilt Qt release:
-http://www.qt.io/download-open-source/
-or download it from here: http://qt-apps.org/content/show.php/Qt+Linguist+Download?content=89360
+https://download.qt.io/official_releases/qt/
 
 * create an account on GitHub
 * if you're not familiar with GIT, you can download the GitHub official client from here:
 Windows: https://windows.github.com/
-Mac OSX: https://mac.github.com/
+macOS: https://mac.github.com/
  
 * **fork** qlcplus (guide: https://help.github.com/articles/fork-a-repo) or **sync** your existing tree
 * open all the xx_XX.ts file for your language (see list below)
