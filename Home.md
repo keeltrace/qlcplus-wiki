@@ -23,8 +23,8 @@ Here you can find information about translating and compiling QLC+ on several pl
 
 ## Developers corner
 
-[Coding guidelines](https://github.com/mcallegari/qlcplus/wiki/Coding-guidelines)
-[Fixture definition presets](https://github.com/mcallegari/qlcplus/wiki/Fixture-definition-presets)
+[Coding guidelines](https://github.com/mcallegari/qlcplus/wiki/Coding-guidelines)<br>
+[Fixture definition presets](https://github.com/mcallegari/qlcplus/wiki/Fixture-definition-presets)<br>
 
 ## QLC+ infrastructure
 
