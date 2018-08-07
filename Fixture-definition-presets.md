@@ -1,4 +1,4 @@
-In [fixture definitions](https://github.com/mcallegari/qlcplus/tree/master/resources/fixtures), `<Channel>` and `<Capability>` elements can have a `Preset` attribute which specifies the type of the channel / capability to help QLC+ adapt e.g. the 3D Preview to the properties and peculiarities of each fixture.
+In [fixture definitions](https://github.com/mcallegari/qlcplus/tree/master/resources/fixtures), the `<Channel>` and `<Capability>` XML tags can have a `Preset` attribute which specifies the type of the channel / capability to help QLC+ adapt e.g. the 3D Preview to the properties and peculiarities of each fixture.
 
 See [`qlcchannel.h`](https://github.com/mcallegari/qlcplus/blob/master/engine/src/qlcchannel.h#L97) and [`qlccapability.h`](https://github.com/mcallegari/qlcplus/blob/master/engine/src/qlccapability.h#L101) for a list of available presets and just search the repository for the name of a preset to see how and where it is used.
 
