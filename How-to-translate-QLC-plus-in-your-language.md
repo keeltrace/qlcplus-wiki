@@ -39,6 +39,7 @@ This is the list of files that needs to be translated for a full QLC+ translatio
 * plugins/spi/SPI_xx_XX.ts
 * plugins/udmx/src/uDMX_xx_XX.ts
 * plugins/velleman/src/Velleman_xx_XX.ts
+* qmlui/qlcplus_xx_XX.ts
 * ui/src/qlcplus_xx_XX.ts
 * webaccess/webaccess_xx_XX.ts
 
