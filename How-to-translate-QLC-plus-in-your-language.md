@@ -52,7 +52,7 @@ This is the list of files that needs to be translated for a full QLC+ translatio
 | `plugins/E1.31/E131_xx_YY.ts` | E1.31.pro | 24 |
 | `plugins/enttecwing/src/ENTTEC_Wing_xx_YY.ts` | src.pro | 8 |
 | `plugins/hid/HID_xx_YY.ts` | hid.pro | 9 |
-| `plugins/midi/MIDI_xx_YY.ts` | src.pro | 35 |
+| `plugins/midi/src/MIDI_xx_YY.ts` | src.pro | 35 |
 | `plugins/ola/OLA_xx_YY.ts` | ola.pro | 6 |
 | `plugins/osc/OSC_xx_YY.ts` | osc.pro | 18 |
 | `plugins/peperoni/Peperoni_xx_YY.ts` | peperoni.pro | 16 |
