@@ -41,22 +41,25 @@ You are now ready to process the file with QtLinguist, as mentioned above.
 
 This is the list of files that needs to be translated for a full QLC+ translation:
 
-* fixtureeditor/fixtureeditor_xx_XX.ts
-* launcher/launcher_xx_XX.ts
-* plugins/artnet/ArtNet_xx_XX.ts
-* plugins/dmx4linux/DMX4Linux_xx_XX.ts
-* plugins/dmxusb/src/DMX_USB_xx_XX.ts
-* plugins/E1.31/E131_xx_XX.ts
-* plugins/enttecwing/src/ENTTEC_Wing_xx_XX.ts
-* plugins/hid/HID_xx_XX.ts
-* plugins/midi/MIDI_xx_XX.ts
-* plugins/ola/OLA_xx_XX.ts
-* plugins/osc/OSC_xx_XX.ts
-* plugins/peperoni/Peperoni_xx_XX.ts
-* plugins/spi/SPI_xx_XX.ts
-* plugins/udmx/src/uDMX_xx_XX.ts
-* plugins/velleman/src/Velleman_xx_XX.ts
-* qmlui/qlcplus_xx_XX.ts
-* ui/src/qlcplus_xx_XX.ts
-* webaccess/webaccess_xx_XX.ts
+
+| file  | .pro name  | Strings (more or less) |
+|---|---|---|
+| fixtureeditor/fixtureeditor_xx_XX.ts | fixtureeditor.pro | 193 |
+| launcher/launcher_xx_XX.ts | launcher.pro | 2 |
+| plugins/artnet/ArtNet_xx_XX.ts | src.pro | 33 |
+| plugins/dmx4linux/DMX4Linux_xx_XX.ts | dmx4linux.pro | 1 |
+| plugins/dmxusb/src/DMX_USB_xx_XX.ts | src.pro | 29 |
+| plugins/E1.31/E131_xx_XX.ts | E1.31.pro | 24 |
+| plugins/enttecwing/src/ENTTEC_Wing_xx_XX.ts | src.pro | 8 |
+| plugins/hid/HID_xx_XX.ts | hid.pro | 9 |
+| plugins/midi/MIDI_xx_XX.ts | src.pro | 35 |
+| plugins/ola/OLA_xx_XX.ts | ola.pro | 6 |
+| plugins/osc/OSC_xx_XX.ts | osc.pro | 18 |
+| plugins/peperoni/Peperoni_xx_XX.ts | peperoni.pro | 16 |
+| plugins/spi/SPI_xx_XX.ts | spi.pro | 7 |
+| plugins/udmx/src/uDMX_xx_XX.ts | src.pro | 10 |
+| plugins/velleman/src/Velleman_xx_XX.ts | src.pro | 1 |
+| qmlui/qlcplus_xx_XX.ts | qmlui.pro | 792 |
+| ui/src/qlcplus_xx_XX.ts | src.pro | 1455 |
+| webaccess/webaccess_xx_XX.ts | src.pro | 64 |
 
