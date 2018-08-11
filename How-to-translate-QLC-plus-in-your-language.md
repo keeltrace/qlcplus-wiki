@@ -46,7 +46,7 @@ This is the list of files that needs to be translated for a full QLC+ translatio
 |---|---|---|
 | `fixtureeditor/fixtureeditor_xx_YY.ts` | fixtureeditor.pro | 193 |
 | `launcher/launcher_xx_YY.ts` | launcher.pro | 2 |
-| `plugins/artnet/ArtNet_xx_YY.ts` | src.pro | 33 |
+| `plugins/artnet/src/ArtNet_xx_YY.ts` | src.pro | 33 |
 | `plugins/dmx4linux/DMX4Linux_xx_YY.ts` | dmx4linux.pro | 1 |
 | `plugins/dmxusb/src/DMX_USB_xx_YY.ts` | src.pro | 29 |
 | `plugins/E1.31/E131_xx_YY.ts` | E1.31.pro | 24 |
