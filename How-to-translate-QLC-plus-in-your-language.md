@@ -42,7 +42,7 @@ You are now ready to process the file with QtLinguist, as mentioned above.
 This is the list of files that needs to be translated for a full QLC+ translation:
 
 
-| file  | .pro name  | Strings (more or less) |
+| Translation file  | .pro name  | Strings (more or less) |
 |---|---|---|
 | fixtureeditor/fixtureeditor_xx_XX.ts | fixtureeditor.pro | 193 |
 | launcher/launcher_xx_XX.ts | launcher.pro | 2 |
