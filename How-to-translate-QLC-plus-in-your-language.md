@@ -29,7 +29,7 @@ Each folder has a .pro file. If you open it with a text editor, you will find at
 `TRANSLATIONS += dirname_xx_YY.ts`
 
 That is the statement that indicates the translation file name and the language code to consider.
-You need to add a new entry and then run the 'lupdate' tool on the modified .pro file.
+You need to add a new entry and then run the 'lupdate' tool on the modified .pro file. You can find 'lupdate' within any official Qt release.
 For example:
 
 `lupdate src.pro`
