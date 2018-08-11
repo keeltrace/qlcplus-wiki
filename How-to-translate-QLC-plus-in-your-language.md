@@ -37,8 +37,6 @@ For example:
 If everything goes well, a new file will be created in the folder where you modified the .pro file.
 You are now ready to process the file with QtLinguist, as mentioned above.
 
-When you're done with the translation, please create a Pull Request on GitHub for review and merge. Thanks.
-
 ### Translation files
 
 This is the list of files that needs to be translated for a full QLC+ translation:
