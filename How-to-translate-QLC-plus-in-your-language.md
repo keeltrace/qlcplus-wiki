@@ -61,5 +61,5 @@ This is the list of files that needs to be translated for a full QLC+ translatio
 | `plugins/velleman/src/Velleman_xx_YY.ts` | src.pro | 1 |
 | `qmlui/qlcplus_xx_YY.ts` | qmlui.pro | 792 |
 | `ui/src/qlcplus_xx_YY.ts` | src.pro | 1455 |
-| `webaccess/webaccess_xx_YY.ts` | src.pro | 64 |
+| `webaccess/src/webaccess_xx_YY.ts` | src.pro | 64 |
 
