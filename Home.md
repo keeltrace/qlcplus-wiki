@@ -9,7 +9,7 @@ Here you can find information about translating and compiling QLC+ on several pl
 
 [QLC+ 5 Build HOWTO](https://github.com/mcallegari/qlcplus/wiki/QLC-Plus-5-build-HOWTO)<br>
 
-[Linux Qt4 (outdated)](https://github.com/mcallegari/qlcplus/wiki/Linux-Build-Qt4)<br>
+[Linux Qt4 (outdated)](https://github.com/mcallegari/qlcplus/wiki/Linux-Build-Qt4-(outdated))<br>
 [Windows Qt4 (outdated)](https://github.com/mcallegari/qlcplus/wiki/Windows-build-HOWTO)<br>
 [macOS Qt4 (outdated)](https://github.com/mcallegari/qlcplus/wiki/OSX-Build-HOWTO)<br>
 
