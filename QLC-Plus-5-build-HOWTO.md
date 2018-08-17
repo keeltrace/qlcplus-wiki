@@ -29,7 +29,7 @@ Examples:
 
 ## Linux:
 
-`/home/myuser/projects/Qt5.10.1/5.10.1/gcc_64/bin/qmake CONFIG+=qmlui`<br>
+`/home/myuser/Qt5.10.1/5.10.1/gcc_64/bin/qmake CONFIG+=qmlui`<br>
 `make`<br>
 `make install` (binaries will be installed in your system. **Warning**: this will overwrite QLC+ 4)
 
