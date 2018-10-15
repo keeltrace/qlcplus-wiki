@@ -1,8 +1,8 @@
-# QLC+ Installation from sources on Mac OSX using Qt5
+# QLC+ Installation from sources on macOS using Qt5
 
 ## Development environment
 
-You need to download and install two components before you can compile QLC+ from sources on a Mac OSX:
+You need to download and install two components before you can compile QLC+ from sources on macOS:
 
 **Apple XCode** development tools (just the Mac version will do, no need for iPhone stuff). Some recent versions might need to install Command Line Tools after base packet is installed (XCode->Preferences->Downloads)<br>
 **The Qt5 Framework**<br>
@@ -17,7 +17,7 @@ QLC+ and some plugins require additional external packages including: libusb, li
 These dependencies are easily available through macports.
 
 Download macports package from [macports.org](https://www.macports.org/install.php) and install it.<br>
-Then, open the OSX Terminal application and type:<br>
+Then, open the macOS terminal application and type:<br>
 `sudo port selfupdate`<br>
 `sudo port install libftdi0 pkgconfig libmad libsndfile fftw-3 ola`<br>
 
