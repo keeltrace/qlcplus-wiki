@@ -5,7 +5,7 @@ Here you can find information about translating and compiling QLC+ on several pl
 
 [Linux Qt5](https://github.com/mcallegari/qlcplus/wiki/Linux-build-Qt5)<br>
 [Windows Qt5](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-Qt5)<br>
-[macOS Qt5](https://github.com/mcallegari/qlcplus/wiki/OSX-build-Qt5)<br>
+[macOS Qt5](https://github.com/mcallegari/qlcplus/wiki/macOS-build-Qt5)<br>
 
 [QLC+ 5 Build HOWTO](https://github.com/mcallegari/qlcplus/wiki/QLC-Plus-5-build-HOWTO)<br>
 
