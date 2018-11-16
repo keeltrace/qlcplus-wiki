@@ -28,8 +28,8 @@ Here you can find information about translating and compiling QLC+ on several pl
 
 ## QLC+ infrastructure
 
-* web: http://qlcplus.org
-* forum: http://qlcplus.org/forum
+* web: https://qlcplus.org
+* forum: https://qlcplus.org/forum
 * git: https://github.com/mcallegari/qlcplus/ (here)
 * opensuse build service: https://build.opensuse.org/project/show/home:mcallegari79
 * travis (CI): https://travis-ci.org/mcallegari/qlcplus [![Build Status](https://travis-ci.org/mcallegari/qlcplus.svg?branch=master)](https://travis-ci.org/mcallegari/qlcplus)
