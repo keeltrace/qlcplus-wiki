@@ -1,10 +1,9 @@
 At the moment, QLC+ is translated in German, Spanish, Catalan, Italian, Portuguese, Japanese, French, Dutch and Czech.<br>
 If your language is not supported, please jump to the "**Add a new translation**" paragraph, or contact the developers and request the addition of it.<br>
 
-### Contribute on an existing translation
+In both cases (new or existing translation) you'll need to download and install Qt Linguist. It comes with any prebuilt Qt release: https://download.qt.io/official_releases/qt/
 
-* download and install Qt Linguist. It comes with any prebuilt Qt release:
-https://download.qt.io/official_releases/qt/
+### Contribute on an existing translation
 
 * create an account on GitHub
 * if you're not familiar with GIT, you can download the GitHub official desktop client here:
