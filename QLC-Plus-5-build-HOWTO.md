@@ -5,8 +5,8 @@ However, the minimum Qt version required is 5.14.2. <br>
 It is recommended to use the official Qt versions available here: https://www.qt.io/download-open-source/<br>
 
 Notes about Qt:
-Qt 6.x build is not yet supported!
-Qt 5.15.x on Linux misses a Qt3D plugin, so meshes will not be loaded. Use Qt 5.14.2 instead.
+* Qt 6.x build is not yet supported!
+* Qt 5.15.x on Linux misses a Qt3D plugin, so meshes will not be loaded. Use Qt 5.14.2 instead.
 
 The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-Qt5), [macOS](https://github.com/mcallegari/qlcplus/wiki/OSX-build-Qt5) and [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-Qt5).
 
