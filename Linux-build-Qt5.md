@@ -89,7 +89,7 @@ In general, you can invoke qmake with its absolute path. For example:
 `/home/user/Qt5.4.1/5.4/gcc_64/bin/qmake`<br>
 
 In this way you can build QLC+ with any Qt version, located where you prefer in your hard disk.
-If you wish to build QLC+ with the latest Qt version, you can get it here: https://www.qt.io/download-open-source/
+If you wish to build QLC+ with the latest Qt version, you can get it via online installers available here: https://download.qt.io/official_releases/online_installers/
 
 **Note:** Out-of-tree builds are not tested and most probably do not work.
 
