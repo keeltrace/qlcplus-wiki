@@ -2,7 +2,7 @@
 
 Building QLC+ 5 is very similar to building QLC+ 4.<br>
 However, the minimum Qt version required is 5.14.2. <br>
-It is recommended to use the official Qt versions via online installer: https://download.qt.io/official_releases/online_installers/<br>
+It is recommended to use the official Qt versions via [online installer](https://download.qt.io/official_releases/online_installers)<br>
 
 Notes about Qt:
 
