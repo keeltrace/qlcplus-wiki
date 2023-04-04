@@ -6,7 +6,7 @@ You need to download and install two components before you can compile QLC+ from
 
 **Apple XCode** development tools (just the Mac version will do, no need for iPhone stuff). Some recent versions might need to install Command Line Tools after base packet is installed (XCode->Preferences->Downloads)<br>
 **The Qt5 Framework**<br>
-Download the latest Qt5 version from here: http://download.qt.io/official_releases/qt/<br>
+Download the latest Qt5 version vina online installer: https://download.qt.io/official_releases/online_installers/<br>
 It is suggested to use an offline installer instead of the online one.
 Install the framework where you want. In this guide we'll be using this path: /Users/myuser/Qt5.5.1<br>
 
