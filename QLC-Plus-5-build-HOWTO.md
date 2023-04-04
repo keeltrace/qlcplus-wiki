@@ -22,14 +22,14 @@ Examples:
 
 ## macOS:
 
-`export QTDIR=/Users/myuser/Qt5.10.1/5.10.1/clang_64`<br>
+`export QTDIR=/Users/myuser/Qt5.15.2/5.15.2/clang_64`<br>
 `$QTDIR/bin/qmake CONFIG+=qmlui`<br>
 `make`<br>
 `make install` (binaries will be bundled into `/Users/myuser/QLC+.app`)
 
 **or**
 
-`export QTDIR=/Users/myuser/Qt5.14.2/5.14.2/clang_64`<br>
+`export QTDIR=/Users/myuser/Qt5.15.2/5.15.2/clang_64`<br>
 `./create-dmg.sh CONFIG+=qmlui`<br>
 
 ## Linux:
