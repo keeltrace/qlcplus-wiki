@@ -11,12 +11,12 @@ Notes about Qt:
 
 The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-Qt5), [macOS](https://github.com/mcallegari/qlcplus/wiki/OSX-build-Qt5) and [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-Qt5).
 
-When it comes the time to invoke `qmake`, add the `CONFIG+=qmlui` option.
+When it comes the time to invoke `cmake`, add the `-Dqmlui=ON` option.
 Examples:
 
 ## Windows: 
 
-`qmake CONFIG+=qmlui`<br>
+`cmake -G "Unix Makefiles" -Dqmlui=ON ..`<br>
 `make`<br>
 `make install` (binaries will go to `C:\qlcplus`)
 
@@ -34,7 +34,7 @@ Examples:
 
 ## Linux:
 
-`/home/myuser/Qt5.14.2/5.14.2/gcc_64/bin/qmake CONFIG+=qmlui`<br>
+`cmake -DCMAKE_PREFIX_PATH="/home/<user>/Qt/5.15.2/gcc_64/lib/cmake" -Dqmlui=ON ..`<br>
 `make`<br>
 `make install` (binaries will be installed in your system. **Warning**: this will overwrite QLC+ 4)
 
