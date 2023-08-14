@@ -88,11 +88,11 @@ Issue the following commands to start building QLC+:
 
 `cd qlcplus`<br>
 `mkdir build && cd build`<br>
-To build with an official Qt package issue the following:
+To build with an official Qt package issue the following:<br>
 `cmake -DCMAKE_PREFIX_PATH="/home/<user>/Qt/5.15.2/gcc_64/lib/cmake" ..`<br>
-To build with the system Qt package run the following:
+To build with the system Qt package run the following:<br>
 `cmake -DCMAKE_PREFIX_PATH="/usr/lib/x86_64-linux-gnu/cmake/Qt5" ..`<br>
-The finally type
+The finally type<br>
 `make`<br>
 
 To speed up the build process, if your computer has a multicore CPU you can use the -j option followed by the number of cores of your CPU, like this:
