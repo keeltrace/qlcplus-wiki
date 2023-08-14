@@ -34,7 +34,7 @@ Examples:
 
 ## Linux:
 
-`cmake -DCMAKE_PREFIX_PATH="/home/<user>/Qt/5.15.2/gcc_64/lib/cmake" -Dqmlui=ON ..`<br>
+`cmake -DCMAKE_PREFIX_PATH="/home/myuser/Qt/5.15.2/gcc_64/lib/cmake" -Dqmlui=ON ..`<br>
 `make`<br>
 `make install` (binaries will be installed in your system. **Warning**: this will overwrite QLC+ 4)
 
