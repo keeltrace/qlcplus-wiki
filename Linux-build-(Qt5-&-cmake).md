@@ -40,10 +40,9 @@ This will create a directory called qlcplus which will contain the latest source
 ### Debug or release mode
 
 If you are a developer and want to contribute to QLC+, the default settings will build a debug version of the program. Please note that a debug version is bigger than a release one and might have worse performances.
-If what you need is a production build, then you need to edit the `variables.pri` file and change the following lines, adding a `+=` of the build you need and `-=` of the one you don't need:
-
-`CONFIG         += release # Enable this when making a release`<br>
-`CONFIG         -= debug   # Disable this when making a release`
+If what you need is a production build, then you need to edit the main `CMakeLists.txt` file and change the line starting with
+`set(CMAKE_BUILD_TYPE "Release" ...`
+Switch between `Debug` and `Release` depending on your needs.
 
 ### Plugins build note
 
@@ -71,15 +70,6 @@ Then, when build time comes, type:
 
 Now you have two choices: either go ahead with the compilation and manual installation or, spend a little more time with packages in order to create separate QLC+ packages that you can easily upgrade (and uninstall) later. If you wish to do everything manually, continue reading. If you wish to create packages for Ubuntu/Debian, skip to the Package Creation section on this page.
 
-**Note:** On some distributions, Qt5 is not the default Qt package, so you need to locate the 'qmake' executable in your computer.
-For example in Ubuntu 14.04 you can find it in `/usr/lib/x86_64-linux-gnu/qt5/bin`<br>
-You can quickly check if the version is correct by typing:
-`qmake -v`<br>
-
-In general, you can invoke qmake with its absolute path. For example:
-`/home/user/Qt5.14.2/5.14.2/gcc_64/bin/qmake`<br>
-
-In this way you can build QLC+ with any Qt version, located where you prefer in your hard disk.
 If you wish to build QLC+ with the latest Qt version, you can get it via online installers available here: https://download.qt.io/official_releases/online_installers/
 
 **Note:** Out-of-tree builds are not tested and most probably do not work.
