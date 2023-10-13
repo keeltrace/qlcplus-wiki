@@ -1,11 +1,9 @@
 ## Prepare the build system (MSYS2)
 
-Download the MSYS2 64bit installer from here: https://msys2.github.io/ (for 32bit systems like XP, use i686 installer).
+Download the MSYS2 64bit installer from here: https://msys2.github.io/
 
-Follow the instructions of that page otherwise install it using all the defaults (c:\msys64 or c:\msys32 for 32bit system), then open the MSYS2 shell and type:<br>
-`update-core`<br>
-Close the MSYS2 shell and open it again.<br>
-Now install the packages required to build QLC+, by typing:<br>
+Follow the instructions of that page otherwise install it using all the defaults (in c:\msys64)<br>
+Open the MSYS2 shell and install the packages required to build QLC+, by typing:<br>
 `pacman -Su`<br>
 `pacman -S make automake autoconf libtool mingw32/mingw-w64-i686-cmake mingw32/mingw-w64-i686-gcc mingw32/mingw-w64-i686-pkg-config mingw32/mingw-w64-i686-tools git`<br>
 `pacman -S mingw32/mingw-w64-i686-qt5 mingw32/mingw-w64-i686-libmad mingw32/mingw-w64-i686-libsndfile mingw32/mingw-w64-i686-flac mingw32/mingw-w64-i686-fftw`<br>
