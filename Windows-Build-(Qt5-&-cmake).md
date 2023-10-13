@@ -38,7 +38,7 @@ If what you need is a production build, then you need to edit the `variables.pri
 To compile the DMX USB plugin, you need to:
 
 Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/D2XX.htm).<br>
-Install the package contents for example to C:\Qt\D2XXSDK<br>
+Extract the package contents for example to C:\Qt\D2XXSDK<br>
 Edit <QLC>/plugins/dmxusb/src/src.pro to point to the directory you picked:
 
 `FTD2XXDIR = C:/Qt/D2XXSDK`<br>
