@@ -6,7 +6,7 @@ Follow the instructions of that page otherwise install it using all the defaults
 Open the MSYS2 shell and install the packages required to build QLC+, by typing:<br>
 `pacman -Su`<br>
 `pacman -S make automake autoconf libtool mingw32/mingw-w64-i686-cmake mingw32/mingw-w64-i686-gcc mingw32/mingw-w64-i686-pkg-config mingw32/mingw-w64-i686-tools git`<br>
-`pacman -S mingw32/mingw-w64-i686-qt5 mingw32/mingw-w64-i686-libmad mingw32/mingw-w64-i686-libsndfile mingw32/mingw-w64-i686-flac mingw32/mingw-w64-i686-fftw`<br>
+`pacman -S mingw32/mingw-w64-i686-qt5 mingw32/mingw-w64-i686-libusb mingw32/mingw-w64-i686-libmad mingw32/mingw-w64-i686-libsndfile mingw32/mingw-w64-i686-flac mingw32/mingw-w64-i686-fftw`<br>
 
 **Now close the MSYS2 Shell. From now on we'll use the 'MinGW-w64 Win32 Shell'. So open it.**<br>
 
