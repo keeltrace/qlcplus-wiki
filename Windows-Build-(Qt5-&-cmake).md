@@ -15,7 +15,7 @@ Open the MSYS2 shell and install the packages required to build QLC+, by typing:
 These instructions suppose you have a folder called "Qt" in C:. If it doesn't exist, create it and 'cd' into it.<br>
 
 If you wish to get the latest released QLC+ version download the source tarball from here:<br>
-[http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
+[https://github.com/mcallegari/qlcplus/releases/latest/](https://github.com/mcallegari/qlcplus/releases/latest/)
 
 If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious), download the [GitHub client](https://windows.github.com/) or use the command line:
 `git clone https://github.com/mcallegari/qlcplus.git`
