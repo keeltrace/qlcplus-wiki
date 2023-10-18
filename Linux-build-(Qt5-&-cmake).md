@@ -27,9 +27,9 @@ Notice that there's a space between su and - and that you need to give the root 
 ### QLC+ sources
 
 If you wish to get the latest released QLC+ version:<br>
-[http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
+[https://github.com/mcallegari/qlcplus/releases/latest/](https://github.com/mcallegari/qlcplus/releases/latest/)
 
-If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious):
+If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious):<br>
 `git clone git://github.com/mcallegari/qlcplus.git`
 
 This will create a directory called qlcplus which will contain the latest sources from GIT repository. After you have made the initial clone and later wish to keep living on the bleeding egde, you can just update the sources (instead of making a new checkout each time):
