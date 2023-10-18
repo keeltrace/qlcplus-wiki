@@ -17,7 +17,7 @@ These instructions suppose you have a folder called "Qt" in C:. If it doesn't ex
 If you wish to get the latest released QLC+ version download the source tarball from here:<br>
 [https://github.com/mcallegari/qlcplus/releases/latest/](https://github.com/mcallegari/qlcplus/releases/latest/)
 
-If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious), download the [GitHub client](https://windows.github.com/) or use the command line:
+If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious), download the [GitHub client](https://windows.github.com/) or use the command line:<br>
 `git clone https://github.com/mcallegari/qlcplus.git`
 
 This will create a directory called qlcplus which will contain the latest sources from GIT repository. After you have made the initial clone and later wish to keep living on the bleeding egde, you can just update the sources (instead of making a new clone every time):
