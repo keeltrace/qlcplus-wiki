@@ -34,8 +34,7 @@ Here you can find information about translating and compiling QLC+ on several pl
 
 * web: https://qlcplus.org
 * forum: https://qlcplus.org/forum
-* git: https://github.com/mcallegari/qlcplus/ (here)
-* GitHub Actions ![build status](https://github.com/mcallegari/qlcplus/actions/workflows/build.yml/badge.svg)
+* git: https://github.com/mcallegari/qlcplus/ ![build status](https://github.com/mcallegari/qlcplus/actions/workflows/build.yml/badge.svg)
 * opensuse build service: https://build.opensuse.org/project/show/home:mcallegari79
 * codacy (code quality): https://www.codacy.com/app/mcallegari/qlcplus/dashboard (needs login?)
 * coveralls (coverage): https://coveralls.io/github/mcallegari/qlcplus [![Coverage Status](https://coveralls.io/repos/github/mcallegari/qlcplus/badge.svg?branch=master)](https://coveralls.io/github/mcallegari/qlcplus?branch=master)
