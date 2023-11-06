@@ -36,8 +36,6 @@ Here you can find information about translating and compiling QLC+ on several pl
 * forum: https://qlcplus.org/forum
 * git: https://github.com/mcallegari/qlcplus/ (here)
 * opensuse build service: https://build.opensuse.org/project/show/home:mcallegari79
-* travis (CI): https://travis-ci.org/mcallegari/qlcplus [![Build Status](https://travis-ci.org/mcallegari/qlcplus.svg?branch=master)](https://travis-ci.org/mcallegari/qlcplus)
-* appveyor (windows CI): https://ci.appveyor.com/project/mcallegari/qlcplus  [![Build status](https://ci.appveyor.com/api/projects/status/s1ejaqbpsewfk4mf?svg=true)](https://ci.appveyor.com/project/mcallegari/qlcplus)
 * codacy (code quality): https://www.codacy.com/app/mcallegari/qlcplus/dashboard (needs login?)
 * coveralls (coverage): https://coveralls.io/github/mcallegari/qlcplus [![Coverage Status](https://coveralls.io/repos/github/mcallegari/qlcplus/badge.svg?branch=master)](https://coveralls.io/github/mcallegari/qlcplus?branch=master)
 * build bot (CI): https://qlcplus-buildbot.openlighting.org/ (not maintained?)
