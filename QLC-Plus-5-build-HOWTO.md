@@ -9,7 +9,7 @@ Notes about Qt:
 * Qt 6.x build is not yet supported!
 * Qt 5.15.x on Linux misses a Qt3D plugin, so meshes will not be loaded. Use Qt 5.14.2 instead.
 
-The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)), [macOS](https://github.com/mcallegari/qlcplus/wiki/macOS-build-Qt5) and [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt5-&-cmake)).
+The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)), [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt5-&-cmake)) and [macOS](https://github.com/mcallegari/qlcplus/wiki/macOS-build-Qt5).
 
 On Linux, add the following development packages:<br>
 `sudo apt install qt3d5-dev qt3d-defaultgeometryloader-plugin qt3d-assimpsceneimport-plugin qml-module-qt3d qml-module-qtquick-scene3d qml-module-qtmultimedia`<br>
