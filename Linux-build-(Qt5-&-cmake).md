@@ -114,11 +114,11 @@ to start using QLC+. If you wish to edit/create fixture definitions, type:
 
 ### Debian/Ubuntu Package Creation
 
-Go to the main QLC+ directory and issue the following command:
+From the build folder, issue the following command:
 
 `cpack -G DEB`
 
-The package is now being built. If the process fails at an early stage, you are probably missing some dependency package. See above what packages you need to install. When the package script is done, the newly-created packages appear to the folder, where you have the qlc folder, i.e. you need to go up once:
+The package is now being built. If the process fails at an early stage, you are probably missing some dependency package. See above what packages you need to install. When the package script is done, the newly-created packages appear to the folder, where you have the qlcplus folder, i.e. you need to go up once:
 
 `cd ..`
 
