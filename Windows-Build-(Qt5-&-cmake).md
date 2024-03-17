@@ -37,7 +37,7 @@ To compile the DMX USB plugin, you need to:
 
 Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/D2XX.htm).<br>
 Extract the package contents for example to C:\projects\D2XXSDK<br>
-Edit <QLC>/plugins/dmxusb/src/CMakeLists.txt to point to the directory you picked:
+Edit `plugins/dmxusb/src/CMakeLists.txt` to point to the directory you picked:
 
 `FTD2XXDIR = C:/projects/D2XXSDK`<br>
 
