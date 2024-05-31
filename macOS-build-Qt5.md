@@ -1,5 +1,7 @@
 # QLC+ Installation from sources on macOS using Qt5
 
+**Note: at the moment it is possible to build QLC+ only on Intel Macs and only with macports.**
+
 ## Development environment
 
 You need to download and install two components before you can compile QLC+ from sources on macOS:
