@@ -59,7 +59,7 @@ After the sources have been cloned out from the GIT repository, issue these comm
 `cmake -DCMAKE_PREFIX_PATH="/Users/myuser/qt/5.15.2/clang_64/lib/cmake" ..`<br>
 `make -j4`<br>
 
-Replace the Qt path with the one installed in your system.
+**Note**: Replace the Qt path with the one installed in your system.
 
 You should see the terminal window fill up with compiler calls. Go grab a cup of your preferred beverage, as this can take anything from about a minute to several minutes, depending on your system performance. If you see any errors, please report it in the QLC+ forum (development forum).
 
@@ -78,7 +78,7 @@ If you wish to create a distributable .dmg package, that doesn't require the pre
 `export QTDIR=/Users/myuser/qt/5.15.2/clang_64`<br>
 `./create-dmg-cmake.sh`<br>
 
-Note: Replace the Qt path with the one installed in your system.
+**Note**: Replace the Qt path with the one installed in your system.
 
 This creates an Apple .dmg package in the dmg folder of the QLC+ sources tree.
 This script works also on non-built sources, so you just need to follow the steps above up to "cd qlcplus", right after "export QTDIR..."
