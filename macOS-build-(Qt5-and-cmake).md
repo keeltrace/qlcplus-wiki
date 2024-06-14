@@ -17,7 +17,7 @@ QLC+ and some plugins require additional external packages including: libftdi, l
 
 These dependencies are easily available through homebrew.
 
-Download and install [Homebrew](https://brew.sh/) like this:<br>
+From a Terminal, download and install [Homebrew](https://brew.sh/) like this:<br>
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 Then install the packages required by QLC+:<br>
