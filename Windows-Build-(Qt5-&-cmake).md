@@ -7,7 +7,7 @@ Open the MSYS2 MINGW64 shell and install the packages required to build QLC+, by
 `pacman -Su`<br>
 `pacman -S make automake autoconf libtool mingw64/mingw-w64-x86_64-gcc mingw64/mingw-w64-x86_64-gcc-libs mingw64/mingw-w64-x86_64-cmake mingw-w64-x86_64-tools-git`<br>
 `pacman -S mingw64/mingw-w64-x86_64-libmad mingw64/mingw-w64-x86_64-libsndfile mingw64/mingw-w64-x86_64-flac mingw64/mingw-w64-x86_64-fftw mingw64/mingw-w64-x86_64-libusb mingw64/mingw-w64-x86_64-python-lxml`<br>
-`pacman -S mingw64/mingw-w64-x86_64-qt5-base mingw64/mingw-w64-x86_64-qt5-multimedia mingw64/mingw-w64-x86_64-qt5-serialport mingw64/mingw-w64-x86_64-qt5-script mingw64/mingw-w64-x86_64-qt5-tools mingw64/mingw-w64-x86_64-qt5-imageformats mingw64/mingw-w64-x86_64-qt5-svg mingw64/mingw-w64-x86_64-qt5-declarative mingw64/mingw-w64-x86_64-qt5-quickcontrols mingw64/mingw-w64-x86_64-qt5-quickcontrols2 mingw64/mingw-w64-x86_64-qt5-3d mingw64/mingw-w64-x86_64-qt5-quick3d mingw64/mingw-w64-x86_64-nsis`<br>
+`pacman -S mingw64/mingw-w64-x86_64-qt5-base mingw64/mingw-w64-x86_64-qt5-multimedia mingw64/mingw-w64-x86_64-qt5-serialport mingw64/mingw-w64-x86_64-qt5-websockets mingw64/mingw-w64-x86_64-qt5-script mingw64/mingw-w64-x86_64-qt5-tools mingw64/mingw-w64-x86_64-qt5-imageformats mingw64/mingw-w64-x86_64-qt5-svg mingw64/mingw-w64-x86_64-qt5-declarative mingw64/mingw-w64-x86_64-qt5-quickcontrols mingw64/mingw-w64-x86_64-qt5-quickcontrols2 mingw64/mingw-w64-x86_64-qt5-3d mingw64/mingw-w64-x86_64-qt5-quick3d mingw64/mingw-w64-x86_64-nsis`<br>
 
 ## Acquire the QLC+ sources
 
