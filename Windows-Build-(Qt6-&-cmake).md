@@ -6,8 +6,16 @@ Follow the instructions of that page otherwise install it using all the defaults
 Open the MSYS2 MINGW64 shell and install the packages required to build QLC+, by typing:<br>
 `pacman -Su`<br>
 `pacman -S make automake autoconf libtool mingw64/mingw-w64-x86_64-gcc mingw64/mingw-w64-x86_64-gcc-libs mingw64/mingw-w64-x86_64-cmake mingw-w64-x86_64-tools-git`<br>
-`pacman -S mingw64/mingw-w64-x86_64-libmad mingw64/mingw-w64-x86_64-libsndfile mingw64/mingw-w64-x86_64-flac mingw64/mingw-w64-x86_64-fftw mingw64/mingw-w64-x86_64-libusb mingw64/mingw-w64-x86_64-python-lxml`<br>
-`pacman -S mingw64/mingw-w64-x86_64-qt5-base mingw64/mingw-w64-x86_64-qt5-multimedia mingw64/mingw-w64-x86_64-qt5-serialport mingw64/mingw-w64-x86_64-qt5-websockets mingw64/mingw-w64-x86_64-qt5-script mingw64/mingw-w64-x86_64-qt5-tools mingw64/mingw-w64-x86_64-qt5-imageformats mingw64/mingw-w64-x86_64-qt5-svg mingw64/mingw-w64-x86_64-qt5-declarative mingw64/mingw-w64-x86_64-qt5-quickcontrols mingw64/mingw-w64-x86_64-qt5-quickcontrols2 mingw64/mingw-w64-x86_64-qt5-3d mingw64/mingw-w64-x86_64-qt5-quick3d mingw64/mingw-w64-x86_64-nsis`<br>
+`pacman -S mingw64/mingw-w64-x86_64-libmad mingw64/mingw-w64-x86_64-libsndfile mingw64/mingw-w64-x86_64-flac mingw64/mingw-w64-x86_64-fftw mingw64/mingw-w64-x86_64-libusb mingw64/mingw-w64-x86_64-python-lxml mingw64/mingw-w64-x86_64-nsis`<br>
+
+## Install the Qt libraries
+
+The latest Qt version can be downloaded via online installers here: https://download.qt.io/official_releases/online_installers/<br>
+Make sure to select the latest Qt version for MinGW 64bit and the following additional libraries:
+* Qt Multimedia
+* Qt Serial Port
+* Qt Websockets
+* Qt 3D (to build v5)
 
 ## Acquire the QLC+ sources
 
@@ -52,11 +60,18 @@ If you don't need the DMX USB plugin and would like to disable building it compl
 
 ## Build QLC+
 
-Now compile QLC+ by typing:<br>
+Now to compile QLC+ you first need to export a variable named `QTDIR` to link to the official Qt libraries:<br>
+`export QTDIR=/c/projects/Qt/6.9.0/mingw_64`<br>
+Then build QLC+ like this:<br>
 `cd /c/projects/qlcplus`<br>
 `mkdir build && cd build`<br>
-`cmake -G "Unix Makefiles" ..`<br>
-`make`<br>
-`make install`<br>
+`cmake ..`<br>
+`ninja`<br>
+`ninja install`<br>
 
-It will install QLC+ and all the required DLLs in C:\qlcplus.
+It will install QLC+ and all the basic required DLLs in C:\qlcplus.
+To complete the dependencies installation do this:<br>
+`cd /c/qlcplus`<br>
+`$QTDIR/bin/windeployqt qlcplusengine.dll qlcplusui.dll qlcpluswebaccess.dll Plugins/dmxusb.dll qlcplus.exe`<br>
+If you're quilding QLC+ 5.x do this:
+`$QTDIR/bin/windeployqt --qmldir $ROOT_DIR/qmlui/qml qlcplusengine.dll Plugins/dmxusb.dll qlcplus-qml.exe`<br>
