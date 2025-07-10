@@ -1,13 +1,12 @@
 # QLC+ 5 build instructions
 
 Building QLC+ 5 is very similar to building QLC+ 4.<br>
-However, the minimum Qt version required is 5.14.2. <br>
+However, the minimum Qt version required is 6.8.0. <br>
 It is recommended to use the official Qt versions via [online installer](https://download.qt.io/official_releases/online_installers)<br>
 
 Notes about Qt:
 
-* Qt 6.x build is not yet supported!
-* Qt 5.15.x on Linux misses a Qt3D plugin, so meshes will not be loaded. Use Qt 5.14.2 instead.
+* Qt 6.8.2 and higher won't play audio files on Windows because of [QTBUG-136057](https://bugreports.qt.io/browse/QTBUG-136057)
 
 The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)), [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt5-&-cmake)) and [macOS](https://github.com/mcallegari/qlcplus/wiki/macOS-build-Qt5).
 
