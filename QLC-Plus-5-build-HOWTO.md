@@ -25,25 +25,25 @@ Examples:
 
 ## macOS:
 
-`export QTDIR=/Users/myuser/Qt5.15.2/5.15.2/clang_64`<br>
+`export QTDIR=/Users/myuser/Qt/6.8.1/clang_64`<br>
 `$QTDIR/bin/qmake CONFIG+=qmlui`<br>
 `make`<br>
 `make install` (binaries will be bundled into `/Users/myuser/QLC+.app`)
 
 **or**
 
-`export QTDIR=/Users/myuser/Qt5.15.2/5.15.2/clang_64`<br>
+`export QTDIR=/Users/myuser/Qt/6.8.1/clang_64`<br>
 `./create-dmg.sh CONFIG+=qmlui`<br>
 
 ## Linux:
 
-`cmake -DCMAKE_PREFIX_PATH="/home/myuser/Qt/5.15.2/gcc_64/lib/cmake" -Dqmlui=ON ..`<br>
+`cmake -DCMAKE_PREFIX_PATH="/home/myuser/Qt/6.8.1/gcc_64/lib/cmake" -Dqmlui=ON ..`<br>
 `make`<br>
 `make install` (binaries will be installed in your system. **Warning**: this will overwrite QLC+ 4)
 
 **or**
 
-`export QTDIR=/home/myuser/Qt5.14.2/5.14.2/gcc_64`<br>
+`export QTDIR=/home/myuser/Qt/6.8.1/gcc_64`<br>
 `./create-appimage-cmake.sh` (a file called `Q_Light_Controller_Plus-x86_64.AppImage` will be created in `/home/myuser`)
 
 P.S. Obviously replace `myuser` with the name of your *nix user !
