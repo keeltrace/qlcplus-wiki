@@ -19,9 +19,9 @@ Examples:
 
 ## Windows: 
 
-`cmake -G "Unix Makefiles" -Dqmlui=ON ..`<br>
-`make`<br>
-`make install` (binaries will go to `C:\qlcplus`)
+`cmake -Dqmlui=ON ..`<br>
+`ninja`<br>
+`ninja install` (binaries will go to `C:\qlcplus`)
 
 ## macOS:
 
