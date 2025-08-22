@@ -3,10 +3,13 @@
 Download the MSYS2 64bit installer from here: https://msys2.github.io/
 
 Follow the instructions of that page otherwise install it using all the defaults (in c:\msys64)<br>
-Open the MSYS2 MINGW64 shell and install the packages required to build QLC+, by typing:<br>
-`pacman -Su`<br>
-`pacman -S make automake autoconf libtool mingw64/mingw-w64-x86_64-gcc mingw64/mingw-w64-x86_64-gcc-libs mingw64/mingw-w64-x86_64-cmake mingw64/mingw-w64-x86_64-ninja mingw-w64-x86_64-tools-git`<br>
-`pacman -S mingw64/mingw-w64-x86_64-libmad mingw64/mingw-w64-x86_64-libsndfile mingw64/mingw-w64-x86_64-flac mingw64/mingw-w64-x86_64-fftw mingw64/mingw-w64-x86_64-libusb mingw64/mingw-w64-x86_64-python-lxml mingw64/mingw-w64-x86_64-nsis`<br>
+Open the MSYS2 MINGW64 shell and install the packages required to build QLC+, by typing:
+
+```shell
+pacman -Su
+pacman -S make automake autoconf libtool mingw64/mingw-w64-x86_64-gcc mingw64/mingw-w64-x86_64-gcc-libs mingw64/mingw-w64-x86_64-cmake mingw64/mingw-w64-x86_64-ninja mingw-w64-x86_64-tools-git
+pacman -S mingw64/mingw-w64-x86_64-libmad mingw64/mingw-w64-x86_64-libsndfile mingw64/mingw-w64-x86_64-flac mingw64/mingw-w64-x86_64-fftw mingw64/mingw-w64-x86_64-libusb mingw64/mingw-w64-x86_64-python-lxml mingw64/mingw-w64-x86_64-nsis
+```
 
 ## Install the Qt libraries
 
