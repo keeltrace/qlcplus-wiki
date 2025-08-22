@@ -7,18 +7,22 @@ You need a number of packages installed before you can compile QLC+ from sources
 
 Issue these commands to install the required packages for an Ubuntu system:
 
-`sudo apt update`<br>
-`sudo apt install g++ make cmake git build-essential qtchooser qt5-qmake qtbase5-dev qtbase5-dev-tools qtscript5-dev qtmultimedia5-dev libqt5multimedia5-plugins qttools5-dev-tools qtdeclarative5-dev libqt5svg5-dev qttools5-dev libqt5serialport5-dev libqt5websockets5-dev fakeroot debhelper devscripts pkg-config libxml2-utils libglib2.0-dev libpulse-dev libxkbcommon-dev`<br>
-`sudo apt install libasound2-dev libusb-1.0-0-dev libftdi1-dev libudev-dev libmad0-dev libsndfile1-dev libfftw3-dev`<br>
+```shell
+sudo apt update
+sudo apt install g++ make cmake git build-essential qtchooser qt5-qmake qtbase5-dev qtbase5-dev-tools qtscript5-dev qtmultimedia5-dev libqt5multimedia5-plugins qttools5-dev-tools qtdeclarative5-dev libqt5svg5-dev qttools5-dev libqt5serialport5-dev libqt5websockets5-dev fakeroot debhelper devscripts pkg-config libxml2-utils libglib2.0-dev libpulse-dev libxkbcommon-dev
+sudo apt install libasound2-dev libusb-1.0-0-dev libftdi1-dev libudev-dev libmad0-dev libsndfile1-dev libfftw3-dev
+```
 
 ### Fedora/RedHat
 
 Issue these commands to install the required packages for a Fedora/RedHat system:
 
-`su -`<br>
-`yum update`<br>
-`yum install gcc-c++ qtbase5-common-devel qtmultimedia5-devel libftdi-devel libusb-devel alsa-lib-devel rpm-build git libudev-devel libsndfile-devel libmad-devel`<br>
-`yum install systemd-devel fftw-devel qt5-qtscript-devel qt5-qtmultimedia-devel qt5-qtbase-devel # Fedora 21`
+```shell
+su -
+yum update
+yum install gcc-c++ qtbase5-common-devel qtmultimedia5-devel libftdi-devel libusb-devel alsa-lib-devel rpm-build git libudev-devel libsndfile-devel libmad-devel
+yum install systemd-devel fftw-devel qt5-qtscript-devel qt5-qtmultimedia-devel qt5-qtbase-devel # Fedora 21
+```
 
 Notice that there's a space between su and - and that you need to give the root user password for su. When you're done with these commands, become a normal user again with:
 
