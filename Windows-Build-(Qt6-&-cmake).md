@@ -100,7 +100,7 @@ cd /c/qlcplus
 $QTDIR/bin/windeployqt qlcplusengine.dll qlcplusui.dll qlcpluswebaccess.dll Plugins/dmxusb.dll qlcplus.exe
 ```
 
-If you're quilding QLC+ 5.x do this:
+If you're building QLC+ 5.x do this:
 
 ```shell
 $QTDIR/bin/windeployqt --qmldir $ROOT_DIR/qmlui/qml qlcplusengine.dll Plugins/dmxusb.dll qlcplus-qml.exe
