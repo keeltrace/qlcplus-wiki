@@ -82,7 +82,7 @@ If you don't need the DMX USB plugin and would like to disable building it compl
 Now to compile QLC+ you first need to export a variable named `QTDIR` to link to the official Qt libraries:<br>
 ```shell
 # adapt the path to where your Qt libraries are installed
-export QTDIR=/c/projects/Qt/6.9.0/mingw_64
+export QTDIR=/c/projects/Qt/6.9.3/mingw_64
 ```
 
 Then build QLC+ like this:
