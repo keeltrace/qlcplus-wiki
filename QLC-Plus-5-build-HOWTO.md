@@ -10,7 +10,7 @@ Notes about Qt:
 
 The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)), [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt5-&-cmake)) and [macOS](https://github.com/mcallegari/qlcplus/wiki/macOS-build-Qt5).
 
-On Linux, add the following development packages:<br>
+On Ubuntu/Debian Linux, if not using the official Qt packages, add the following development packages:<br>
 `sudo apt install qt6-3d-dev qt6-3d-defaultgeometryloader-plugin qt6-3d-assimpsceneimport-plugin qml6-module-qt3d-core qml6-module-qtquick-scene3d qml6-module-qt3d-render qml6-module-qt3d-extras qml6-module-qt3d-input qml6-module-qt3d-logic qml6-module-qtmultimedia`<br>
 
 
@@ -23,6 +23,11 @@ Examples:
 `ninja`<br>
 `ninja install` (binaries will go to `C:\qlcplus`)
 
+**or**
+
+`export QTDIR=/home/myuser/Qt/6.8.1/gcc_64`<br>
+`./create-exe.sh qmlui`<br>
+
 ## macOS:
 
 `export QTDIR=/Users/myuser/Qt/6.8.1/clang_64`<br>
@@ -33,7 +38,7 @@ Examples:
 **or**
 
 `export QTDIR=/Users/myuser/Qt/6.8.1/clang_64`<br>
-`./create-dmg.sh CONFIG+=qmlui`<br>
+`./create-dmg-cmake.sh qmlui`<br>
 
 ## Linux:
 
