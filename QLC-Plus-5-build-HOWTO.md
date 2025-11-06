@@ -25,7 +25,7 @@ Examples:
 
 **or**
 
-`export QTDIR=/home/myuser/Qt/6.8.1/gcc_64`<br>
+`export QTDIR=/path/to/qt/Qt/6.8.1/mingw_64`<br>
 `./create-exe.sh qmlui`<br>
 
 ## macOS:
