@@ -11,7 +11,7 @@ Notes about Qt:
 The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)), [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt5-&-cmake)) and [macOS](https://github.com/mcallegari/qlcplus/wiki/macOS-build-Qt5).
 
 On Linux, add the following development packages:<br>
-`sudo apt install qt3d5-dev qt3d-defaultgeometryloader-plugin qt3d-assimpsceneimport-plugin qml-module-qt3d qml-module-qtquick-scene3d qml-module-qtmultimedia`<br>
+`sudo apt install qt6-3d-dev qt6-3d-defaultgeometryloader-plugin qt6-3d-assimpsceneimport-plugin qml6-module-qt3d-core qml6-module-qtquick-scene3d qml6-module-qt3d-render qml6-module-qt3d-extras qml6-module-qt3d-input qml6-module-qt3d-logic qml6-module-qtmultimedia`<br>
 
 
 When it comes the time to invoke `cmake`, add the `-Dqmlui=ON` option.
