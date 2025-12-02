@@ -49,6 +49,8 @@ Examples:
 **or**
 
 `export QTDIR=/home/myuser/Qt/6.9.3/gcc_64`<br>
-`./create-appimage-cmake.sh qmlui` (a file called `Q_Light_Controller_Plus-x86_64.AppImage` will be created in `/home/myuser`)
+`./create-appimage-cmake.sh qmlui` 
+
+A file called `Q_Light_Controller_Plus-x86_64.AppImage` will be created in `/home/myuser`<br>
 
 P.S. Obviously replace `myuser` with the name of your *nix user !
