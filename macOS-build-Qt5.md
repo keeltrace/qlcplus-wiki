@@ -24,7 +24,7 @@ Then, open the macOS terminal application and type:<br>
 `sudo port selfupdate`<br>
 `sudo port install libftdi0 pkgconfig libmad libsndfile fftw-3 ola`<br>
 
-**OLA build**: in case OLA fails to install via macports, you might want to compile it from sources. To do so, follow the [instructions here](http://opendmx.net/index.php/OLA_Mac_Install_From_Tarball) and at the end type:<br>
+**OLA build**: in case OLA fails to install via macports, you might want to compile it from sources. To do so, follow the [instructions here](https://wiki.openlighting.org/index.php/OLA_Mac_Install_From_Tarball) and at the end type:<br>
 `./configure --prefix=/opt/local`<br>
 `make`<br>
 `sudo make install`

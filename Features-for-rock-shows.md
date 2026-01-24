@@ -1,4 +1,4 @@
-This is place to collect ideas about features for rock shows, before we can move it to http://qlcplus.org/usage_rock.html
+This is place to collect ideas about features for rock shows, before we can move it to https://www.qlcplus.org/discover/use-cases
 
 - Fixtures, universes and channels groups
 

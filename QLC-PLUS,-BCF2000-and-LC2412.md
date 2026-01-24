@@ -1,11 +1,11 @@
 ***
 
-THIS HOWTO WAS INTEGRATED TO [ONLINE HELP](http://www.qlcplus.org/docs/tutorial-bcf-lc2412.html), AND IS KEPT HERE SO THAT OLD LINKS WORK.
+THIS HOWTO WAS INTEGRATED TO [ONLINE HELP](https://www.qlcplus.org/old/docs/html_en_EN/tutorial-bcf-lc2412.html), AND IS KEPT HERE SO THAT OLD LINKS WORK.
 PLEASE REFER TO ONLINE HELP FOR CURRENT VERSION.
 
 ***
 
-This is small howto to setup QLC+ remote control with Behringer [LC2412](http://www.behringer.com/EN/Products/LC2412.aspx) connected through [BCF2000](http://www.behringer.com/EN/Products/BCF2000.aspx). Everything said here is also valid for [BCR2000](http://www.behringer.com/EN/Products/BCR2000.aspx).
+This is small howto to setup QLC+ remote control with Behringer [LC2412](https://www.behringer.com/behringer/product?modelCode=0201-AAD) connected through [BCF2000](https://www.behringer.com/behringer/product?modelCode=0808-AAB). Everything said here is also valid for [BCR2000](https://www.behringer.com/behringer/product?modelCode=0808-AAA).
 
 With this setup (BCF2000 + LC2412) we get:
 * 8 motorized faders

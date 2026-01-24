@@ -55,7 +55,7 @@ For example:
 Acquire the latest tarball from [github](https://github.com/OpenLightingProject/ola/releases/latest)
 
 Extract the package and enter into the OLA folder.<br>
-Follow the [Linux build instructions](http://www.openlighting.org/ola/linuxinstall). <br>
+Follow the [Linux build instructions](https://www.openlighting.org/ola/linuxinstall/). <br>
 Then, when build time comes, type:
 
 `./configure --prefix=/usr`<br>
@@ -65,7 +65,7 @@ Then, when build time comes, type:
 ### QLC+ sources
 
 If you wish to get the latest released QLC+ version:<br>
-[http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
+[https://github.com/mcallegari/qlcplus/releases/latest/](https://github.com/mcallegari/qlcplus/releases/latest/)
 
 If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious):
 `git clone git://github.com/mcallegari/qlcplus.git`

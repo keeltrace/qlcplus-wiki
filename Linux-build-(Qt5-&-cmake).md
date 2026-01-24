@@ -73,10 +73,10 @@ For example:
 
 This step is optional depending if you need OLA or not. See previous paragraph in case you want to disable the OLA plugin.
 
-To build the sources, acquire the latest tarball from [github](https://github.com/OpenLightingProject/ola/releases/latest)
+To build the sources, acquire the latest tarball from [GitHub](https://github.com/OpenLightingProject/ola/releases/latest)
 
 Extract the package and enter into the OLA folder.<br>
-Follow the [Linux build instructions](http://www.openlighting.org/ola/linuxinstall). <br>
+Follow the [Linux build instructions](https://www.openlighting.org/ola/linuxinstall/). <br>
 Then, when build time comes, type:
 
 ```shell

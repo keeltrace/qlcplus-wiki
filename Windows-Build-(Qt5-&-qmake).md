@@ -19,7 +19,7 @@ Now install the packages required to build QLC+, by typing:<br>
 These instructions suppose you have a folder called "Qt" in C:. If it doesn't exist, create it and 'cd' into it.<br>
 
 If you wish to get the latest released QLC+ version download the source tarball from here:<br>
-[http://www.qlcplus.org/downloads.html](http://www.qlcplus.org/downloads.html)
+[https://github.com/mcallegari/qlcplus/releases/latest/](https://github.com/mcallegari/qlcplus/releases/latest/)
 
 If you wish to get the very latest bleeding edge (but only if your intention is to do development or are just curious), download the [GitHub client](https://windows.github.com/) or use the command line:
 `git clone https://github.com/mcallegari/qlcplus.git`
@@ -41,7 +41,7 @@ If what you need is a production build, then you need to edit the `variables.pri
 
 To compile the DMX USB plugin, you need to:
 
-Download the latest SDK from [FTDI Driver page](http://www.ftdichip.com/Drivers/D2XX.htm).<br>
+Download the latest SDK from [FTDI Driver page](https://ftdichip.com/drivers/d2xx-drivers/).<br>
 Install the package contents for example to C:\Qt\D2XXSDK<br>
 Edit <QLC>/plugins/dmxusb/src/src.pro to point to the directory you picked:
 
@@ -60,7 +60,7 @@ If you don't need the DMX USB plugin and would like to disable building it compl
 
 To compile the Velleman Output plugin, you need to:
 
-Download the [modified Velleman DLL](http://www.qlcplus.org/misc/K8062DLL_mod1.zip)<br>
+Download the [modified Velleman DLL](https://www.qlcplus.org/misc/K8062DLL_mod1.zip)<br>
 Extract the package contents for example to C:\Qt\K8062D<br>
 Edit <QLC>/plugins/velleman/src/src.pro to point to the directory you picked:
 
