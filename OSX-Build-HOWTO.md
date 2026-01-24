@@ -1,3 +1,5 @@
+**Mac OSX Qt4 builds are no longer supported. Please refer to the up-to-date [macOS build (Qt5 and cmake)](https://github.com/mcallegari/qlcplus/wiki/macOS-build-(Qt5-and-cmake)) instead.**
+
 # QLC+ Installation from sources on Mac OSX using Qt4
 
 ## Development environment

@@ -1,3 +1,5 @@
+**Windows Qt4 builds are no longer supported. Please refer to the up-to-date [Windows Build (Qt6 & cmake)](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt6-&-cmake)) instead.**
+
 ## Prepare QT and MinGW32 build system
 
 Download MinGW installer here:<br>

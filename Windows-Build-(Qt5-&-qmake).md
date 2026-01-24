@@ -1,3 +1,5 @@
+**qmake builds are no longer supported. Please refer to the up-to-date [Windows Build (Qt6 & cmake)](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt6-&-cmake)) instead.**
+
 ## Prepare the build system (MSYS2)
 
 Download the MSYS2 64bit installer from here: https://msys2.github.io/ (for 32bit systems like XP, use i686 installer).

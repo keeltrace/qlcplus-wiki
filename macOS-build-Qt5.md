@@ -1,3 +1,5 @@
+**qmake builds are no longer supported. Please refer to the up-to-date [macOS build (Qt5 and cmake)](https://github.com/mcallegari/qlcplus/wiki/macOS-build-(Qt5-and-cmake)) instead.**
+
 # QLC+ Installation from sources on macOS using Qt5
 
 ## **Note: at the moment it is possible to build QLC+ only on Intel Macs and only with macports.**

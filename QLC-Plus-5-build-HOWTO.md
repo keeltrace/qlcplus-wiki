@@ -8,7 +8,7 @@ Notes about Qt:
 
 * Qt 6.8.2 and higher won't play audio files on Windows because of [QTBUG-136057](https://bugreports.qt.io/browse/QTBUG-136057)
 
-The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)), [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt5-&-cmake)) and [macOS](https://github.com/mcallegari/qlcplus/wiki/macOS-build-Qt5).
+The environment preparation is the same explained for [Linux](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)), [Windows](https://github.com/mcallegari/qlcplus/wiki/Windows-Build-(Qt6-&-cmake)) and [macOS](https://github.com/mcallegari/qlcplus/wiki/macOS-build-(Qt5-and-cmake)).
 
 On Ubuntu/Debian Linux, if not using the official Qt packages, add the following development packages:<br>
 `sudo apt install qt6-3d-dev qt6-3d-defaultgeometryloader-plugin qt6-3d-assimpsceneimport-plugin qml6-module-qt3d-core qml6-module-qtquick-scene3d qml6-module-qt3d-render qml6-module-qt3d-extras qml6-module-qt3d-input qml6-module-qt3d-logic qml6-module-qtmultimedia`<br>
