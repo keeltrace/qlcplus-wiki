@@ -234,6 +234,18 @@ index 41689084d..454beaaf7 100644
 ```
 </details>
 
+### Support for GPIO access
+
+QLC+ supports direct access to the device's GPIO pins, if available (e.g. on a Raspberry Pi), via `libgpiod`.
+
+On an Ubuntu/Debian system, this dependency can be easily installed with the following command:
+
+```shell
+sudo apt install libgpiod-dev
+```
+
+**Important:** Breaking changes have been made to the `libgpiod` API in recent years. QLC+ (or more precisely, its `gpio` plugin) previously only supported the old API (`libgpiod` v.1.6.x and below; found on <= Ubuntu 24.10 Oracular Oriole, <= Debian 11 Bullseye, Debian 12 Bookworm without backports), but nowadays (since [22913325d](https://github.com/mcallegari/qlcplus/commit/22913325df0e65b390fb317b8d5eb7d5debfaea7)) it only supports the new one (`libgpiod` v.2.x and above; found on >= Ubuntu 25.04 Plucky Puffin, >= Debian 13 Trixie, Debian 12 Bookworm with backports). You can try to revert the above commit at your own risk, if support for `libgpiod` v.1.6.x or below is required.
+
 ### Compile
 
 Now you have two choices: either go ahead with the compilation and manual installation or, spend a little more time with packages in order to create separate QLC+ packages that you can easily upgrade (and uninstall) later. If you wish to do everything manually, continue reading. If you wish to create packages for Ubuntu/Debian, skip to the Package Creation section on this page.
