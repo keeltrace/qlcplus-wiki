@@ -1,11 +1,11 @@
-# QLC+ Installation from sources on macOS using Qt5
+# QLC+ Installation from sources on macOS using Qt6
 
 ## Development environment
 
 You need to download and install two components before you can compile QLC+ from sources on macOS:
 
 **Apple XCode** development tools (just the Mac version will do, no need for iPhone stuff). Some recent versions might need to install Command Line Tools after base packet is installed (XCode->Preferences->Downloads)<br>
-**The Qt5 Framework**<br>
+**The Qt Framework**<br>
 Download the latest Qt version via online installer: https://download.qt.io/official_releases/online_installers/<br>
 Install the framework where you want. In this guide we'll be using this path: `/Users/myuser/Qt6.10.2`<br>
 
