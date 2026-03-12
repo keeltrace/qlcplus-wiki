@@ -1,15 +1,13 @@
 # QLC+ Installation from sources on macOS using Qt5
 
-## **Note: at the moment it is possible to build QLC+ only on Intel Macs and only with homebrew.**
-
 ## Development environment
 
 You need to download and install two components before you can compile QLC+ from sources on macOS:
 
 **Apple XCode** development tools (just the Mac version will do, no need for iPhone stuff). Some recent versions might need to install Command Line Tools after base packet is installed (XCode->Preferences->Downloads)<br>
 **The Qt5 Framework**<br>
-Download the latest Qt5 version via online installer: https://download.qt.io/official_releases/online_installers/<br>
-Install the framework where you want. In this guide we'll be using this path: `/Users/myuser/Qt5.15.2`<br>
+Download the latest Qt version via online installer: https://download.qt.io/official_releases/online_installers/<br>
+Install the framework where you want. In this guide we'll be using this path: `/Users/myuser/Qt6.10.2`<br>
 
 ## Dependencies
 
@@ -72,7 +70,7 @@ After the sources have been cloned out from the GIT repository, issue these comm
 ```shell
 cd qlcplus
 mkdir build && cd build
-cmake -DCMAKE_PREFIX_PATH="/Users/myuser/qt/5.15.2/clang_64/lib/cmake" ..
+cmake -DCMAKE_PREFIX_PATH="/Users/myuser/qt/6.10.2/clang_64/lib/cmake" ..
 make -j4
 ```
 
@@ -97,7 +95,7 @@ Don't worry; everything is installed inside this one application bundle in your 
 If you wish to create a distributable .dmg package, that doesn't require the presence of Qt SDK, XCode or Homebrew, type the following commands after cloning the QLC+ sources right into your terminal window:
 
 ```shell
-export QTDIR=/Users/myuser/qt/5.15.2/clang_64
+export QTDIR=/Users/myuser/qt/6.10.2/clang_64
 ./create-dmg-cmake.sh
 ```
 
