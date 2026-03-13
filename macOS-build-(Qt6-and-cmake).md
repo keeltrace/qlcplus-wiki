@@ -26,6 +26,14 @@ Then install the packages required by QLC+:
 ```shell
 brew install fftw libftdi mad libsndfile ola
 ```
+## Install the Qt libraries
+
+The latest Qt version can be downloaded via online installers here: https://download.qt.io/official_releases/online_installers/<br>
+Make sure to select the latest Qt version for MinGW 64bit and the following additional libraries:
+* Qt Multimedia
+* Qt Serial Port
+* Qt Websockets
+* Qt 3D (to build v5)
 
 ## Getting the sources from GIT
 
