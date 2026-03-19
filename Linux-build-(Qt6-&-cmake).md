@@ -18,9 +18,7 @@ sudo apt install debhelper devscripts fakeroot pkg-config
 sudo apt install libglx-dev libgl1-mesa-dev
 
 sudo apt install qt6-base-dev qt6-declarative-dev qt6-multimedia-dev qt6-tools-dev qt6-tools-dev-tools qt6-l10n-tools
-
-sudo apt install libqt6serialport6-dev libqt6svg6-dev libqt6websockets6-dev  # (only < Ubuntu 23.04 Lunar)
-sudo apt install qt6-serialport-dev qt6-svg-dev qt6-websockets-dev  # (only >= Ubuntu 23.04 Lunar, Debian)
+sudo apt install qt6-serialport-dev qt6-svg-dev qt6-websockets-dev
 
 sudo apt install libasound2-dev libftdi-dev libftdi1-dev libfftw3-dev libsndfile1-dev libudev-dev libusb-dev libusb-1.0-0-dev libxkbcommon-dev
 
