@@ -1,3 +1,5 @@
+**If available, consider building with Qt6 instead: [Linux build (Qt6 & cmake)](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt6-&-cmake)).**
+
 ### QLC+ Installation from sources on Linux (Debian, Ubuntu, Fedora, RedHat)
 ### Pre-requisities
 

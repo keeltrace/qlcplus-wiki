@@ -1,4 +1,4 @@
-**qmake builds are no longer supported. Please refer to the up-to-date [Linux build (Qt5 & cmake)](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)) instead.**
+**qmake builds are no longer supported. Please refer to the up-to-date [Linux build (Qt5 & cmake)](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt5-&-cmake)) or [Linux build (Qt6 & cmake)](https://github.com/mcallegari/qlcplus/wiki/Linux-build-(Qt6-&-cmake)) instead.**
 
 ### QLC+ Installation from sources on Linux (Debian, Ubuntu, Fedora, RedHat)
 ### Pre-requisities
