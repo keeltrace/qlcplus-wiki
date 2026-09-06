@@ -336,31 +336,15 @@ To install the packages, just type:
 su -c "dpkg -i <package name>.deb"
 ```
 
-### Fedora/RedHat package creation (TODO)
+### Fedora/RPM package creation (TODO)
 
-Go to the newly-created qlc sub-directory and issue the following command:
+The old wiki instructions referenced `create-rpm.sh`, but that script is no longer present in the current QLC+ tree and should not be used as a Qt 6 packaging recipe. The current top-level CMake configuration enables the DEB CPack generator only.
 
-```shell
-./create-rpm.sh
-```
+QLC+ still contains `platforms/linux/qlcplus.spec`, but that spec currently describes the older Qt 5/qmake layout. In particular, current CMake installs libraries using GNUInstallDirs and builds the plugin path from the detected Qt major version, so copying the old hard-coded `qt5` RPM file list would produce an incorrect package.
 
-The script will create an RPM build directory structure under your home directory (~/rpmbuild) and build the packages there. When the packager is done, go and see the newly-created packages:
+Until the RPM spec is ported and tested against the Qt 6/CMake build, build and install QLC+ from source using the instructions above. A future RPM packaging update should, at minimum:
 
-```shell
-cd ~/rpmbuild/RPMS
-ls
-```
-
-To install the packages, just type:
-
-```shell
-su -c "rpm -Uvh <package name>.rpm"
-```
-
-To install all packages, you can type:
-
-```shell
-su -c "rpm -Uvh qlcplus*.rpm"
-```
-
-You can find more information from the InstallationRedhat? pages (after they have been written, that is).
+- port `platforms/linux/qlcplus.spec` from qmake/Qt 5 to CMake/Qt 6;
+- use Fedora RPM macros/GNUInstallDirs for architecture-dependent library paths;
+- package plugins from the Qt-major-aware QLC+ plugin directory rather than a hard-coded `qt5` path;
+- verify the resulting RPM contents on a current Fedora release before documenting installation commands here.
