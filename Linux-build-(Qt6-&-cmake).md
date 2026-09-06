@@ -91,21 +91,26 @@ For example:
 # add_subdirectory(ola)
 ```
 
-### Build OLA (Open Lighting Architecture) (TODO)
+### Build OLA (Open Lighting Architecture)
 
-This step is optional depending if you need OLA or not. See previous paragraph in case you want to disable the OLA plugin.
+OLA support is optional. QLC+ only adds the OLA plugin when both the `libola` and `libolaserver` development libraries are detected during CMake configuration. If you do not need OLA, no extra step is required.
 
-To build the sources, acquire the latest tarball from [GitHub](https://github.com/OpenLightingProject/ola/releases/latest)
-
-Extract the package and enter into the OLA folder.<br>
-Follow the [Linux build instructions](https://www.openlighting.org/ola/linuxinstall/). <br>
-Then, when build time comes, type:
+Prefer a distribution-provided OLA development package when your Linux distribution offers one. Otherwise, build a released OLA tarball using OLA's own Linux build instructions. OLA 0.10.x uses the Autotools flow documented upstream; when installing a locally built copy under `/usr`, the core steps are:
 
 ```shell
 ./configure --prefix=/usr
 make
-sudo make install
+make install
 ```
+
+Run the final install command with the privileges required by your system. Before configuring QLC+, verify that both libraries are visible to `pkg-config`:
+
+```shell
+pkg-config --modversion libola
+pkg-config --modversion libolaserver
+```
+
+Both commands must return a version. If OLA was installed under a non-standard prefix, add its `pkgconfig` directory to `PKG_CONFIG_PATH` before running CMake. Then configure QLC+ normally. The root `plugins/CMakeLists.txt` enables the OLA plugin only when both libraries are found.
 
 ### Playback of MPEG audio files (e.g. MP3)
 
