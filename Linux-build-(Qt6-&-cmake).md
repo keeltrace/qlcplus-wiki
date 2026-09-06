@@ -35,22 +35,23 @@ sudo apt install gstreamer1.0-libav  # h264 video playback
 # sudo ln -s /usr/lib/qt6/bin/lrelease /usr/bin/lrelease
 ```
 
-### Fedora/RedHat (TODO)
+### Fedora
 
-Issue these commands to install the required packages for a Fedora/RedHat system:
-
-```shell
-su -
-yum update
-yum install gcc-c++ qtbase5-common-devel qtmultimedia5-devel libftdi-devel libusb-devel alsa-lib-devel rpm-build git libudev-devel libsndfile-devel libmad-devel
-yum install systemd-devel fftw-devel qt5-qtscript-devel qt5-qtmultimedia-devel qt5-qtbase-devel # Fedora 21
-```
-
-Notice that there's a space between su and - and that you need to give the root user password for su. When you're done with these commands, become a normal user again with:
+On current Fedora releases, install the compiler, CMake, Qt 6 development modules, and the libraries used by QLC+ with `dnf`:
 
 ```shell
-exit
+sudo dnf install git gcc-c++ make cmake pkgconf-pkg-config \
+    qt6-qtbase-devel qt6-qtdeclarative-devel qt6-qtmultimedia-devel \
+    qt6-qttools-devel qt6-qtserialport-devel qt6-qtsvg-devel \
+    qt6-qtwebsockets-devel \
+    alsa-lib-devel fftw-devel libftdi1-devel libsndfile-devel \
+    libusb1-devel libxkbcommon-devel systemd-devel \
+    libxml2 python3-lxml
 ```
+
+The package names above use Fedora's Qt 6 naming. If CMake reports a missing optional plugin dependency, either install that dependency's `-devel` package or disable the corresponding plugin before configuring. OLA is optional and is covered separately below.
+
+For Red Hat Enterprise Linux or compatible distributions, package availability and names can differ from Fedora. Use the distribution's supported Qt 6 repositories and resolve the same CMake dependencies rather than copying Fedora package names verbatim.
 
 ### QLC+ sources
 
